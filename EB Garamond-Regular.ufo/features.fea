@@ -1,0 +1,27 @@
+feature locl {
+script cyrl;
+language MKD ;
+sub uni0431 by uni0431.SRB;
+language SRB ;
+sub uni0431 by uni0431.SRB;
+script latn;
+language AZE ;
+sub i by i.TRK;
+language CAT ;
+# Problem with lookup
+sub L periodcentered' [L l ] by periodcentered.CATuc ;
+language CRT ;
+sub i by i.TRK;
+language DEU ;
+sub f by f.DEU;
+sub Adieresis by Adieresis.deu;
+sub Odieresis by Odieresis.deu;
+sub Udieresis by Udieresis.deu;
+language LAT ;
+sub U by U.LAT;
+sub u by u.LAT;
+sub v by v.LAT;
+language TRK ;
+sub i by i.TRK;
+} locl;
+
