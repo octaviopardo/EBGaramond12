@@ -40,5 +40,16 @@
       <point x="300" y="16"/>
       <point x="255" y="16" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="248" y="440" type="move" name="top"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

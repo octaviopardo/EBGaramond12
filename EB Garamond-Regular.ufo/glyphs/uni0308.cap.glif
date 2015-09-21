@@ -33,5 +33,39 @@
       <point x="278" y="795"/>
       <point x="250" y="795" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="152" y="675" type="move" name="_top.cap"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>105</integer>
+          <key>y</key>
+          <integer>717</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>90</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>200</integer>
+          <key>y</key>
+          <integer>717</integer>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

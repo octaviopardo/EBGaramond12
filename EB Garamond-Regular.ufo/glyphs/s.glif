@@ -62,9 +62,14 @@
       <point x="103" y="-14"/>
       <point x="144" y="-14" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="176" y="440" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>Regular Sep 10 15, 14:17</key>
@@ -1553,6 +1558,8 @@
           <integer>323</integer>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>
