@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E86" format="1">
-  <advance width="600"/>
+  <advance width="1001"/>
   <unicode hex="1E86"/>
   <note>
 	uni1E86
   </note>
   <outline>
+    <component base="W"/>
+    <component base="uni0307.cap" xOffset="483"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

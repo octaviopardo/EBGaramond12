@@ -133,11 +133,14 @@
     <contour>
       <point x="343" y="440" type="move" name="top"/>
     </contour>
+    <contour>
+      <point x="351" y="-30" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1185,7 +1188,7 @@
         </dict>
       </dict>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

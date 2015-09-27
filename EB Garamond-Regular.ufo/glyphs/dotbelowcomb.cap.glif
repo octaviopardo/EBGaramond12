@@ -5,19 +5,17 @@
 	dotbelowcomb.cap
   </note>
   <outline>
+    <component base="uni0307.cap" yOffset="-900"/>
     <contour>
-      <point x="30" y="-95"/>
-      <point x="5" y="-120"/>
-      <point x="5" y="-150" type="curve" smooth="yes"/>
-      <point x="5" y="-180"/>
-      <point x="30" y="-205"/>
-      <point x="60" y="-205" type="curve" smooth="yes"/>
-      <point x="90" y="-205"/>
-      <point x="115" y="-180"/>
-      <point x="115" y="-150" type="curve" smooth="yes"/>
-      <point x="115" y="-120"/>
-      <point x="90" y="-95"/>
-      <point x="60" y="-95" type="curve" smooth="yes"/>
+      <point x="61" y="-30" type="move" name="_bottom.cap"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

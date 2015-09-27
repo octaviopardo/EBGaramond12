@@ -96,6 +96,12 @@
       <point x="326" y="368"/>
       <point x="300" y="368" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="302" y="675" type="move" name="top.cap"/>
+    </contour>
+    <contour>
+      <point x="318" y="-30" type="move" name="bottom.cap"/>
+    </contour>
   </outline>
   <lib>
     <dict>

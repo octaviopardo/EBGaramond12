@@ -98,11 +98,14 @@
       <point x="134" y="94"/>
       <point x="222" y="94" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="237" y="440" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>Bold Sep 14 15, 17:55</key>
@@ -1641,7 +1644,7 @@
         </dict>
       </dict>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -71,9 +71,14 @@
     <contour>
       <point x="239" y="675" type="move" name="top.cap"/>
     </contour>
+    <contour>
+      <point x="226" y="-30" type="move" name="bottom.cap"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>Regular Sep 17 15, 16:26</key>
@@ -624,6 +629,8 @@
           <integer>465</integer>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

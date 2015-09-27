@@ -34,5 +34,19 @@
       <point x="495" y="42"/>
       <point x="386" y="42" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="378" y="675" type="move" name="top.cap"/>
+    </contour>
+    <contour>
+      <point x="382" y="-30" type="move" name="bottom.cap"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

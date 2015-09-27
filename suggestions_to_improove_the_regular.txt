@@ -17,14 +17,19 @@ Main modifactions done to the regular (discuss it with Georg)
 - I would reposition the points in M
 
 - IJ glyph space between them is not sync with the regular glyphs
+- 'AE' has different spacing in the right than 'E'
 
 
 accents
 - 'acutecomb' and 'acute' are different. I would make them the same. Also, accents in general must be centered in the glyph window and the width of the glyph accent should be proportional to the 'space' glyph
 - 'caron' and 'circumflex' are rather different
 - 'dieresis' accent is set lower than in the accented glyphs. Corrected in my file
-- 'breve' is probably small. ALso, same as in the 'dieresis'
+- 'breve' is probably small. ALso, same as in the 'dieresis'. The design could be polished a lot
 - 'ogonek' is quite long
+- the 'hungarumlaut' is higher than the acute
+- uni030F.cap has different angle than 'grave' and the 'hungarumlaut'
+- uni032E has a different design than 'breve'
+- why 'cedilla' and cedilla.cap have different design?
 
 
 accented glyphs
@@ -33,8 +38,19 @@ accented glyphs
 - Rcaron
 - Scaron
 - Scircumflex
+- Tcaron
 - Utilde
+- Wcircumflex
 - Ycircumflex
+- uni0162
+- uni01F0
+- uni0407 has a different design than Idieresis
+- uni01CD
+- uni01CF
+- uni01D1
+- uni01D3
+- uni01E8
+- uni021E
 - uni01ED has the accent lower than other similar glyphs
 - uni0227 has the accent lower than other similar glyphs
 - uni022F has the accent lower than other similar glyphs
@@ -45,7 +61,15 @@ accented glyphs
 - uni1E6B has the accent lower than other similar glyphs
 - uni1E61 has the accent lower than other similar glyphs
 - uni1E59 has the accent lower than other similar glyphs
+- uni1E41
 - zdotaccent has the accent lower than other similar glyphs
+
 - uni0450 has the accented alightly out of place compared with other similar glyph
 - uni0451
 - uni04F1
+- uni1E90
+- uni1E7E the accent seems slightly disaligned
+- uni1E88
+- uni0189 although base glyph is D has a different design
+
+- uni1D2D is wrong. It would have to be a modifier, not a regular glyph

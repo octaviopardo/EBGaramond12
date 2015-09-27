@@ -5,5 +5,17 @@
 	uni032C.cap
   </note>
   <outline>
+    <component base="uni030C.cap" yOffset="-900"/>
+    <contour>
+      <point x="169" y="-30" type="move" name="_bottom.cap"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

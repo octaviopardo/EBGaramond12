@@ -5,33 +5,17 @@
 	uni0324.cap
   </note>
   <outline>
+    <component base="dieresis" yOffset="-698"/>
     <contour>
-      <point x="27" y="-105"/>
-      <point x="5" y="-127"/>
-      <point x="5" y="-155" type="curve" smooth="yes"/>
-      <point x="5" y="-183"/>
-      <point x="27" y="-205"/>
-      <point x="55" y="-205" type="curve" smooth="yes"/>
-      <point x="83" y="-205"/>
-      <point x="105" y="-183"/>
-      <point x="105" y="-155" type="curve" smooth="yes"/>
-      <point x="105" y="-127"/>
-      <point x="83" y="-105"/>
-      <point x="55" y="-105" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="222" y="-105"/>
-      <point x="200" y="-127"/>
-      <point x="200" y="-155" type="curve" smooth="yes"/>
-      <point x="200" y="-183"/>
-      <point x="222" y="-205"/>
-      <point x="250" y="-205" type="curve" smooth="yes"/>
-      <point x="278" y="-205"/>
-      <point x="300" y="-183"/>
-      <point x="300" y="-155" type="curve" smooth="yes"/>
-      <point x="300" y="-127"/>
-      <point x="278" y="-105"/>
-      <point x="250" y="-105" type="curve" smooth="yes"/>
+      <point x="159" y="-30" type="move" name="_bottom.cap"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
