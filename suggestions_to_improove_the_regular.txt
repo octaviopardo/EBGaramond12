@@ -30,6 +30,7 @@ accents
 - uni030F.cap has different angle than 'grave' and the 'hungarumlaut'
 - uni032E has a different design than 'breve'
 - why 'cedilla' and cedilla.cap have different design?
+- gravecomb.flat has a different design than acutecomb.flat
 
 
 accented glyphs
@@ -44,6 +45,7 @@ accented glyphs
 - Ycircumflex
 - uni0162
 - uni01F0
+- ṐṒ have different accents hight
 - uni0407 has a different design than Idieresis
 - uni01CD
 - uni01CF
@@ -63,6 +65,8 @@ accented glyphs
 - uni1E59 has the accent lower than other similar glyphs
 - uni1E41
 - zdotaccent has the accent lower than other similar glyphs
+- uni1E64 the position of the accent is clearly wrong
+- tbar spacing seems wrong
 
 - uni0450 has the accented alightly out of place compared with other similar glyph
 - uni0451
@@ -71,5 +75,15 @@ accented glyphs
 - uni1E7E the accent seems slightly disaligned
 - uni1E88
 - uni0189 although base glyph is D has a different design
+- uni1FD8 has the position of the accent different to Ibreve
+- uni01E4 has a different thickness in the bar to other barred glyphs
+- uni2C63 doesn t have a different spacing value in the right side although it has the bar (other similar glyphs has a different spacing value)
 
 - uni1D2D is wrong. It would have to be a modifier, not a regular glyph
+- Lslash needs optical adjustment
+- 'N' and 'Eng' have different spacing values althought the width of the glyph is the same.
+- 'hbar' and 'dcroat' do not have the optical adjustment. Neither do other similar glyphs like uni0180
+- aringacute has an adjustment in the ring that seems unnecessary, since there is plenty of room above the glyph
+- 'oe' has a rather different design than 'o' and 'e' isolated :S
+- uni1D02 has problems in the spacing (different values than 'a' and 'e')
+- uni0490 has negative spacing, which means it needs lot of ckerning corrections when the font is set in uppercase :S
