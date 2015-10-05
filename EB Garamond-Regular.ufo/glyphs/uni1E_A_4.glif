@@ -167,5 +167,14 @@
       <point x="640" y="-5"/>
       <point x="668" y="-5" type="curve" smooth="yes"/>
     </contour>
+    <component base="Acircumflex"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>
