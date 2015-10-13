@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2177" format="1">
-  <advance width="1130"/>
+  <advance width="1126"/>
   <unicode hex="2177"/>
   <note>
 	uni2177
   </note>
   <outline>
     <component base="v"/>
-    <component base="i" xOffset="428"/>
-    <component base="i" xOffset="656"/>
-    <component base="i" xOffset="885"/>
+    <component base="uni2172" xOffset="423"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>v</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -2150,9 +2150,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1130</integer>
+          <integer>1126</integer>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
@@ -2161,7 +2163,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>i</string>
+          <string>uni2172</string>
         </dict>
       </array>
     </dict>

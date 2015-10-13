@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2166" format="1">
-  <advance width="600"/>
+  <advance width="1450"/>
   <unicode hex="2166"/>
   <note>
 	uni2166
   </note>
   <outline>
+    <component base="uni2165"/>
+    <component base="I" xOffset="1081"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

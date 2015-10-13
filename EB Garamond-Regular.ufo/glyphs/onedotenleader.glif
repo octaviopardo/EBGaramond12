@@ -6,19 +6,18 @@
 	onedotenleader
   </note>
   <outline>
-    <contour>
-      <point x="85" y="96"/>
-      <point x="60" y="71"/>
-      <point x="60" y="41" type="curve" smooth="yes"/>
-      <point x="60" y="11"/>
-      <point x="85" y="-14"/>
-      <point x="115" y="-14" type="curve" smooth="yes"/>
-      <point x="145" y="-14"/>
-      <point x="170" y="11"/>
-      <point x="170" y="41" type="curve" smooth="yes"/>
-      <point x="170" y="71"/>
-      <point x="145" y="96"/>
-      <point x="115" y="96" type="curve" smooth="yes"/>
-    </contour>
+    <component base="period"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>period</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
