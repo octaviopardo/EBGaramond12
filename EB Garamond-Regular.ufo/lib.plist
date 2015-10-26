@@ -472,6 +472,7 @@
 		<string>uniA742</string>
 		<string>uniA78D</string>
 		<string>uniA7AA</string>
+		<string>Udieresis.deu.01</string>
 		<string>U.LAT</string>
 		<string>U.LATsc</string>
 		<string>uni019F.alt</string>
@@ -1168,8 +1169,8 @@
 		<string>f.short</string>
 		<string>uni1E1F.short</string>
 		<string>uni1E9C.short</string>
-		<string>uni1E9D.short</string>
 		<string>uni1E9B.short</string>
+		<string>uni1E9D.short</string>
 		<string>longs.short</string>
 		<string>a.sinf</string>
 		<string>b.sinf</string>
@@ -1274,10 +1275,8 @@
 		<string>uniFB04</string>
 		<string>uniFB05</string>
 		<string>uniFB06</string>
-		<string>f._asc</string>
 		<string>f._f</string>
 		<string>f._i</string>
-		<string>longs._asc</string>
 		<string>longs._i</string>
 		<string>longs._longs</string>
 		<string>t_z.alt</string>
@@ -1531,9 +1530,6 @@
 		<string>zdotaccent.sc</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
-		<string>uni02E1</string>
-		<string>uni02E2</string>
-		<string>uni02E3</string>
 		<string>A.sups</string>
 		<string>B.sups</string>
 		<string>C.sups</string>
@@ -1601,6 +1597,9 @@
 		<string>uni02B6</string>
 		<string>uni02B7</string>
 		<string>uni02B8</string>
+		<string>uni02E1</string>
+		<string>uni02E2</string>
+		<string>uni02E3</string>
 		<string>uni2071</string>
 		<string>uni207F</string>
 		<string>uni2090</string>
@@ -1613,6 +1612,8 @@
 		<string>uniA7FD</string>
 		<string>uniA7FE</string>
 		<string>uniA7FF</string>
+		<string>f._asc</string>
+		<string>longs._asc</string>
 		<string>uni0410</string>
 		<string>uni0411</string>
 		<string>uni0412</string>
@@ -1647,7 +1648,6 @@
 		<string>uni0428</string>
 		<string>uni0429</string>
 		<string>uni040F</string>
-		<string>uni042F</string>
 		<string>uni042C</string>
 		<string>uni042A</string>
 		<string>uni042B</string>
@@ -1661,6 +1661,7 @@
 		<string>uni0408</string>
 		<string>uni040B</string>
 		<string>uni042E</string>
+		<string>uni042F</string>
 		<string>uni0402</string>
 		<string>uni0462</string>
 		<string>uni0470</string>
@@ -1730,7 +1731,6 @@
 		<string>uni0448</string>
 		<string>uni0449</string>
 		<string>uni045F</string>
-		<string>uni044F</string>
 		<string>uni044C</string>
 		<string>uni044A</string>
 		<string>uni044B</string>
@@ -1744,6 +1744,7 @@
 		<string>uni0458</string>
 		<string>uni045B</string>
 		<string>uni044E</string>
+		<string>uni044F</string>
 		<string>uni0452</string>
 		<string>uni0463</string>
 		<string>uni0473</string>
@@ -2895,20 +2896,19 @@
 		<string>plus.sups</string>
 		<string>uni0374</string>
 		<string>uni02E0</string>
-		<string>acutecomb</string>
-		<string>dotbelowcomb</string>
+		<string>uni0308</string>
+		<string>uni0307</string>
 		<string>gravecomb</string>
-		<string>hookabovecomb</string>
-		<string>tildecomb</string>
+		<string>acutecomb</string>
+		<string>uni030B</string>
 		<string>uni0302</string>
+		<string>uni030C</string>
+		<string>uni0306</string>
+		<string>uni030A</string>
+		<string>tildecomb</string>
 		<string>uni0304</string>
 		<string>uni0305</string>
-		<string>uni0306</string>
-		<string>uni0307</string>
-		<string>uni0308</string>
-		<string>uni030A</string>
-		<string>uni030B</string>
-		<string>uni030C</string>
+		<string>hookabovecomb</string>
 		<string>uni030D</string>
 		<string>uni030E</string>
 		<string>uni030F</string>
@@ -2931,6 +2931,7 @@
 		<string>uni0320</string>
 		<string>uni0321</string>
 		<string>uni0322</string>
+		<string>dotbelowcomb</string>
 		<string>uni0324</string>
 		<string>uni0325</string>
 		<string>uni0326</string>
@@ -2970,80 +2971,80 @@
 		<string>uni030C.alt1</string>
 		<string>uni030C.altcap</string>
 		<string>uni030C.altcap1</string>
-		<string>uni0317.cap</string>
-		<string>acutecomb.cap</string>
-		<string>uni032E.cap</string>
-		<string>uni0306.cap</string>
-		<string>uni032F.cap</string>
-		<string>uni0311.cap</string>
-		<string>uni032C.cap</string>
-		<string>uni030C.cap</string>
-		<string>uni0327.cap</string>
-		<string>uni032D.cap</string>
-		<string>uni0302.cap</string>
-		<string>uni030F.cap</string>
-		<string>uni0324.cap</string>
 		<string>uni0308.cap</string>
 		<string>uni0307.cap</string>
-		<string>dotbelowcomb.cap</string>
-		<string>uni0316.cap</string>
 		<string>gravecomb.cap</string>
-		<string>hookabovecomb.cap</string>
+		<string>acutecomb.cap</string>
 		<string>uni030B.cap</string>
-		<string>uni0331.cap</string>
-		<string>uni0304.cap</string>
-		<string>uni0328.cap</string>
-		<string>uni0325.cap</string>
+		<string>uni0302.cap</string>
+		<string>uni030C.cap</string>
+		<string>uni0306.cap</string>
 		<string>uni030A.cap</string>
-		<string>uni0330.cap</string>
 		<string>tildecomb.cap</string>
-		<string>acutecomb.capstack</string>
+		<string>uni0304.cap</string>
+		<string>hookabovecomb.cap</string>
+		<string>uni030F.cap</string>
+		<string>uni0311.cap</string>
+		<string>uni0316.cap</string>
+		<string>uni0317.cap</string>
+		<string>dotbelowcomb.cap</string>
+		<string>uni0324.cap</string>
+		<string>uni0325.cap</string>
+		<string>uni0327.cap</string>
+		<string>uni0328.cap</string>
+		<string>uni032C.cap</string>
+		<string>uni032D.cap</string>
+		<string>uni032E.cap</string>
+		<string>uni032F.cap</string>
+		<string>uni0330.cap</string>
+		<string>uni0331.cap</string>
 		<string>gravecomb.capstack</string>
+		<string>acutecomb.capstack</string>
 		<string>tildecomb.capstack</string>
 		<string>uni0306.cyr</string>
 		<string>uni0306.cyrcap</string>
-		<string>acutecomb.flat</string>
-		<string>uni030C.flat</string>
-		<string>uni0302.flat</string>
 		<string>gravecomb.flat</string>
+		<string>acutecomb.flat</string>
+		<string>uni0302.flat</string>
+		<string>uni030C.flat</string>
+		<string>gravecomb.grk</string>
 		<string>acutecomb.grk</string>
 		<string>uni0313.grk</string>
 		<string>uni0314.grk</string>
-		<string>gravecomb.grk</string>
+		<string>gravecomb.grksc</string>
 		<string>acutecomb.grksc</string>
 		<string>uni0313.grksc</string>
 		<string>uni0314.grksc</string>
-		<string>gravecomb.grksc</string>
+		<string>uni0308.grkstack</string>
+		<string>gravecomb.grkstack</string>
 		<string>acutecomb.grkstack</string>
 		<string>uni0313.grkstack</string>
 		<string>uni0314.grkstack</string>
-		<string>uni0308.grkstack</string>
-		<string>gravecomb.grkstack</string>
+		<string>uni0308.grkstacksc</string>
+		<string>gravecomb.grkstacksc</string>
 		<string>acutecomb.grkstacksc</string>
 		<string>uni0313.grkstacksc</string>
 		<string>uni0314.grkstacksc</string>
-		<string>uni0308.grkstacksc</string>
-		<string>gravecomb.grkstacksc</string>
-		<string>acutecomb.stack</string>
-		<string>uni0306.stack</string>
-		<string>uni030C.stack</string>
-		<string>uni0302.stack</string>
 		<string>uni0307.stack</string>
 		<string>gravecomb.stack</string>
-		<string>hookabovecomb.stack</string>
-		<string>uni0304.stack</string>
+		<string>acutecomb.stack</string>
+		<string>uni0302.stack</string>
+		<string>uni030C.stack</string>
+		<string>uni0306.stack</string>
 		<string>uni030A.stack</string>
 		<string>tildecomb.stack</string>
-		<string>acutecomb.stacksc</string>
-		<string>uni0306.stacksc</string>
-		<string>uni030C.stacksc</string>
-		<string>uni0302.stacksc</string>
+		<string>uni0304.stack</string>
+		<string>hookabovecomb.stack</string>
 		<string>uni0307.stacksc</string>
 		<string>gravecomb.stacksc</string>
-		<string>hookabovecomb.stacksc</string>
-		<string>uni0304.stacksc</string>
+		<string>acutecomb.stacksc</string>
+		<string>uni0302.stacksc</string>
+		<string>uni030C.stacksc</string>
+		<string>uni0306.stacksc</string>
 		<string>uni030A.stacksc</string>
 		<string>tildecomb.stacksc</string>
+		<string>uni0304.stacksc</string>
+		<string>hookabovecomb.stacksc</string>
 		<string>uni02B9</string>
 		<string>uni02BA</string>
 		<string>uni02BB</string>
@@ -3077,28 +3078,28 @@
 		<string>grave.ordn</string>
 		<string>grave.sinf</string>
 		<string>grave.subs</string>
-		<string>acute.sc</string>
-		<string>acutecomb.sc</string>
-		<string>uni0306.sc</string>
-		<string>uni0311.sc</string>
-		<string>uni030C.sc</string>
-		<string>uni0327.sc</string>
-		<string>uni0302.sc</string>
-		<string>uni0313.sc</string>
-		<string>uni0315.sc</string>
-		<string>uni0314.sc</string>
-		<string>uni0312.sc</string>
-		<string>dieresis.sc</string>
 		<string>uni0308.sc</string>
 		<string>uni0307.sc</string>
-		<string>grave.sc</string>
 		<string>gravecomb.sc</string>
-		<string>hookabovecomb.sc</string>
+		<string>acutecomb.sc</string>
 		<string>uni030B.sc</string>
-		<string>macron.sc</string>
-		<string>uni0304.sc</string>
+		<string>uni0302.sc</string>
+		<string>uni030C.sc</string>
+		<string>uni0306.sc</string>
 		<string>uni030A.sc</string>
 		<string>tildecomb.sc</string>
+		<string>uni0304.sc</string>
+		<string>hookabovecomb.sc</string>
+		<string>uni0311.sc</string>
+		<string>uni0312.sc</string>
+		<string>uni0313.sc</string>
+		<string>uni0314.sc</string>
+		<string>uni0315.sc</string>
+		<string>uni0327.sc</string>
+		<string>acute.sc</string>
+		<string>dieresis.sc</string>
+		<string>grave.sc</string>
+		<string>macron.sc</string>
 		<string>grave.sups</string>
 		<string>uni0342</string>
 		<string>uni0343</string>
