@@ -7,12 +7,25 @@
   </note>
   <outline>
     <component base="Emacron"/>
-    <component base="gravecomb.flat" xOffset="152" yOffset="287"/>
+    <component base="gravecomb.flat" xOffset="152" yOffset="305"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>x</key>
+          <integer>347</integer>
+          <key>y</key>
+          <integer>804</integer>
+        </dict>
+      </array>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
