@@ -5,32 +5,12 @@
 	uni030C.alt
   </note>
   <outline>
-    <contour>
-      <point x="23" y="493"/>
-      <point x="33" y="502"/>
-      <point x="45" y="522" type="curve" smooth="yes"/>
-      <point x="71" y="565"/>
-      <point x="93" y="628"/>
-      <point x="93" y="671" type="curve" smooth="yes"/>
-      <point x="93" y="693"/>
-      <point x="91" y="708"/>
-      <point x="68" y="708" type="curve" smooth="yes"/>
-      <point x="37" y="708"/>
-      <point x="0" y="679"/>
-      <point x="0" y="651" type="curve" smooth="yes"/>
-      <point x="0" y="632"/>
-      <point x="7" y="615"/>
-      <point x="7" y="571" type="curve" smooth="yes"/>
-      <point x="7" y="556"/>
-      <point x="3" y="526"/>
-      <point x="3" y="520" type="curve" smooth="yes"/>
-      <point x="3" y="504"/>
-      <point x="7" y="493"/>
-      <point x="14" y="493" type="curve" smooth="yes"/>
-    </contour>
+    <component base="uni030C.altcap" xOffset="-4"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -243,6 +223,8 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
