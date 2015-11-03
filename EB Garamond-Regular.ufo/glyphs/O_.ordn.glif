@@ -6,34 +6,40 @@
   </note>
   <outline>
     <contour>
-      <point x="32" y="358"/>
-      <point x="137" y="272"/>
-      <point x="252" y="272" type="curve" smooth="yes"/>
       <point x="394" y="272"/>
       <point x="473" y="373"/>
       <point x="473" y="481" type="curve" smooth="yes"/>
       <point x="473" y="600"/>
       <point x="370" y="678"/>
       <point x="256" y="678" type="curve" smooth="yes"/>
-      <point x="252" y="678" type="line" smooth="yes"/>
-      <point x="110" y="675"/>
-      <point x="32" y="580"/>
+      <point x="120" y="675"/>
+      <point x="32" y="591"/>
       <point x="32" y="472" type="curve" smooth="yes"/>
+      <point x="32" y="358"/>
+      <point x="137" y="272"/>
+      <point x="252" y="272" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="351" y="655"/>
-      <point x="403" y="552"/>
-      <point x="403" y="463" type="curve" smooth="yes"/>
-      <point x="403" y="382"/>
-      <point x="355" y="295"/>
-      <point x="262" y="295" type="curve" smooth="yes"/>
-      <point x="260" y="295" type="line" smooth="yes"/>
       <point x="164" y="296"/>
       <point x="105" y="387"/>
       <point x="105" y="490" type="curve" smooth="yes"/>
       <point x="105" y="574"/>
       <point x="151" y="655"/>
       <point x="247" y="655" type="curve" smooth="yes"/>
+      <point x="351" y="655"/>
+      <point x="403" y="552"/>
+      <point x="403" y="463" type="curve" smooth="yes"/>
+      <point x="403" y="369"/>
+      <point x="346" y="295"/>
+      <point x="260" y="295" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
