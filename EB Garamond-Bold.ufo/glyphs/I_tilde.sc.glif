@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Itilde.sc" format="1">
-  <advance width="600"/>
+  <advance width="333"/>
   <note>
 	Itilde.sc
   </note>
   <outline>
+    <component base="I.sc"/>
+    <component base="tildecomb.sc" xOffset="-16" yOffset="84"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

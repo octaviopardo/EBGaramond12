@@ -1,5 +1,5 @@
 PRODUCTION DATA
-sc generation data
+superiors generation data
 REGULAR
 width 68%
 height 60%
@@ -8,6 +8,18 @@ BOLD
 width 72%
 height 65%
 weight -22
+
+SC
+REGULAR
+width 75%
+height 67%
+weight 2
+BOLD
+width 75
+height 69
+weight -3
+
+
 
 Main modifactions done to the regular (discuss it with Georg)
 - I would redraw 'e' & 'c'
@@ -146,3 +158,19 @@ accented glyphs
 - why this set /f.short/uni1E1F.short/uni1E9C.short/uni1E9B.short/uni1E9D.short/longs.short has different design in the top?  In my version is changed, I have make them similar
 - The design of the ordinal uppercase letters (and consequently all the glyphs that use them as components like the subs, the sinfs…) could be highly improoved. M looks darker. Q is too wide
 - what s up with the ".pc" set? THey have different heights!
+- acute.sc grave.sc have different design (and they are not used) and macron.sc is in a weird place, isn't?
+- kgreenlandic.sc had a spacing problem, different from the k.sc
+- longs.sc has a very strange spacing in the right…
+- uni0163.sc has de cedilla in a wrong height
+- there is no ae.sc accented glyphs
+- Is it really necessary to have the lc.sc glyphs?? it could be solved with OT!
+- napostrophe.sc does not have an apostrophe!
+- A.sc has a different design in the top part than upper case
+- T.sc has a very different design from the UC!
+- Z.sc has a very different design from the UC
+- P.sc is heavier in the thin strokes than the UC. 
+- D.sc has a different design than the UC
+- Q.sc has a different design than the UC
+- G.sc has a slightly different design in the bottom right serif than UC
+- R.sc has a different design than the UC. In general all the Small caps do…
+- Kappa.sc has different spacing than K.sc
