@@ -6,33 +6,18 @@
 	uni2092
   </note>
   <outline>
-    <contour>
-      <point x="86" y="75"/>
-      <point x="25" y="13"/>
-      <point x="25" y="-61" type="curve" smooth="yes"/>
-      <point x="25" y="-133"/>
-      <point x="81" y="-181"/>
-      <point x="148" y="-181" type="curve" smooth="yes"/>
-      <point x="238" y="-181"/>
-      <point x="284" y="-115"/>
-      <point x="284" y="-45" type="curve" smooth="yes"/>
-      <point x="284" y="20"/>
-      <point x="225" y="75"/>
-      <point x="160" y="75" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="194" y="42"/>
-      <point x="223" y="-8"/>
-      <point x="223" y="-60" type="curve" smooth="yes"/>
-      <point x="223" y="-108"/>
-      <point x="204" y="-150"/>
-      <point x="160" y="-150" type="curve" smooth="yes"/>
-      <point x="116" y="-150"/>
-      <point x="86" y="-102"/>
-      <point x="86" y="-47" type="curve" smooth="yes"/>
-      <point x="86" y="-1"/>
-      <point x="104" y="42"/>
-      <point x="149" y="42" type="curve" smooth="yes"/>
-    </contour>
+    <component base="o.ordn" yOffset="-456"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

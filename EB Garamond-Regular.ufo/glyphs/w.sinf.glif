@@ -5,105 +5,18 @@
 	w.sinf
   </note>
   <outline>
-    <contour>
-      <point x="377" y="55"/>
-      <point x="375" y="49"/>
-      <point x="371" y="41" type="curve"/>
-      <point x="332" y="-45" type="line" smooth="yes"/>
-      <point x="328" y="-54"/>
-      <point x="325" y="-58"/>
-      <point x="322" y="-58" type="curve" smooth="yes"/>
-      <point x="318" y="-58"/>
-      <point x="314" y="-52"/>
-      <point x="310" y="-43" type="curve" smooth="yes"/>
-      <point x="270" y="51" type="line"/>
-      <point x="269" y="53"/>
-      <point x="268" y="55"/>
-      <point x="268" y="57" type="curve" smooth="yes"/>
-      <point x="268" y="67"/>
-      <point x="279" y="75"/>
-      <point x="290" y="78" type="curve" smooth="yes"/>
-      <point x="297" y="80"/>
-      <point x="305" y="86"/>
-      <point x="305" y="92" type="curve" smooth="yes"/>
-      <point x="305" y="98"/>
-      <point x="293" y="102"/>
-      <point x="290" y="102" type="curve" smooth="yes"/>
-      <point x="188" y="102" type="line" smooth="yes"/>
-      <point x="185" y="102"/>
-      <point x="173" y="98"/>
-      <point x="173" y="92" type="curve" smooth="yes"/>
-      <point x="173" y="86"/>
-      <point x="181" y="79"/>
-      <point x="188" y="78" type="curve"/>
-      <point x="200" y="74"/>
-      <point x="212" y="68"/>
-      <point x="212" y="52" type="curve" smooth="yes"/>
-      <point x="212" y="46"/>
-      <point x="211" y="40"/>
-      <point x="207" y="31" type="curve" smooth="yes"/>
-      <point x="173" y="-52" type="line" smooth="yes"/>
-      <point x="169" y="-61"/>
-      <point x="166" y="-61"/>
-      <point x="163" y="-53" type="curve"/>
-      <point x="118" y="51" type="line"/>
-      <point x="116" y="55"/>
-      <point x="115" y="59"/>
-      <point x="115" y="63" type="curve" smooth="yes"/>
-      <point x="115" y="69"/>
-      <point x="118" y="76"/>
-      <point x="126" y="78" type="curve" smooth="yes"/>
-      <point x="133" y="80"/>
-      <point x="141" y="86"/>
-      <point x="141" y="92" type="curve" smooth="yes"/>
-      <point x="141" y="98"/>
-      <point x="129" y="102"/>
-      <point x="126" y="102" type="curve" smooth="yes"/>
-      <point x="23" y="102" type="line" smooth="yes"/>
-      <point x="20" y="102"/>
-      <point x="8" y="98"/>
-      <point x="8" y="92" type="curve" smooth="yes"/>
-      <point x="8" y="86"/>
-      <point x="16" y="80"/>
-      <point x="23" y="78" type="curve" smooth="yes"/>
-      <point x="36" y="74"/>
-      <point x="54" y="68"/>
-      <point x="57" y="61" type="curve" smooth="yes"/>
-      <point x="147" y="-149" type="line"/>
-      <point x="148" y="-152"/>
-      <point x="152" y="-153"/>
-      <point x="156" y="-153" type="curve" smooth="yes"/>
-      <point x="159" y="-153"/>
-      <point x="163" y="-152"/>
-      <point x="164" y="-149" type="curve"/>
-      <point x="228" y="0" type="line" smooth="yes"/>
-      <point x="232" y="9"/>
-      <point x="234" y="7"/>
-      <point x="236" y="1" type="curve"/>
-      <point x="297" y="-149" type="line"/>
-      <point x="298" y="-152"/>
-      <point x="302" y="-153"/>
-      <point x="306" y="-153" type="curve" smooth="yes"/>
-      <point x="310" y="-153"/>
-      <point x="314" y="-152"/>
-      <point x="315" y="-149" type="curve"/>
-      <point x="404" y="51" type="line" smooth="yes"/>
-      <point x="411" y="66"/>
-      <point x="424" y="74"/>
-      <point x="437" y="78" type="curve" smooth="yes"/>
-      <point x="444" y="80"/>
-      <point x="452" y="86"/>
-      <point x="452" y="92" type="curve" smooth="yes"/>
-      <point x="452" y="98"/>
-      <point x="440" y="102"/>
-      <point x="437" y="102" type="curve" smooth="yes"/>
-      <point x="359" y="102" type="line" smooth="yes"/>
-      <point x="356" y="102"/>
-      <point x="344" y="98"/>
-      <point x="344" y="92" type="curve" smooth="yes"/>
-      <point x="344" y="75"/>
-      <point x="377" y="80"/>
-      <point x="377" y="60" type="curve" smooth="yes"/>
-    </contour>
+    <component base="w.ordn" yOffset="-424"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>w.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>w.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

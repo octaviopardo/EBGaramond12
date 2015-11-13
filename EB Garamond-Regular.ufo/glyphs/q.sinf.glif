@@ -5,69 +5,18 @@
 	q.sinf
   </note>
   <outline>
-    <contour>
-      <point x="205" y="75"/>
-      <point x="229" y="54"/>
-      <point x="229" y="19" type="curve" smooth="yes"/>
-      <point x="229" y="-62" type="line" smooth="yes"/>
-      <point x="229" y="-96"/>
-      <point x="203" y="-124"/>
-      <point x="167" y="-124" type="curve" smooth="yes"/>
-      <point x="116" y="-124"/>
-      <point x="82" y="-74"/>
-      <point x="82" y="-21" type="curve" smooth="yes"/>
-      <point x="82" y="26"/>
-      <point x="115" y="75"/>
-      <point x="162" y="75" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="235" y="91"/>
-      <point x="205" y="104"/>
-      <point x="172" y="104" type="curve" smooth="yes"/>
-      <point x="91" y="104"/>
-      <point x="21" y="42"/>
-      <point x="21" y="-37" type="curve" smooth="yes"/>
-      <point x="21" y="-103"/>
-      <point x="80" y="-152"/>
-      <point x="146" y="-152" type="curve" smooth="yes"/>
-      <point x="186" y="-152"/>
-      <point x="207" y="-142"/>
-      <point x="218" y="-135" type="curve" smooth="yes"/>
-      <point x="224" y="-131"/>
-      <point x="229" y="-128"/>
-      <point x="229" y="-150" type="curve" smooth="yes"/>
-      <point x="229" y="-235" type="line" smooth="yes"/>
-      <point x="229" y="-261"/>
-      <point x="188" y="-251"/>
-      <point x="188" y="-275" type="curve" smooth="yes"/>
-      <point x="188" y="-281"/>
-      <point x="199" y="-286"/>
-      <point x="202" y="-286" type="curve" smooth="yes"/>
-      <point x="227" y="-286"/>
-      <point x="232" y="-283"/>
-      <point x="255" y="-283" type="curve" smooth="yes"/>
-      <point x="278" y="-283"/>
-      <point x="283" y="-286"/>
-      <point x="308" y="-286" type="curve" smooth="yes"/>
-      <point x="311" y="-286"/>
-      <point x="323" y="-281"/>
-      <point x="323" y="-275" type="curve" smooth="yes"/>
-      <point x="323" y="-269"/>
-      <point x="315" y="-260"/>
-      <point x="308" y="-258" type="curve" smooth="yes"/>
-      <point x="295" y="-254"/>
-      <point x="282" y="-251"/>
-      <point x="282" y="-235" type="curve" smooth="yes"/>
-      <point x="282" y="33" type="line" smooth="yes"/>
-      <point x="282" y="48"/>
-      <point x="288" y="97"/>
-      <point x="288" y="102" type="curve" smooth="yes"/>
-      <point x="288" y="107"/>
-      <point x="271" y="109"/>
-      <point x="263" y="109" type="curve" smooth="yes"/>
-      <point x="258" y="109"/>
-      <point x="245" y="93"/>
-      <point x="243" y="86" type="curve"/>
-    </contour>
+    <component base="q.ordn" yOffset="-424"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>q.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>q.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

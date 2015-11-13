@@ -5,102 +5,18 @@
 	k.sups
   </note>
   <outline>
-    <contour>
-      <point x="103" y="867" type="line"/>
-      <point x="82" y="860"/>
-      <point x="55" y="850"/>
-      <point x="22" y="843" type="curve"/>
-      <point x="18" y="842"/>
-      <point x="14" y="836"/>
-      <point x="14" y="831" type="curve" smooth="yes"/>
-      <point x="14" y="825"/>
-      <point x="18" y="820"/>
-      <point x="23" y="819" type="curve" smooth="yes"/>
-      <point x="44" y="815"/>
-      <point x="48" y="784"/>
-      <point x="48" y="775" type="curve" smooth="yes"/>
-      <point x="48" y="489" type="line" smooth="yes"/>
-      <point x="48" y="473"/>
-      <point x="37" y="468"/>
-      <point x="24" y="464" type="curve" smooth="yes"/>
-      <point x="13" y="461"/>
-      <point x="9" y="455"/>
-      <point x="9" y="449" type="curve" smooth="yes"/>
-      <point x="9" y="443"/>
-      <point x="17" y="440"/>
-      <point x="24" y="440" type="curve" smooth="yes"/>
-      <point x="121" y="440" type="line" smooth="yes"/>
-      <point x="128" y="440"/>
-      <point x="136" y="443"/>
-      <point x="136" y="449" type="curve" smooth="yes"/>
-      <point x="136" y="455"/>
-      <point x="131" y="461"/>
-      <point x="121" y="464" type="curve" smooth="yes"/>
-      <point x="108" y="468"/>
-      <point x="102" y="473"/>
-      <point x="102" y="489" type="curve" smooth="yes"/>
-      <point x="102" y="561" type="line" smooth="yes"/>
-      <point x="102" y="566"/>
-      <point x="106" y="567"/>
-      <point x="108" y="565" type="curve" smooth="yes"/>
-      <point x="187" y="486" type="line" smooth="yes"/>
-      <point x="190" y="483"/>
-      <point x="191" y="479"/>
-      <point x="191" y="477" type="curve" smooth="yes"/>
-      <point x="191" y="465"/>
-      <point x="162" y="463"/>
-      <point x="162" y="449" type="curve" smooth="yes"/>
-      <point x="162" y="443"/>
-      <point x="170" y="440"/>
-      <point x="177" y="440" type="curve" smooth="yes"/>
-      <point x="294" y="440" type="line" smooth="yes"/>
-      <point x="301" y="440"/>
-      <point x="309" y="443"/>
-      <point x="309" y="449" type="curve" smooth="yes"/>
-      <point x="309" y="455"/>
-      <point x="304" y="461"/>
-      <point x="294" y="464" type="curve" smooth="yes"/>
-      <point x="281" y="468"/>
-      <point x="256" y="478"/>
-      <point x="242" y="492" type="curve" smooth="yes"/>
-      <point x="156" y="580" type="line" smooth="yes"/>
-      <point x="150" y="586"/>
-      <point x="151" y="592"/>
-      <point x="154" y="594" type="curve"/>
-      <point x="228" y="649" type="line"/>
-      <point x="238" y="657"/>
-      <point x="256" y="661"/>
-      <point x="273" y="664" type="curve"/>
-      <point x="282" y="665"/>
-      <point x="285" y="672"/>
-      <point x="285" y="677" type="curve" smooth="yes"/>
-      <point x="285" y="681"/>
-      <point x="283" y="686"/>
-      <point x="277" y="686" type="curve" smooth="yes"/>
-      <point x="185" y="686" type="line" smooth="yes"/>
-      <point x="178" y="686"/>
-      <point x="171" y="685"/>
-      <point x="171" y="676" type="curve" smooth="yes"/>
-      <point x="171" y="671"/>
-      <point x="179" y="667"/>
-      <point x="184" y="664" type="curve"/>
-      <point x="194" y="659"/>
-      <point x="190" y="651"/>
-      <point x="186" y="648" type="curve"/>
-      <point x="128" y="600" type="line" smooth="yes"/>
-      <point x="122" y="595"/>
-      <point x="113" y="587"/>
-      <point x="107" y="587" type="curve" smooth="yes"/>
-      <point x="105" y="587"/>
-      <point x="102" y="596"/>
-      <point x="102" y="599" type="curve" smooth="yes"/>
-      <point x="102" y="782" type="line" smooth="yes"/>
-      <point x="102" y="819"/>
-      <point x="108" y="846"/>
-      <point x="108" y="859" type="curve" smooth="yes"/>
-      <point x="108" y="864"/>
-      <point x="107" y="867"/>
-      <point x="104" y="867" type="curve" smooth="yes"/>
-    </contour>
+    <component base="k.ordn" yOffset="160"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>k.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>k.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
