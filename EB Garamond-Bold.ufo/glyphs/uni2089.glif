@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2089" format="1">
-  <advance width="600"/>
+  <advance width="325"/>
   <unicode hex="2089"/>
   <note>
 	uni2089
   </note>
   <outline>
+    <component base="nine.ordn" yOffset="-452"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>nine.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>nine.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

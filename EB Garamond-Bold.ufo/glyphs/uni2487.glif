@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2487" format="1">
-  <advance width="600"/>
+  <advance width="1642"/>
   <unicode hex="2487"/>
   <note>
 	uni2487
   </note>
   <outline>
+    <component base="parenleft"/>
+    <component base="parenright" xOffset="1344"/>
+    <component base="two" xOffset="315"/>
+    <component base="zero" xOffset="816"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>parenleft</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>parenright</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

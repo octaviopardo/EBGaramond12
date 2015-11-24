@@ -32,6 +32,21 @@ Height 58%
 Weight -34
 Vertical Shift 282
 
+ORDINALS (Numbers)
+REGULAR
+Width 53
+Height 51
+Weight 0
+Adjust spacing 40
+Vertical shift 294
+
+BOLD
+Width 53
+Height 51
+Weight -50
+Adjust spacing 40
+Vertical shift 294
+
 Main modifactions done to the regular (discuss it with Georg)
 - I would redraw 'e' & 'c'
 - 'd' could benefit from a retouch in the belly (more similar to 'q')
@@ -180,6 +195,10 @@ accented glyphs
 - T.sc has a very different design from the UC!
 - Z.sc has a very different design from the UC
 - P.sc is heavier in the thin strokes than the UC. 
+- one.tablining has different thickness than one.lnum
+- uni2081 has a weird spacing and design
+- uni00B9 has a weird spacing and design
+- the design of superiors, ordn, etc is not very solid. Some of the numbers are the same and suddenly one or two show up differently. 
 - D.sc has a different design than the UC
 - Q.sc has a different design than the UC
 - G.sc has a slightly different design in the bottom right serif than UC
@@ -196,3 +215,20 @@ accented glyphs
 - uni1D56 it has a different height for the ascender than p.ordn
 - uni0462 goes over the cap height
 - uni0424 goes over the cap height, and below the baseline. It also has a problem with the modulation, is vertical instead of slanted like O and other circular letters
+- uni0402 right spacing is probably wrong
+- There are not Cyrillic small caps??
+- different serifs in the 1 than in the other letters?
+- proportion in the figures look awkard, two has a huge tail, three is narrow, seven is wide, five is narrow and four is wide
+- five.sc and six.sc have different spacing values
+- dotless.i is slightly different than the original in the longs_i liga
+- dotless.j is slightly different than the original in the longs_i liga
+- six and six.lnum have a quite different spacing
+- zero.tab oldstyle is weird
+- uni2076, uni2086… which are basically six.ordn… why do they have such different design?
+- t_t weird spacing left & right and wrong thickness
+- ligatures in general have different shapes than the original glyphs… 
+- height of the "tonos" accent below its actual position in the lc
+- height of greek accents in general are not very well
+- acute and grave greek accents need to be slightly slanted a bit more to be more different than vertical tonos
+- the accent below uni1FBC is at a different height than in uni1FB3
+- the design of alpha could be improoved
