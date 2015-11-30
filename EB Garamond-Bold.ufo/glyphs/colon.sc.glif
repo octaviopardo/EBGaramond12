@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon.sc" format="1">
-  <advance width="600"/>
+  <advance width="289"/>
   <note>
 	colon.sc
   </note>
   <outline>
+    <component base="colon"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>colon</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>colon</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -5,60 +5,18 @@
 	braceright.sups
   </note>
   <outline>
-    <contour>
-      <point x="159" y="602"/>
-      <point x="108" y="570"/>
-      <point x="108" y="528" type="curve" smooth="yes"/>
-      <point x="108" y="432" type="line" smooth="yes"/>
-      <point x="108" y="388"/>
-      <point x="75" y="372"/>
-      <point x="39" y="372" type="curve" smooth="yes"/>
-      <point x="32" y="372"/>
-      <point x="22" y="366"/>
-      <point x="22" y="357" type="curve" smooth="yes"/>
-      <point x="22" y="352"/>
-      <point x="28" y="348"/>
-      <point x="34" y="348" type="curve" smooth="yes"/>
-      <point x="91" y="348"/>
-      <point x="158" y="371"/>
-      <point x="158" y="427" type="curve" smooth="yes"/>
-      <point x="158" y="534" type="line" smooth="yes"/>
-      <point x="158" y="568"/>
-      <point x="184" y="584"/>
-      <point x="219" y="596" type="curve"/>
-      <point x="224" y="598"/>
-      <point x="226" y="602"/>
-      <point x="226" y="609" type="curve" smooth="yes"/>
-      <point x="226" y="616"/>
-      <point x="224" y="619"/>
-      <point x="219" y="621" type="curve"/>
-      <point x="184" y="633"/>
-      <point x="158" y="648"/>
-      <point x="158" y="682" type="curve" smooth="yes"/>
-      <point x="158" y="719"/>
-      <point x="159" y="747"/>
-      <point x="159" y="789" type="curve" smooth="yes"/>
-      <point x="159" y="845"/>
-      <point x="92" y="869"/>
-      <point x="34" y="869" type="curve" smooth="yes"/>
-      <point x="28" y="869"/>
-      <point x="22" y="865"/>
-      <point x="22" y="860" type="curve" smooth="yes"/>
-      <point x="22" y="851"/>
-      <point x="32" y="845"/>
-      <point x="39" y="845" type="curve" smooth="yes"/>
-      <point x="75" y="845"/>
-      <point x="109" y="828"/>
-      <point x="109" y="784" type="curve" smooth="yes"/>
-      <point x="109" y="747"/>
-      <point x="108" y="723"/>
-      <point x="108" y="688" type="curve" smooth="yes"/>
-      <point x="108" y="646"/>
-      <point x="154" y="620"/>
-      <point x="181" y="610" type="curve" smooth="yes"/>
-      <point x="184" y="609"/>
-      <point x="182" y="608"/>
-      <point x="180" y="607" type="curve"/>
-    </contour>
+    <component base="braceright.ordn" yOffset="160"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>braceright.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>braceright.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

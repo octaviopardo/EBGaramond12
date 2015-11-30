@@ -5,40 +5,18 @@
 	exclam.sinf
   </note>
   <outline>
-    <contour>
-      <point x="94" y="245" type="line"/>
-      <point x="71" y="244"/>
-      <point x="60" y="223"/>
-      <point x="60" y="200" type="curve" smooth="yes"/>
-      <point x="60" y="162"/>
-      <point x="73" y="70"/>
-      <point x="81" y="2" type="curve" smooth="yes"/>
-      <point x="83" y="-15"/>
-      <point x="87" y="-21"/>
-      <point x="93" y="-21" type="curve" smooth="yes"/>
-      <point x="99" y="-21"/>
-      <point x="103" y="-11"/>
-      <point x="105" y="2" type="curve" smooth="yes"/>
-      <point x="115" y="70"/>
-      <point x="128" y="149"/>
-      <point x="128" y="201" type="curve" smooth="yes"/>
-      <point x="128" y="223"/>
-      <point x="117" y="245"/>
-      <point x="95" y="245" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="73" y="-80"/>
-      <point x="55" y="-96"/>
-      <point x="55" y="-116" type="curve" smooth="yes"/>
-      <point x="55" y="-136"/>
-      <point x="73" y="-152"/>
-      <point x="94" y="-152" type="curve" smooth="yes"/>
-      <point x="115" y="-152"/>
-      <point x="133" y="-136"/>
-      <point x="133" y="-116" type="curve" smooth="yes"/>
-      <point x="133" y="-96"/>
-      <point x="115" y="-80"/>
-      <point x="94" y="-80" type="curve" smooth="yes"/>
-    </contour>
+    <component base="exclam.ordn" yOffset="-424"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>exclam.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>exclam.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

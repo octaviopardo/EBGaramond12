@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright.sinf" format="1">
-  <advance width="600"/>
+  <advance width="243"/>
   <note>
 	bracketright.sinf
   </note>
   <outline>
+    <component base="bracketright.ordn" yOffset="-424"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>bracketright.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>bracketright.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

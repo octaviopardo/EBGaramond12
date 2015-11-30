@@ -1,56 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni208A" format="1">
-  <advance width="375"/>
+  <advance width="389"/>
   <unicode hex="208A"/>
   <note>
 	uni208A
   </note>
   <outline>
-    <contour>
-      <point x="211" y="140" type="line" smooth="yes"/>
-      <point x="211" y="147"/>
-      <point x="201" y="148"/>
-      <point x="196" y="148" type="curve" smooth="yes"/>
-      <point x="192" y="148"/>
-      <point x="164" y="144"/>
-      <point x="164" y="130" type="curve" smooth="yes"/>
-      <point x="164" y="33" type="line" smooth="yes"/>
-      <point x="164" y="29"/>
-      <point x="163" y="28"/>
-      <point x="159" y="28" type="curve" smooth="yes"/>
-      <point x="48" y="28" type="line" smooth="yes"/>
-      <point x="34" y="28"/>
-      <point x="32" y="1"/>
-      <point x="32" y="-4" type="curve" smooth="yes"/>
-      <point x="32" y="-8"/>
-      <point x="36" y="-17"/>
-      <point x="42" y="-17" type="curve" smooth="yes"/>
-      <point x="161" y="-17" type="line" smooth="yes"/>
-      <point x="163" y="-17"/>
-      <point x="164" y="-18"/>
-      <point x="164" y="-20" type="curve" smooth="yes"/>
-      <point x="164" y="-140" type="line" smooth="yes"/>
-      <point x="164" y="-146"/>
-      <point x="173" y="-149"/>
-      <point x="177" y="-149" type="curve" smooth="yes"/>
-      <point x="183" y="-149"/>
-      <point x="211" y="-148"/>
-      <point x="211" y="-134" type="curve" smooth="yes"/>
-      <point x="211" y="-19" type="line" smooth="yes"/>
-      <point x="211" y="-17"/>
-      <point x="212" y="-17"/>
-      <point x="214" y="-17" type="curve" smooth="yes"/>
-      <point x="322" y="-17" type="line" smooth="yes"/>
-      <point x="337" y="-17"/>
-      <point x="343" y="2"/>
-      <point x="343" y="15" type="curve" smooth="yes"/>
-      <point x="343" y="19"/>
-      <point x="339" y="28"/>
-      <point x="334" y="28" type="curve" smooth="yes"/>
-      <point x="214" y="28" type="line" smooth="yes"/>
-      <point x="212" y="28"/>
-      <point x="211" y="28"/>
-      <point x="211" y="32" type="curve" smooth="yes"/>
-    </contour>
+    <component base="plus.ordn" yOffset="-424"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>plus.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>plus.ordn</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

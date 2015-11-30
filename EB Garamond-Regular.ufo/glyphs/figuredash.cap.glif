@@ -5,21 +5,14 @@
 	figuredash.cap
   </note>
   <outline>
-    <contour>
-      <point x="36" y="351" type="line" smooth="yes"/>
-      <point x="15" y="351"/>
-      <point x="12" y="312"/>
-      <point x="12" y="303" type="curve" smooth="yes"/>
-      <point x="12" y="297"/>
-      <point x="19" y="291"/>
-      <point x="26" y="291" type="curve" smooth="yes"/>
-      <point x="481" y="291" type="line" smooth="yes"/>
-      <point x="499" y="291"/>
-      <point x="512" y="317"/>
-      <point x="512" y="339" type="curve" smooth="yes"/>
-      <point x="512" y="345"/>
-      <point x="505" y="351"/>
-      <point x="499" y="351" type="curve" smooth="yes"/>
-    </contour>
+    <component base="figuredash" yOffset="110"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

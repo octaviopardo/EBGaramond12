@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Upsilondieresis.sc" format="1">
-  <advance width="600"/>
+  <advance width="570"/>
   <note>
 	Upsilondieresis.sc
   </note>
   <outline>
+    <component base="Upsilon.sc"/>
+    <component base="dieresis.sc" xOffset="93" yOffset="63"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -5,24 +5,18 @@
 	underscore.sc
   </note>
   <outline>
-    <contour>
-      <point x="24" y="-132" type="line" smooth="yes"/>
-      <point x="6" y="-132"/>
-      <point x="0" y="-161"/>
-      <point x="0" y="-170" type="curve" smooth="yes"/>
-      <point x="0" y="-176"/>
-      <point x="7" y="-182"/>
-      <point x="14" y="-182" type="curve" smooth="yes"/>
-      <point x="469" y="-182" type="line" smooth="yes"/>
-      <point x="488" y="-182"/>
-      <point x="494" y="-163"/>
-      <point x="500" y="-146" type="curve"/>
-      <point x="500" y="-145"/>
-      <point x="501" y="-144"/>
-      <point x="501" y="-143" type="curve" smooth="yes"/>
-      <point x="501" y="-137"/>
-      <point x="493" y="-132"/>
-      <point x="487" y="-132" type="curve" smooth="yes"/>
-    </contour>
+    <component base="underscore"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>underscore</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>underscore</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

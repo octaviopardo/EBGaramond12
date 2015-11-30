@@ -47,6 +47,36 @@ Weight -50
 Adjust spacing 40
 Vertical shift 294
 
+ORDINALS (DIACRITICS)
+REGULAR
+Width 64%
+Height 60%
+Weight -12
+Spacing 0
+Vshift 282
+
+BOLD
+Width 64%
+Height 60%
+Weight -34
+Spacing
+Vshift 282
+
+CAPS AT XHEIGHT SIZE
+REGULAR
+Width 72%
+Height 61,5%
+Weight 30
+Adjust Spacing 0
+VShift 0
+
+BOLD
+Width 75
+Height 65
+Weight -5
+Adjust Spacing
+Vshift
+
 Main modifactions done to the regular (discuss it with Georg)
 - I would redraw 'e' & 'c'
 - 'd' could benefit from a retouch in the belly (more similar to 'q')
@@ -232,3 +262,35 @@ accented glyphs
 - acute and grave greek accents need to be slightly slanted a bit more to be more different than vertical tonos
 - the accent below uni1FBC is at a different height than in uni1FB3
 - the design of alpha could be improoved
+- wrong spacing in uni1D06
+- ᴀᴁᴂᴄᴅᴆᴇᴊᴋᴌᴍᴏᴘᴛᴜᴠᴡᴢ this glyphs mix small cap height with x-height case, I have the feeling is mistaken and is suposed to be all x-height. ALso the glyph order could be better there…
+- spacing in asterisk.ordn is wrong
+- why uniA72A is not aligned with the uppercase? It is not aligned with anything
+- spacing in uni2C62 is similar to L. WOuld have to be bigger
+- hbar, uni04B1 have a different bar thickness
+- uni0444
+- Upsilondieresis.sc has different height in the accent
+- exclam has different spacing in each side.
+- exclamdown is different than exclam?
+- questiondown is different than question?
+- right spacing in numbersign could be refined
+- angleleft and angleright have a vertical and horizontal mirrored design. Since the middle corner is a not symmetrical height when placed together they look too separated
+- strange right spacing value on uni2016.ordn
+- same in asterisk.ordn
+- period.ordn has different spacing values at left and right
+- quotedbl.ordn the individual glyphs are different than quotesingle.ordn ??
+- almost all the similar glyphs to parenright.ordn have wrong spacing values (different to parenleft.ordn)
+- the diacritics for small caps would have to be designed adapted to the small caps! smaller size and wider spacing
+- uni0280 weird design, very different from the original
+- uniFB01 (f_i) top right part could be improoved
+- (f_j) could be very improoved
+- fft has different distance between legs than ft
+- longs_longs.long has a different distange between steams than longs_longs
+- daggers, doubledaggers, bar, broken bar… when reduced to their ordinals, subs, etc do not have (very very) assymetrical spacing values
+- Pi different from Product. I would make them the same
+- germandbls outstroke is quite different from the regular 's', 
+- i.TRKsc is wrong, the glyphs is different from I.sc. Also, I think I.TRKsc wouldn have to have a dotaccent, no?
+ - lslash and uniA749 have a different disposition of the slash, different spacing…
+ - L.script seems small compared with the other caps
+ - uni01C3 wrong spacing compared with exclam
+ - ALL THE OPEN TYPE FEATURES ARE MISSING!! :SSSSS 

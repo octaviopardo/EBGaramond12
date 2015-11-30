@@ -5,31 +5,18 @@
 	comma.sups
   </note>
   <outline>
-    <contour>
-      <point x="59" y="456"/>
-      <point x="70" y="445"/>
-      <point x="70" y="431" type="curve" smooth="yes"/>
-      <point x="70" y="399"/>
-      <point x="53" y="379"/>
-      <point x="25" y="374" type="curve" smooth="yes"/>
-      <point x="19" y="373"/>
-      <point x="12" y="370"/>
-      <point x="12" y="363" type="curve" smooth="yes"/>
-      <point x="12" y="356"/>
-      <point x="20" y="352"/>
-      <point x="27" y="352" type="curve" smooth="yes"/>
-      <point x="62" y="352"/>
-      <point x="117" y="391"/>
-      <point x="117" y="452" type="curve" smooth="yes"/>
-      <point x="117" y="486"/>
-      <point x="101" y="510"/>
-      <point x="60" y="510" type="curve" smooth="yes"/>
-      <point x="42" y="510"/>
-      <point x="22" y="501"/>
-      <point x="22" y="483" type="curve" smooth="yes"/>
-      <point x="22" y="469"/>
-      <point x="26" y="459"/>
-      <point x="45" y="457" type="curve" smooth="yes"/>
-    </contour>
+    <component base="comma.ordn" yOffset="160"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>comma.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>comma.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

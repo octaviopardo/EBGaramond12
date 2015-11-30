@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash.ordn" format="1">
-  <advance width="259"/>
+  <advance width="250"/>
   <note>
 	slash.ordn
   </note>
   <outline>
-    <contour>
-      <point x="20" y="252" type="line"/>
-      <point x="18" y="247"/>
-      <point x="25" y="243"/>
-      <point x="30" y="243" type="curve" smooth="yes"/>
-      <point x="43" y="243"/>
-      <point x="56" y="241"/>
-      <point x="61" y="252" type="curve" smooth="yes"/>
-      <point x="254" y="669" type="line"/>
-      <point x="256" y="674"/>
-      <point x="251" y="679"/>
-      <point x="246" y="679" type="curve" smooth="yes"/>
-      <point x="233" y="679"/>
-      <point x="219" y="681"/>
-      <point x="213" y="669" type="curve" smooth="yes"/>
-    </contour>
+    <component base="backslash.ordn" xOffset="260" xScale="-1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
