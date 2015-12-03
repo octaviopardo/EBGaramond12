@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F2A" format="1">
-  <advance width="600"/>
+  <advance width="1100"/>
   <unicode hex="1F2A"/>
   <note>
 	uni1F2A
   </note>
   <outline>
+    <component base="Eta" xOffset="301"/>
+    <component base="uni1FCD" xOffset="-50" yOffset="24"/>
   </outline>
   <lib>
     <dict>

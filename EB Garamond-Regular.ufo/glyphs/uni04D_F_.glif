@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04DF" format="1">
-  <advance width="367"/>
+  <advance width="387"/>
   <unicode hex="04DF"/>
   <note>
 	uni04DF
   </note>
   <outline>
     <component base="uni0437"/>
-    <component base="dieresis" xOffset="20"/>
+    <component base="dieresis" xOffset="40"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -882,11 +882,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>367</integer>
+          <integer>387</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
