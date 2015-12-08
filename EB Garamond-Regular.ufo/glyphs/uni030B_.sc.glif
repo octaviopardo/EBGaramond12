@@ -6,9 +6,17 @@
   </note>
   <outline>
     <component base="acutecomb.sc" xOffset="124"/>
-    <component base="acutecomb"/>
+    <component base="acutecomb.sc"/>
     <contour>
       <point x="109" y="440" type="move" name="_top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

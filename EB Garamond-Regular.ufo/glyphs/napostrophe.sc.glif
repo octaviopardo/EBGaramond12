@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe.sc" format="1">
-  <advance width="631"/>
+  <advance width="651"/>
   <note>
 	napostrophe.sc
   </note>
   <outline>
+    <component base="uni030C.altcap" xOffset="16" yOffset="-34"/>
+    <component base="N.sc" xOffset="51"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>N.sc</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

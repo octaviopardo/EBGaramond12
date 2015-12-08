@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1ED5" format="1">
-  <advance width="600"/>
+  <advance width="505"/>
   <unicode hex="1ED5"/>
   <note>
 	uni1ED5
   </note>
   <outline>
+    <component base="o"/>
+    <component base="uni0302.stack" xOffset="120" yOffset="-6"/>
+    <component base="hookabovecomb.stack" xOffset="248" yOffset="128"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

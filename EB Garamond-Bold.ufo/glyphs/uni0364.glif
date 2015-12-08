@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0364" format="1">
-  <advance width="600"/>
+  <advance width="204"/>
   <unicode hex="0364"/>
   <note>
 	uni0364
   </note>
   <outline>
+    <component base="e.ordn" yOffset="295" xScale="0.709" yScale="0.709"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>e.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

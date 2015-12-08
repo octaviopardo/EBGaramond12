@@ -5,31 +5,14 @@
 	uni0314.grk
   </note>
   <outline>
-    <contour>
-      <point x="101" y="582"/>
-      <point x="120" y="595"/>
-      <point x="120" y="618" type="curve" smooth="yes"/>
-      <point x="120" y="641"/>
-      <point x="97" y="656"/>
-      <point x="73" y="656" type="curve" smooth="yes"/>
-      <point x="26" y="656"/>
-      <point x="0" y="606"/>
-      <point x="0" y="559" type="curve" smooth="yes"/>
-      <point x="0" y="506"/>
-      <point x="43" y="462"/>
-      <point x="96" y="462" type="curve" smooth="yes"/>
-      <point x="109" y="462"/>
-      <point x="116" y="467"/>
-      <point x="116" y="472" type="curve" smooth="yes"/>
-      <point x="116" y="479"/>
-      <point x="107" y="482"/>
-      <point x="99" y="486" type="curve" smooth="yes"/>
-      <point x="72" y="499"/>
-      <point x="52" y="517"/>
-      <point x="52" y="546" type="curve" smooth="yes"/>
-      <point x="52" y="562"/>
-      <point x="62" y="575"/>
-      <point x="78" y="578" type="curve" smooth="yes"/>
-    </contour>
+    <component base="uni0313" xOffset="120" yOffset="-10" xScale="-1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

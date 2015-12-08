@@ -6,6 +6,9 @@
   </note>
   <outline>
     <contour>
+      <point x="30" y="477"/>
+      <point x="34" y="489"/>
+      <point x="37" y="498" type="curve"/>
       <point x="45" y="519"/>
       <point x="71" y="541"/>
       <point x="112" y="541" type="curve" smooth="yes"/>
@@ -27,9 +30,14 @@
       <point x="5" y="488"/>
       <point x="10" y="477"/>
       <point x="20" y="477" type="curve" smooth="yes"/>
-      <point x="30" y="477"/>
-      <point x="34" y="489"/>
-      <point x="37" y="498" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

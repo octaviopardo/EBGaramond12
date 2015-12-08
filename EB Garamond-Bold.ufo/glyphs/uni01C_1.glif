@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01C1" format="1">
-  <advance width="600"/>
+  <advance width="272"/>
   <unicode hex="01C1"/>
   <note>
 	uni01C1
   </note>
   <outline>
+    <component base="uni01C0"/>
+    <component base="uni01C0" xOffset="126"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>uni01C0</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>uni01C0</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

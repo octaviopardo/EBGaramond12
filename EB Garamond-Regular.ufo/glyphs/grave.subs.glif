@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave.subs" format="1">
-  <advance width="181"/>
+  <advance width="143"/>
   <note>
 	grave.subs
   </note>
   <outline>
-    <contour>
-      <point x="120" y="279"/>
-      <point x="127" y="269"/>
-      <point x="133" y="269" type="curve" smooth="yes"/>
-      <point x="139" y="269"/>
-      <point x="142" y="272"/>
-      <point x="142" y="277" type="curve" smooth="yes"/>
-      <point x="142" y="286"/>
-      <point x="95" y="362"/>
-      <point x="81" y="382" type="curve"/>
-      <point x="74" y="393"/>
-      <point x="63" y="398"/>
-      <point x="48" y="398" type="curve" smooth="yes"/>
-      <point x="37" y="398"/>
-      <point x="26" y="390"/>
-      <point x="26" y="382" type="curve" smooth="yes"/>
-      <point x="26" y="371"/>
-      <point x="64" y="350"/>
-      <point x="116" y="283" type="curve"/>
-    </contour>
+    <component base="grave.ordn" yOffset="-302"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>grave.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>grave.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

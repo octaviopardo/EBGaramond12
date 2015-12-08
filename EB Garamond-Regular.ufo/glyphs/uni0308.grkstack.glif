@@ -5,33 +5,14 @@
 	uni0308.grkstack
   </note>
   <outline>
-    <contour>
-      <point x="29" y="572"/>
-      <point x="6" y="549"/>
-      <point x="6" y="524" type="curve" smooth="yes"/>
-      <point x="6" y="499"/>
-      <point x="29" y="476"/>
-      <point x="54" y="476" type="curve" smooth="yes"/>
-      <point x="79" y="476"/>
-      <point x="100" y="499"/>
-      <point x="100" y="524" type="curve" smooth="yes"/>
-      <point x="100" y="549"/>
-      <point x="79" y="572"/>
-      <point x="54" y="572" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="226" y="572"/>
-      <point x="205" y="549"/>
-      <point x="205" y="524" type="curve" smooth="yes"/>
-      <point x="205" y="499"/>
-      <point x="226" y="476"/>
-      <point x="251" y="476" type="curve" smooth="yes"/>
-      <point x="276" y="476"/>
-      <point x="299" y="499"/>
-      <point x="299" y="524" type="curve" smooth="yes"/>
-      <point x="299" y="549"/>
-      <point x="276" y="572"/>
-      <point x="251" y="572" type="curve" smooth="yes"/>
-    </contour>
+    <component base="uni0308.grkstacksc"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

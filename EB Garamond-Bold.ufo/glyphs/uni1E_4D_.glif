@@ -7,5 +7,15 @@
   </note>
   <outline>
     <component base="o"/>
+    <component base="tildecomb.stack" xOffset="116"/>
+    <component base="acutecomb.stack" xOffset="238" yOffset="151"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

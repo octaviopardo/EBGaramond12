@@ -5,25 +5,14 @@
 	gravecomb.grkstack
   </note>
   <outline>
-    <contour>
-      <point x="91" y="468"/>
-      <point x="101" y="456"/>
-      <point x="109" y="456" type="curve" smooth="yes"/>
-      <point x="118" y="456"/>
-      <point x="118" y="460"/>
-      <point x="118" y="469" type="curve" smooth="yes"/>
-      <point x="118" y="487"/>
-      <point x="87" y="609"/>
-      <point x="77" y="645" type="curve" smooth="yes"/>
-      <point x="74" y="657"/>
-      <point x="60" y="663"/>
-      <point x="52" y="663" type="curve" smooth="yes"/>
-      <point x="33" y="663"/>
-      <point x="14" y="638"/>
-      <point x="14" y="622" type="curve" smooth="yes"/>
-      <point x="14" y="612"/>
-      <point x="64" y="514"/>
-      <point x="85" y="478" type="curve" smooth="yes"/>
-    </contour>
+    <component base="gravecomb.grksc"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
