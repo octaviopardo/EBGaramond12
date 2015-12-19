@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FF9" format="1">
-  <advance width="600"/>
+  <advance width="800"/>
   <unicode hex="1FF9"/>
   <note>
 	uni1FF9
   </note>
   <outline>
+    <component base="Omicron" xOffset="41"/>
+    <component base="acutecomb.grk" xOffset="-14" yOffset="24"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omicron</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

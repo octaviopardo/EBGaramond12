@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniE002" format="1">
-  <advance width="600"/>
+  <advance width="985"/>
   <unicode hex="E002"/>
   <note>
 	uniE002
   </note>
   <outline>
+    <component base="uni2619.01" xOffset="985" xScale="-1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

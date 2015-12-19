@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omegatonos" format="1">
-  <advance width="600"/>
+  <advance width="817"/>
   <unicode hex="038F"/>
   <note>
 	Omegatonos
   </note>
   <outline>
+    <component base="Omega" xOffset="-17"/>
+    <component base="tonos" xOffset="-44" yOffset="14"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omega</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

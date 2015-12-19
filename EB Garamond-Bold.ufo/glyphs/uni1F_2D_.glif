@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F2D" format="1">
-  <advance width="600"/>
+  <advance width="1126"/>
   <unicode hex="1F2D"/>
   <note>
 	uni1F2D
   </note>
   <outline>
+    <component base="Eta" xOffset="327"/>
+    <component base="uni1FDE" xOffset="-50" yOffset="24"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>H</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

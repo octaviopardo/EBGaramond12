@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asciicircum.sinf" format="1">
-  <advance width="600"/>
+  <advance width="332"/>
   <note>
 	asciicircum.sinf
   </note>
   <outline>
+    <component base="asciicircum.ordn" yOffset="-424"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>asciicircum.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>asciicircum.ordn</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

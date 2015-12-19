@@ -6,13 +6,13 @@
 	uni1F4A
   </note>
   <outline>
-    <component base="uni1FCD" xOffset="-50" yOffset="24"/>
     <component base="Omicron" xOffset="177"/>
+    <component base="uni1FCD" xOffset="-50" yOffset="24"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omicron</string>
       <key>com.typemytype.robofont.layerData</key>
@@ -633,7 +633,7 @@
         </dict>
       </dict>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

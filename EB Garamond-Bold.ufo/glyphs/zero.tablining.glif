@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zero.tablining" format="1">
-  <advance width="600"/>
+  <advance width="560"/>
   <note>
 	zero.tablining
   </note>
   <outline>
+    <component base="zero.lnum" xOffset="-5"/>
   </outline>
   <lib>
     <dict>

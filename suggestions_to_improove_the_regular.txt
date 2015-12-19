@@ -77,6 +77,20 @@ Weight -5
 Adjust Spacing
 Vshift
 
+-------------------------------------------------
+PRODUCTION SYMBOLS
+DAGGERS.ordn
+Width 73
+Height 68
+Weight 5
+Vshift 220
+
+SECTION.ordn
+width 70
+Height 68
+weight 8
+vshift 255
+
 Main modifactions done to the regular (discuss it with Georg)
 - I would redraw 'e' & 'c'
 - 'd' could benefit from a retouch in the belly (more similar to 'q')
@@ -330,3 +344,27 @@ accented glyphs
 - much more spaced between the glyphs!
 - bottom curve in paragraph symbol could be improoved
 - ampersando would have to be much more smooth and better drawn
+- paragraph.ordn is a bit out of proportion…
+- spacing of uni203E?
+- uni204B is different from paragraph?
+- right spacing of uni20A8 is pretty big
+- logicalnot symbol is not well designed
+- right spacing seems too much in uni2123
+- there is a pretty big difference in the thickness of the curve between uni0254 and uni0258. ALso uni0254 is wider when it would have to be the other way around
+- there are some glyphs that have different sizes and positions than the other superiors, mainly ʲ/Y.ordn/y.ordnʸˣⁱₑₓ what are those?s
+- uni02A8 has different right spacing than uni0255
+- the design of the 't' glytph in uni02A8 is different than the 't' (look at the top left)
+- look at the x.sc y.sc z.sc combos. The diagonals of z and x are much darker in the diagonal than y.sc
+- c_t ligature, c looks very different from 'c' 
+- greaterequal has different spike on the right than greater
+- spacing in uni029E is very different from k while it has the same contours
+- very assymetric spacing in uni026B
+- different right spacing value in q_uniA76B than in uniA76B
+- SMALL CAPS ARE TOO SMALL SO IF THE XBOLD SMALL CAPS ARE THE SAME HEIGHT AS THE ROMAN, WHICH IS THE USUAL APPROACH, THEY ARE ALMOST SAME SIZE AS THE LOWERCASE
+- uniA759 needs an optical adjustment in the tail (similar to x)
+- why uni02B8 has a longer tail than y.ordn?
+- why uni02B2 has a longer tail than j.ordn?
+- I would say the design of uni0223 is not tghe best
+- the design of litre could be improoved
+- registered.sups could be improoved
+- bullet.01 and other similar glyphs need to be cleaned up and the design has to be very very refined

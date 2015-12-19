@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F59" format="1">
-  <advance width="844"/>
+  <advance width="874"/>
   <unicode hex="1F59"/>
   <note>
 	uni1F59
   </note>
   <outline>
-    <component base="Upsilon" xOffset="105"/>
-    <component base="uni1FFE" xOffset="-50" yOffset="24"/>
+    <component base="Upsilon" xOffset="135"/>
+    <component base="uni1FFE" xOffset="-20" yOffset="24"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Upsilon</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -793,11 +795,11 @@
           <array>
           </array>
           <key>width</key>
-          <integer>844</integer>
+          <integer>874</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

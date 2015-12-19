@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FDF" format="1">
-  <advance width="600"/>
+  <advance width="363"/>
   <unicode hex="1FDF"/>
   <note>
 	uni1FDF
   </note>
   <outline>
+    <component base="uni1FC0" xOffset="10" yOffset="165"/>
+    <component base="uni0313.grkstacksc" xOffset="225" yOffset="-11" xScale="-1"/>
+    <contour>
+      <point x="164" y="440" type="move" name="_top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

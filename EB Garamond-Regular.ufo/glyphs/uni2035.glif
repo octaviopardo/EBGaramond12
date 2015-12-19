@@ -7,6 +7,12 @@
   </note>
   <outline>
     <contour>
+      <point x="137" y="444"/>
+      <point x="138" y="452"/>
+      <point x="138" y="461" type="curve" smooth="yes"/>
+      <point x="138" y="478"/>
+      <point x="104" y="614"/>
+      <point x="99" y="633" type="curve" smooth="yes"/>
       <point x="91" y="663"/>
       <point x="83" y="676"/>
       <point x="75" y="676" type="curve" smooth="yes"/>
@@ -19,12 +25,18 @@
       <point x="109" y="458"/>
       <point x="117" y="444"/>
       <point x="127" y="444" type="curve" smooth="yes"/>
-      <point x="137" y="444"/>
-      <point x="138" y="452"/>
-      <point x="138" y="461" type="curve" smooth="yes"/>
-      <point x="138" y="478"/>
-      <point x="104" y="614"/>
-      <point x="99" y="633" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=|minute</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=|minute</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

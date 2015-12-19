@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0334" format="1">
-  <advance width="600"/>
+  <advance width="555"/>
   <unicode hex="0334"/>
   <note>
 	uni0334
   </note>
   <outline>
+    <component base="asciitilde"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>asciitilde</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>asciitilde</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

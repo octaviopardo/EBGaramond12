@@ -7,23 +7,6 @@
   </note>
   <outline>
     <contour>
-      <point x="114" y="307" type="line"/>
-      <point x="63" y="312"/>
-      <point x="38" y="339"/>
-      <point x="38" y="384" type="curve" smooth="yes"/>
-      <point x="38" y="399"/>
-      <point x="49" y="414"/>
-      <point x="64" y="414" type="curve" smooth="yes"/>
-      <point x="97" y="414"/>
-      <point x="114" y="375"/>
-      <point x="114" y="333" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="114" y="62" type="line"/>
-      <point x="114" y="-104" type="line" smooth="yes"/>
-      <point x="114" y="-211"/>
-      <point x="154" y="-288"/>
-      <point x="232" y="-288" type="curve" smooth="yes"/>
       <point x="311" y="-288"/>
       <point x="374" y="-258"/>
       <point x="374" y="-195" type="curve" smooth="yes"/>
@@ -39,7 +22,6 @@
       <point x="208" y="-260"/>
       <point x="183" y="-210"/>
       <point x="183" y="-44" type="curve" smooth="yes"/>
-      <point x="184" y="62" type="line"/>
       <point x="184" y="277" type="line"/>
       <point x="237" y="296"/>
       <point x="285" y="331"/>
@@ -85,6 +67,34 @@
       <point x="-14" y="298"/>
       <point x="43" y="268"/>
       <point x="114" y="265" type="curve"/>
+      <point x="114" y="-104" type="line" smooth="yes"/>
+      <point x="114" y="-211"/>
+      <point x="154" y="-288"/>
+      <point x="232" y="-288" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="63" y="312"/>
+      <point x="38" y="339"/>
+      <point x="38" y="384" type="curve" smooth="yes"/>
+      <point x="38" y="399"/>
+      <point x="49" y="414"/>
+      <point x="64" y="414" type="curve" smooth="yes"/>
+      <point x="97" y="414"/>
+      <point x="114" y="375"/>
+      <point x="114" y="333" type="curve" smooth="yes"/>
+      <point x="114" y="307" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>uni026C</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=uni026D+10</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

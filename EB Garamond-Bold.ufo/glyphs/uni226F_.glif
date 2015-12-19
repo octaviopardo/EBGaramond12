@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni226F" format="1">
-  <advance width="600"/>
+  <advance width="563"/>
   <unicode hex="226F"/>
   <note>
 	uni226F
   </note>
   <outline>
+    <component base="greater" yOffset="-5"/>
+    <component base="uni2215" xOffset="73" yOffset="-58"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>greater</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>greater</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

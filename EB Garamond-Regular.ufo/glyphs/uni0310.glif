@@ -7,15 +7,6 @@
   </note>
   <outline>
     <contour>
-      <point x="83" y="562"/>
-      <point x="69" y="568"/>
-      <point x="59" y="568" type="curve" smooth="yes"/>
-      <point x="49" y="568"/>
-      <point x="32" y="557"/>
-      <point x="32" y="544" type="curve" smooth="yes"/>
-      <point x="32" y="519"/>
-      <point x="66" y="461"/>
-      <point x="161" y="461" type="curve" smooth="yes"/>
       <point x="252" y="461"/>
       <point x="294" y="536"/>
       <point x="294" y="551" type="curve" smooth="yes"/>
@@ -31,20 +22,24 @@
       <point x="143" y="509"/>
       <point x="103" y="527"/>
       <point x="91" y="547" type="curve"/>
+      <point x="83" y="562"/>
+      <point x="69" y="568"/>
+      <point x="59" y="568" type="curve" smooth="yes"/>
+      <point x="49" y="568"/>
+      <point x="32" y="557"/>
+      <point x="32" y="544" type="curve" smooth="yes"/>
+      <point x="32" y="519"/>
+      <point x="66" y="461"/>
+      <point x="161" y="461" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="120" y="580"/>
-      <point x="140" y="560"/>
-      <point x="165" y="560" type="curve" smooth="yes"/>
-      <point x="190" y="560"/>
-      <point x="211" y="580"/>
-      <point x="211" y="605" type="curve" smooth="yes"/>
-      <point x="211" y="630"/>
-      <point x="190" y="651"/>
-      <point x="165" y="651" type="curve" smooth="yes"/>
-      <point x="140" y="651"/>
-      <point x="120" y="630"/>
-      <point x="120" y="605" type="curve" smooth="yes"/>
-    </contour>
+    <component base="dotaccent" xOffset="87" yOffset="87" xScale="0.915" yScale="0.915"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

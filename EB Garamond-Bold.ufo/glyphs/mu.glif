@@ -1,10 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mu" format="1">
-  <advance width="600"/>
+  <advance width="575"/>
   <unicode hex="00B5"/>
   <note>
 	mu
   </note>
   <outline>
+    <contour>
+      <point x="185" y="-285"/>
+      <point x="204" y="-265"/>
+      <point x="204" y="-232" type="curve" smooth="yes"/>
+      <point x="204" y="-192"/>
+      <point x="137" y="-112"/>
+      <point x="115" y="-42" type="curve" smooth="yes"/>
+      <point x="106" y="-13"/>
+      <point x="97" y="13"/>
+      <point x="97" y="37" type="curve" smooth="yes"/>
+      <point x="97" y="55"/>
+      <point x="102" y="62"/>
+      <point x="111" y="62" type="curve" smooth="yes"/>
+      <point x="118" y="62"/>
+      <point x="138" y="40"/>
+      <point x="148" y="32" type="curve" smooth="yes"/>
+      <point x="188" y="0"/>
+      <point x="212" y="-13"/>
+      <point x="260" y="-13" type="curve" smooth="yes"/>
+      <point x="310" y="-13"/>
+      <point x="379" y="116"/>
+      <point x="386" y="132" type="curve"/>
+      <point x="389" y="131" type="line"/>
+      <point x="388" y="120"/>
+      <point x="387" y="110"/>
+      <point x="388" y="99" type="curve" smooth="yes"/>
+      <point x="391" y="39"/>
+      <point x="426" y="-14"/>
+      <point x="467" y="-15" type="curve" smooth="yes"/>
+      <point x="517" y="-16"/>
+      <point x="580" y="34"/>
+      <point x="580" y="127" type="curve" smooth="yes"/>
+      <point x="580" y="133"/>
+      <point x="573" y="139"/>
+      <point x="567" y="139" type="curve" smooth="yes"/>
+      <point x="560" y="139"/>
+      <point x="532" y="110"/>
+      <point x="497" y="110" type="curve" smooth="yes"/>
+      <point x="454" y="110"/>
+      <point x="432" y="132"/>
+      <point x="432" y="170" type="curve" smooth="yes"/>
+      <point x="432" y="211"/>
+      <point x="484" y="307"/>
+      <point x="484" y="344" type="curve" smooth="yes"/>
+      <point x="484" y="377"/>
+      <point x="475" y="438"/>
+      <point x="417" y="438" type="curve" smooth="yes"/>
+      <point x="358" y="438"/>
+      <point x="331" y="369"/>
+      <point x="331" y="311" type="curve" smooth="yes"/>
+      <point x="331" y="250"/>
+      <point x="329" y="213"/>
+      <point x="297" y="158" type="curve" smooth="yes"/>
+      <point x="277" y="124"/>
+      <point x="252" y="85"/>
+      <point x="207" y="85" type="curve" smooth="yes"/>
+      <point x="171" y="85"/>
+      <point x="145" y="120"/>
+      <point x="145" y="139" type="curve" smooth="yes"/>
+      <point x="145" y="170"/>
+      <point x="185" y="299"/>
+      <point x="185" y="331" type="curve" smooth="yes"/>
+      <point x="185" y="390"/>
+      <point x="171" y="438"/>
+      <point x="127" y="438" type="curve" smooth="yes"/>
+      <point x="65" y="438"/>
+      <point x="45" y="384"/>
+      <point x="45" y="332" type="curve" smooth="yes"/>
+      <point x="45" y="288"/>
+      <point x="52" y="125"/>
+      <point x="52" y="92" type="curve" smooth="yes"/>
+      <point x="52" y="60"/>
+      <point x="45" y="17"/>
+      <point x="45" y="0" type="curve" smooth="yes"/>
+      <point x="45" y="-75"/>
+      <point x="50" y="-184"/>
+      <point x="55" y="-208" type="curve" smooth="yes"/>
+      <point x="62" y="-240"/>
+      <point x="91" y="-285"/>
+      <point x="147" y="-285" type="curve" smooth="yes"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

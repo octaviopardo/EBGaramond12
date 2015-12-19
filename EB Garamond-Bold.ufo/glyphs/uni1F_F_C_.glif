@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FFC" format="1">
-  <advance width="600"/>
+  <advance width="834"/>
   <unicode hex="1FFC"/>
   <note>
 	uni1FFC
   </note>
   <outline>
+    <component base="Omega"/>
+    <component base="uni0345" xOffset="318"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>6</integer>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>Omega</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omega</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
