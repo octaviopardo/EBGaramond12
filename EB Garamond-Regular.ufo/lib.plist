@@ -30,7 +30,7 @@
 			<key>HH</key>
 			<integer>38</integer>
 			<key>HV</key>
-			<string>z</string>
+			<integer>80</integer>
 			<key>OH</key>
 			<integer>40</integer>
 			<key>OV</key>
@@ -48,7 +48,7 @@
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>6A799165-79FF-436E-B0AA-FCC1B492554D</string>
 	<key>com.schriftgestaltung.useNiceNames</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>com.schriftgestaltung.weightValue</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.guides</key>
@@ -1799,7 +1799,6 @@
 		<string>Beta</string>
 		<string>Gamma</string>
 		<string>uni0394</string>
-		<string>Delta</string>
 		<string>Epsilon</string>
 		<string>Zeta</string>
 		<string>Eta</string>
@@ -1820,7 +1819,6 @@
 		<string>Chi</string>
 		<string>Psi</string>
 		<string>uni03A9</string>
-		<string>Omega</string>
 		<string>Alphatonos</string>
 		<string>Epsilontonos</string>
 		<string>Etatonos</string>
@@ -1942,7 +1940,6 @@
 		<string>iota</string>
 		<string>kappa</string>
 		<string>lambda</string>
-		<string>mu</string>
 		<string>uni03BC</string>
 		<string>nu</string>
 		<string>xi</string>
@@ -2673,6 +2670,8 @@
 		<string>dollar.sinf</string>
 		<string>dollar.subs</string>
 		<string>Euro.tablining</string>
+		<string>Delta</string>
+		<string>Omega</string>
 		<string>asciitilde</string>
 		<string>divide</string>
 		<string>dotmath</string>
@@ -2685,6 +2684,7 @@
 		<string>lessequal</string>
 		<string>logicalnot</string>
 		<string>minus</string>
+		<string>mu</string>
 		<string>multiply</string>
 		<string>notequal</string>
 		<string>percent</string>

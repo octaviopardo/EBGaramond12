@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lslash.sc" format="1">
-  <advance width="484"/>
+  <advance width="480"/>
   <note>
 	Lslash.sc
   </note>
   <outline>
     <contour>
-      <point x="63" y="117"/>
-      <point x="75" y="121"/>
-      <point x="90" y="129" type="curve" smooth="yes"/>
       <point x="356" y="280" type="line"/>
       <point x="362" y="283"/>
       <point x="369" y="287"/>
@@ -19,13 +16,22 @@
       <point x="314" y="327"/>
       <point x="302" y="323"/>
       <point x="284" y="315" type="curve"/>
-      <point x="18" y="162" type="line" smooth="yes"/>
-      <point x="8" y="156"/>
-      <point x="4" y="150"/>
-      <point x="4" y="140" type="curve" smooth="yes"/>
-      <point x="4" y="124"/>
-      <point x="30" y="117"/>
-      <point x="50" y="117" type="curve" smooth="yes"/>
+      <point x="143" y="234" type="line"/>
+      <point x="183" y="182" type="line"/>
+    </contour>
+    <contour>
+      <point x="63" y="137"/>
+      <point x="75" y="141"/>
+      <point x="90" y="149" type="curve" smooth="yes"/>
+      <point x="183" y="202" type="line"/>
+      <point x="143" y="254" type="line"/>
+      <point x="18" y="182" type="line" smooth="yes"/>
+      <point x="8" y="176"/>
+      <point x="4" y="170"/>
+      <point x="4" y="160" type="curve" smooth="yes"/>
+      <point x="4" y="144"/>
+      <point x="30" y="137"/>
+      <point x="50" y="137" type="curve" smooth="yes"/>
     </contour>
     <component base="L.sc"/>
   </outline>
@@ -33,6 +39,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>l.sc</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -246,7 +254,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>484</integer>
+          <integer>480</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

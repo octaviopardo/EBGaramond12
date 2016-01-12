@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcaron" format="1">
-  <advance width="563"/>
+  <advance width="591"/>
   <unicode hex="010F"/>
   <note>
 	dcaron
   </note>
   <outline>
     <component base="d"/>
-    <component base="uni030C.alt" xOffset="518"/>
+    <component base="uni030C.alt" xOffset="554"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>d</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -922,7 +924,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>563</integer>
+          <integer>591</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

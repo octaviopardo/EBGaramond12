@@ -180,6 +180,16 @@
 	<key>@MMK_L_a</key>
 	<array>
 		<string>a</string>
+		<string>aacute</string>
+		<string>abreve</string>
+		<string>acircumflex</string>
+		<string>adieresis</string>
+		<string>agrave</string>
+		<string>amacron</string>
+		<string>aogonek</string>
+		<string>aring</string>
+		<string>aringacute</string>
+		<string>atilde</string>
 	</array>
 	<key>@MMK_L_b</key>
 	<array>
@@ -501,7 +511,17 @@
 	<key>@MMK_R_a</key>
 	<array>
 		<string>a</string>
+		<string>aacute</string>
+		<string>abreve</string>
+		<string>acircumflex</string>
+		<string>adieresis</string>
+		<string>agrave</string>
+		<string>amacron</string>
 		<string>aogonek</string>
+		<string>aring</string>
+		<string>aringacute</string>
+		<string>atilde</string>
+		<string>ae</string>
 		<string>c</string>
 		<string>ccedilla</string>
 		<string>d</string>
@@ -528,42 +548,17 @@
 		<string>uni0260</string>
 		<string>uni1EB9</string>
 	</array>
-	<key>@MMK_R_aacute</key>
-	<array>
-		<string>aacute</string>
-	</array>
 	<key>@MMK_R_abreve</key>
 	<array>
-		<string>abreve</string>
 		<string>uni1EAF</string>
 		<string>uni1EB1</string>
 		<string>uni1EB3</string>
 		<string>uni1EB5</string>
 		<string>uni1EB7</string>
 	</array>
-	<key>@MMK_R_acircumflex</key>
-	<array>
-		<string>acircumflex</string>
-	</array>
-	<key>@MMK_R_adieresis</key>
-	<array>
-		<string>adieresis</string>
-	</array>
-	<key>@MMK_R_amacron</key>
-	<array>
-		<string>amacron</string>
-	</array>
-	<key>@MMK_R_aring</key>
-	<array>
-		<string>aring</string>
-	</array>
 	<key>@MMK_R_asterisk</key>
 	<array>
 		<string>asterisk</string>
-	</array>
-	<key>@MMK_R_atilde</key>
-	<array>
-		<string>atilde</string>
 	</array>
 	<key>@MMK_R_b</key>
 	<array>
@@ -674,7 +669,6 @@
 	<array>
 		<string>uni1EA6</string>
 		<string>uni1EA8</string>
-		<string>agrave</string>
 		<string>hbar</string>
 		<string>hcircumflex</string>
 		<string>lacute</string>
@@ -816,7 +810,6 @@
 		<string>eta</string>
 		<string>iota</string>
 		<string>kappa</string>
-		<string>mu</string>
 		<string>nu</string>
 		<string>omicron</string>
 		<string>pi</string>
@@ -830,6 +823,7 @@
 		<string>uni1FB3</string>
 		<string>uni1FC3</string>
 		<string>uni1FF3</string>
+		<string>mu</string>
 	</array>
 	<key>@MMK_R_nacute</key>
 	<array>
@@ -849,7 +843,6 @@
 	</array>
 	<key>@MMK_R_o</key>
 	<array>
-		<string>ae</string>
 		<string>o</string>
 		<string>ohorn</string>
 		<string>oe</string>
