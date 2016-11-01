@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EBE" format="1">
-  <advance width="600"/>
+  <advance width="599"/>
   <unicode hex="1EBE"/>
   <note>
     uni1EBE
   </note>
   <outline>
+    <component base="E"/>
+    <component base="uni0302.cap" xOffset="268" yOffset="-15"/>
+    <component base="acutecomb.capstack" xOffset="493" yOffset="69"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-10-31 12:11:10 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0302.cap</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

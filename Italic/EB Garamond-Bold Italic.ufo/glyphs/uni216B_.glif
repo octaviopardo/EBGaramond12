@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni216B" format="1">
-  <advance width="600"/>
+  <advance width="1479"/>
   <unicode hex="216B"/>
   <note>
     uni216B
   </note>
   <outline>
+    <component base="X"/>
+    <component base="I" xOffset="739"/>
+    <component base="I" xOffset="1109"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-01 13:38:53 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>X</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>I</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

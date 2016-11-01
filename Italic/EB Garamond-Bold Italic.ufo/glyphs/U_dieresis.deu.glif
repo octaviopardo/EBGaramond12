@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Udieresis.deu" format="1">
-  <advance width="600"/>
+  <advance width="722"/>
   <note>
     Udieresis.deu
   </note>
   <outline>
+    <component base="U"/>
+    <component base="uni0307.cap" xOffset="305" yOffset="45" xScale="0.784" yScale="0.784"/>
+    <component base="uni0307.cap" xOffset="472" yOffset="47" xScale="0.784" yScale="0.784"/>
+    <contour>
+      <point x="368" y="-30" type="move" name="bottom.cap"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-10-31 10:53:57 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0307.cap</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>uni0307.cap</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

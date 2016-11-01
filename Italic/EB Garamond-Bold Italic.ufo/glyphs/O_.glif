@@ -37,13 +37,16 @@
     <contour>
       <point x="512" y="675" type="move" name="top.cap"/>
     </contour>
+    <contour>
+      <point x="278" y="-30" type="move" name="bottom.cap"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-26 10:47:07 +0000</string>
+      <string>2016-10-31 10:27:28 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

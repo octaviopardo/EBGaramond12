@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E30" format="1">
-  <advance width="600"/>
+  <advance width="776"/>
   <unicode hex="1E30"/>
   <note>
     uni1E30
   </note>
   <outline>
+    <component base="K"/>
+    <component base="acutecomb.cap" xOffset="382"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-10-31 10:27:38 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
