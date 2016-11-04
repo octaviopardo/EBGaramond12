@@ -6,25 +6,19 @@
     dotbelowcomb
   </note>
   <outline>
+    <component base="dotaccent" xOffset="-305" yOffset="-708"/>
     <contour>
-      <point x="10" y="-178"/>
-      <point x="23" y="-192"/>
-      <point x="44" y="-192" type="curve" smooth="yes"/>
-      <point x="74" y="-192"/>
-      <point x="110" y="-163"/>
-      <point x="110" y="-125" type="curve" smooth="yes"/>
-      <point x="110" y="-105"/>
-      <point x="96" y="-91"/>
-      <point x="75" y="-91" type="curve" smooth="yes"/>
-      <point x="46" y="-91"/>
-      <point x="10" y="-120"/>
-      <point x="10" y="-158" type="curve" smooth="yes"/>
+      <point x="-73" y="-30" type="move" name="_bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-03 23:38:30 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

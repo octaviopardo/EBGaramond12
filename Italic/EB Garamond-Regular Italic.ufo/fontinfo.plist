@@ -128,7 +128,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNamePreferredFamilyName</key>
 	<string>EB Garamond</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Regular</string>
+	<string>Italic</string>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>710</integer>
 	<key>openTypeOS2TypoDescender</key>
@@ -176,7 +176,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<integer>705</integer>
 	</array>
 	<key>postscriptFontName</key>
-	<string>EBGaramond-Regular</string>
+	<string>EBGaramond-Italic</string>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<integer>-290</integer>
@@ -194,10 +194,12 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 		<integer>70</integer>
 		<integer>80</integer>
 	</array>
+	<key>styleMapFamilyName</key>
+	<string>EB Garamond Italic</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Regular</string>
+	<string>Italic</string>
 	<key>unicodeRanges</key>
 	<array>
 		<integer>0</integer>

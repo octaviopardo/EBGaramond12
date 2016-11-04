@@ -107,13 +107,19 @@
       <point x="112" y="-14"/>
       <point x="133" y="-14" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="533" y="440" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="367" y="-30" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-02 17:46:50 +0000</string>
+      <string>2016-11-03 23:33:15 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>n</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

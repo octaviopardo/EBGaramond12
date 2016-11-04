@@ -71,13 +71,19 @@
       <point x="40" y="-14"/>
       <point x="61" y="-14" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="216" y="464" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="77" y="-30" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-02 17:46:50 +0000</string>
+      <string>2016-11-03 23:33:42 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
