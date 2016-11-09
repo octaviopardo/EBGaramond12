@@ -1,51 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni217D" format="1">
-  <advance width="318"/>
+  <advance width="294"/>
   <unicode hex="217D"/>
   <note>
     uni217D
   </note>
   <outline>
-    <contour>
-      <point x="347" y="385"/>
-      <point x="330" y="414"/>
-      <point x="292" y="414" type="curve" smooth="yes"/>
-      <point x="122" y="414"/>
-      <point x="42" y="204"/>
-      <point x="42" y="84" type="curve" smooth="yes"/>
-      <point x="41" y="8"/>
-      <point x="83" y="-15"/>
-      <point x="122" y="-15" type="curve" smooth="yes"/>
-      <point x="218" y="-15"/>
-      <point x="278" y="72"/>
-      <point x="278" y="84" type="curve" smooth="yes"/>
-      <point x="278" y="90"/>
-      <point x="280" y="98"/>
-      <point x="274" y="98" type="curve" smooth="yes"/>
-      <point x="269" y="98"/>
-      <point x="263" y="97"/>
-      <point x="257" y="89" type="curve"/>
-      <point x="229" y="56"/>
-      <point x="203" y="26"/>
-      <point x="155" y="26" type="curve" smooth="yes"/>
-      <point x="123" y="26"/>
-      <point x="114" y="66"/>
-      <point x="114" y="98" type="curve" smooth="yes"/>
-      <point x="114" y="208"/>
-      <point x="188" y="380"/>
-      <point x="252" y="380" type="curve" smooth="yes"/>
-      <point x="300" y="380"/>
-      <point x="294" y="333"/>
-      <point x="317" y="333" type="curve" smooth="yes"/>
-      <point x="331" y="333"/>
-      <point x="347" y="362"/>
-      <point x="347" y="375" type="curve" smooth="yes"/>
-    </contour>
+    <component base="c"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-09 15:35:59 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

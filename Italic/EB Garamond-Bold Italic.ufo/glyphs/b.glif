@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="b" format="1">
-  <advance width="541"/>
+  <advance width="545"/>
   <unicode hex="0062"/>
   <note>
     b
@@ -52,21 +52,21 @@
       <point x="177" y="-14" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="199" y="39"/>
-      <point x="187" y="56"/>
-      <point x="187" y="84" type="curve" smooth="yes"/>
-      <point x="187" y="147"/>
-      <point x="318" y="349"/>
-      <point x="379" y="349" type="curve" smooth="yes"/>
-      <point x="396" y="349"/>
-      <point x="402" y="337"/>
-      <point x="402" y="321" type="curve" smooth="yes"/>
-      <point x="402" y="273"/>
+      <point x="199" y="26"/>
+      <point x="187" y="43"/>
+      <point x="187" y="71" type="curve" smooth="yes"/>
+      <point x="187" y="134"/>
+      <point x="318" y="358"/>
+      <point x="379" y="358" type="curve" smooth="yes"/>
+      <point x="396" y="358"/>
+      <point x="402" y="346"/>
+      <point x="402" y="330" type="curve" smooth="yes"/>
+      <point x="402" y="282"/>
       <point x="350" y="166"/>
-      <point x="316" y="118" type="curve" smooth="yes"/>
-      <point x="283" y="72"/>
-      <point x="241" y="39"/>
-      <point x="221" y="39" type="curve" smooth="yes"/>
+      <point x="319" y="115" type="curve" smooth="yes"/>
+      <point x="287" y="63"/>
+      <point x="241" y="26"/>
+      <point x="221" y="26" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="195" y="-30" type="move" name="bottom"/>
@@ -77,7 +77,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-03 23:38:05 +0000</string>
+      <string>2016-11-08 12:26:39 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>h</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -153,7 +153,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>404</integer>
+                  <integer>395</integer>
                   <key>y</key>
                   <integer>437</integer>
                 </dict>
@@ -161,7 +161,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>330</integer>
+                  <integer>325</integer>
                   <key>y</key>
                   <integer>384</integer>
                 </dict>
@@ -169,9 +169,9 @@
                   <key>segmentType</key>
                   <string>curve</string>
                   <key>smooth</key>
-                  <false/>
+                  <true/>
                   <key>x</key>
-                  <integer>244</integer>
+                  <integer>239</integer>
                   <key>y</key>
                   <integer>266</integer>
                 </dict>
@@ -179,7 +179,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>239</integer>
+                  <integer>234</integer>
                   <key>y</key>
                   <integer>258</integer>
                 </dict>
@@ -532,7 +532,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>398</integer>
+                  <integer>396</integer>
                   <key>y</key>
                   <integer>349</integer>
                 </dict>
@@ -542,7 +542,7 @@
                   <key>x</key>
                   <integer>402</integer>
                   <key>y</key>
-                  <integer>341</integer>
+                  <integer>337</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -618,7 +618,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>541</integer>
+          <integer>545</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

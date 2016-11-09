@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni022D" format="1">
-  <advance width="600"/>
+  <advance width="445"/>
   <unicode hex="022D"/>
   <note>
     uni022D
   </note>
   <outline>
+    <component base="otilde"/>
+    <component base="macron" xOffset="95" yOffset="148"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-09 17:52:52 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macron</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>
