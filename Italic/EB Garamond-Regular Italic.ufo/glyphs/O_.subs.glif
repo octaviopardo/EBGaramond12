@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="O.subs" format="1">
-  <advance width="442"/>
+  <advance width="432"/>
   <note>
     O.subs
   </note>
   <outline>
-    <contour>
-      <point x="51" y="78"/>
-      <point x="116" y="-8"/>
-      <point x="216" y="-8" type="curve" smooth="yes"/>
-      <point x="339" y="-8"/>
-      <point x="438" y="93"/>
-      <point x="471" y="201" type="curve" smooth="yes"/>
-      <point x="507" y="320"/>
-      <point x="442" y="398"/>
-      <point x="344" y="398" type="curve" smooth="yes"/>
-      <point x="340" y="398" type="line" smooth="yes"/>
-      <point x="216" y="395"/>
-      <point x="119" y="300"/>
-      <point x="86" y="192" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="418" y="375"/>
-      <point x="431" y="272"/>
-      <point x="404" y="183" type="curve" smooth="yes"/>
-      <point x="379" y="102"/>
-      <point x="311" y="15"/>
-      <point x="231" y="15" type="curve" smooth="yes"/>
-      <point x="230" y="15" type="line" smooth="yes"/>
-      <point x="148" y="16"/>
-      <point x="126" y="107"/>
-      <point x="157" y="210" type="curve" smooth="yes"/>
-      <point x="183" y="294"/>
-      <point x="247" y="375"/>
-      <point x="329" y="375" type="curve" smooth="yes"/>
-    </contour>
+    <component base="O.ordn" xOffset="-87" yOffset="-282"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-16 15:50:19 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>O.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>O.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>O.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

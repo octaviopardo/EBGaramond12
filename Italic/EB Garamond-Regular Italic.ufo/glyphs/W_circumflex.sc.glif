@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wcircumflex.sc" format="1">
-  <advance width="832"/>
+  <advance width="800"/>
   <note>
     Wcircumflex.sc
   </note>
   <outline>
     <component base="W.sc"/>
-    <component base="circumflex" xOffset="366" yOffset="63"/>
+    <component base="circumflex" xOffset="334" yOffset="63"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-14 13:04:03 +0000</string>
+      <string>2016-11-17 09:20:31 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

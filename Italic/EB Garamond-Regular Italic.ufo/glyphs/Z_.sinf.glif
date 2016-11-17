@@ -1,103 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Z.sinf" format="1">
-  <advance width="391"/>
+  <advance width="344"/>
   <note>
     Z.sinf
   </note>
   <outline>
-    <contour>
-      <point x="185" y="-121"/>
-      <point x="157" y="-122"/>
-      <point x="131" y="-122" type="curve" smooth="yes"/>
-      <point x="105" y="-122"/>
-      <point x="82" y="-121"/>
-      <point x="66" y="-119" type="curve"/>
-      <point x="60" y="-118"/>
-      <point x="62" y="-108"/>
-      <point x="67" y="-102" type="curve"/>
-      <point x="174" y="13"/>
-      <point x="237" y="74"/>
-      <point x="351" y="186" type="curve" smooth="yes"/>
-      <point x="371" y="205"/>
-      <point x="383" y="218"/>
-      <point x="401" y="235" type="curve"/>
-      <point x="405" y="238"/>
-      <point x="402" y="245"/>
-      <point x="398" y="245" type="curve" smooth="yes"/>
-      <point x="359" y="244"/>
-      <point x="319" y="243"/>
-      <point x="277" y="243" type="curve" smooth="yes"/>
-      <point x="247" y="243"/>
-      <point x="215" y="244"/>
-      <point x="180" y="244" type="curve" smooth="yes"/>
-      <point x="163" y="244"/>
-      <point x="143" y="245"/>
-      <point x="140" y="249" type="curve" smooth="yes"/>
-      <point x="136" y="254"/>
-      <point x="130" y="257"/>
-      <point x="127" y="257" type="curve" smooth="yes"/>
-      <point x="124" y="257"/>
-      <point x="120" y="256"/>
-      <point x="116" y="247" type="curve"/>
-      <point x="106" y="222"/>
-      <point x="88" y="194"/>
-      <point x="80" y="181" type="curve" smooth="yes"/>
-      <point x="75" y="173"/>
-      <point x="65" y="158"/>
-      <point x="74" y="158" type="curve" smooth="yes"/>
-      <point x="83" y="158"/>
-      <point x="91" y="170"/>
-      <point x="96" y="177" type="curve" smooth="yes"/>
-      <point x="116" y="206"/>
-      <point x="142" y="217"/>
-      <point x="161" y="218" type="curve" smooth="yes"/>
-      <point x="176" y="219"/>
-      <point x="198" y="219"/>
-      <point x="221" y="219" type="curve" smooth="yes"/>
-      <point x="252" y="219"/>
-      <point x="285" y="219"/>
-      <point x="305" y="218" type="curve" smooth="yes"/>
-      <point x="319" y="217"/>
-      <point x="315" y="213"/>
-      <point x="311" y="209" type="curve" smooth="yes"/>
-      <point x="202" y="93"/>
-      <point x="137" y="30"/>
-      <point x="24" y="-82" type="curve" smooth="yes"/>
-      <point x="5" y="-101"/>
-      <point x="-24" y="-131"/>
-      <point x="-26" y="-137" type="curve"/>
-      <point x="-26" y="-137"/>
-      <point x="-29" y="-146"/>
-      <point x="-25" y="-146" type="curve" smooth="yes"/>
-      <point x="20" y="-146" type="line"/>
-      <point x="45" y="-146" type="line" smooth="yes"/>
-      <point x="61" y="-146"/>
-      <point x="76" y="-145"/>
-      <point x="93" y="-145" type="curve" smooth="yes"/>
-      <point x="143" y="-145"/>
-      <point x="199" y="-147"/>
-      <point x="263" y="-147" type="curve" smooth="yes"/>
-      <point x="268" y="-147"/>
-      <point x="272" y="-142"/>
-      <point x="276" y="-137" type="curve" smooth="yes"/>
-      <point x="287" y="-123"/>
-      <point x="321" y="-61"/>
-      <point x="323" y="-54" type="curve"/>
-      <point x="325" y="-49"/>
-      <point x="324" y="-46"/>
-      <point x="320" y="-46" type="curve" smooth="yes"/>
-      <point x="315" y="-46"/>
-      <point x="307" y="-54"/>
-      <point x="304" y="-59" type="curve"/>
-      <point x="276" y="-99"/>
-      <point x="241" y="-117"/>
-      <point x="213" y="-119" type="curve" smooth="yes"/>
-    </contour>
+    <component base="Z.ordn" xOffset="-132" yOffset="-425"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-16 15:50:19 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Z.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Z.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Z.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

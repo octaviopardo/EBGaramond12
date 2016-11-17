@@ -1,111 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Y.sups" format="1">
-  <advance width="402"/>
+  <advance width="372"/>
   <note>
     Y.sups
   </note>
   <outline>
-    <contour>
-      <point x="302" y="505" type="line" smooth="yes"/>
-      <point x="293" y="476"/>
-      <point x="272" y="459"/>
-      <point x="243" y="454" type="curve" smooth="yes"/>
-      <point x="230" y="452"/>
-      <point x="223" y="449"/>
-      <point x="221" y="444" type="curve" smooth="yes"/>
-      <point x="219" y="439"/>
-      <point x="225" y="437"/>
-      <point x="235" y="437" type="curve" smooth="yes"/>
-      <point x="265" y="437"/>
-      <point x="281" y="440"/>
-      <point x="309" y="440" type="curve" smooth="yes"/>
-      <point x="335" y="440"/>
-      <point x="343" y="437"/>
-      <point x="373" y="437" type="curve" smooth="yes"/>
-      <point x="383" y="437"/>
-      <point x="389" y="439"/>
-      <point x="391" y="444" type="curve" smooth="yes"/>
-      <point x="393" y="449"/>
-      <point x="388" y="452"/>
-      <point x="376" y="454" type="curve" smooth="yes"/>
-      <point x="350" y="459"/>
-      <point x="340" y="478"/>
-      <point x="348" y="505" type="curve" smooth="yes"/>
-      <point x="375" y="594" type="line" smooth="yes"/>
-      <point x="382" y="617"/>
-      <point x="384" y="622"/>
-      <point x="406" y="648" type="curve" smooth="yes"/>
-      <point x="446" y="695"/>
-      <point x="455" y="707"/>
-      <point x="500" y="756" type="curve" smooth="yes"/>
-      <point x="518" y="775"/>
-      <point x="552" y="809"/>
-      <point x="573" y="813" type="curve" smooth="yes"/>
-      <point x="587" y="816"/>
-      <point x="593" y="820"/>
-      <point x="595" y="825" type="curve" smooth="yes"/>
-      <point x="597" y="830"/>
-      <point x="591" y="832"/>
-      <point x="582" y="832" type="curve" smooth="yes"/>
-      <point x="569" y="832"/>
-      <point x="548" y="830"/>
-      <point x="527" y="830" type="curve" smooth="yes"/>
-      <point x="511" y="830"/>
-      <point x="502" y="831"/>
-      <point x="485" y="831" type="curve" smooth="yes"/>
-      <point x="476" y="831"/>
-      <point x="470" y="829"/>
-      <point x="468" y="824" type="curve" smooth="yes"/>
-      <point x="466" y="819"/>
-      <point x="475" y="814"/>
-      <point x="482" y="812" type="curve"/>
-      <point x="496" y="807"/>
-      <point x="494" y="781"/>
-      <point x="479" y="760" type="curve" smooth="yes"/>
-      <point x="454" y="725"/>
-      <point x="433" y="705"/>
-      <point x="406" y="677" type="curve" smooth="yes"/>
-      <point x="392" y="663"/>
-      <point x="385" y="654"/>
-      <point x="381" y="654" type="curve" smooth="yes"/>
-      <point x="377" y="654"/>
-      <point x="376" y="662"/>
-      <point x="372" y="677" type="curve"/>
-      <point x="351" y="776" type="line" smooth="yes"/>
-      <point x="346" y="800"/>
-      <point x="363" y="810"/>
-      <point x="372" y="813" type="curve" smooth="yes"/>
-      <point x="385" y="817"/>
-      <point x="393" y="820"/>
-      <point x="395" y="825" type="curve" smooth="yes"/>
-      <point x="397" y="830"/>
-      <point x="389" y="831"/>
-      <point x="380" y="831" type="curve" smooth="yes"/>
-      <point x="368" y="831"/>
-      <point x="352" y="830"/>
-      <point x="335" y="830" type="curve" smooth="yes"/>
-      <point x="309" y="830"/>
-      <point x="288" y="832"/>
-      <point x="271" y="832" type="curve" smooth="yes"/>
-      <point x="262" y="832"/>
-      <point x="255" y="830"/>
-      <point x="253" y="825" type="curve" smooth="yes"/>
-      <point x="251" y="820"/>
-      <point x="256" y="816"/>
-      <point x="267" y="812" type="curve" smooth="yes"/>
-      <point x="284" y="806"/>
-      <point x="294" y="767"/>
-      <point x="298" y="753" type="curve" smooth="yes"/>
-      <point x="328" y="638" type="line"/>
-      <point x="329" y="633"/>
-      <point x="336" y="618"/>
-      <point x="329" y="594" type="curve" smooth="yes"/>
-    </contour>
+    <component base="Y.ordn" xOffset="48" yOffset="155"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-16 15:50:19 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>Y.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Y.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Y.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>
