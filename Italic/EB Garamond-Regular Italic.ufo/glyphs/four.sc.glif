@@ -1,84 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four.sc" format="1">
-  <advance width="492"/>
+  <advance width="461"/>
   <note>
     four.sc
   </note>
   <outline>
-    <contour>
-      <point x="41" y="59"/>
-      <point x="33" y="51"/>
-      <point x="33" y="45" type="curve" smooth="yes"/>
-      <point x="33" y="39"/>
-      <point x="41" y="35"/>
-      <point x="44" y="35" type="curve" smooth="yes"/>
-      <point x="49" y="35"/>
-      <point x="183" y="50"/>
-      <point x="259" y="50" type="curve" smooth="yes"/>
-      <point x="260" y="50"/>
-      <point x="273" y="47"/>
-      <point x="271" y="41" type="curve" smooth="yes"/>
-      <point x="207" y="-168" type="line" smooth="yes"/>
-      <point x="204" y="-178"/>
-      <point x="210" y="-181"/>
-      <point x="217" y="-181" type="curve" smooth="yes"/>
-      <point x="224" y="-181"/>
-      <point x="270" y="-175"/>
-      <point x="278" y="-150" type="curve" smooth="yes"/>
-      <point x="340" y="46" type="line"/>
-      <point x="340" y="47"/>
-      <point x="349" y="56"/>
-      <point x="354" y="56" type="curve" smooth="yes"/>
-      <point x="376" y="56"/>
-      <point x="407" y="57"/>
-      <point x="429" y="57" type="curve" smooth="yes"/>
-      <point x="436" y="57"/>
-      <point x="461" y="78"/>
-      <point x="461" y="99" type="curve" smooth="yes"/>
-      <point x="461" y="103"/>
-      <point x="460" y="114"/>
-      <point x="454" y="114" type="curve"/>
-      <point x="419" y="112"/>
-      <point x="366" y="110"/>
-      <point x="361" y="110" type="curve" smooth="yes"/>
-      <point x="358" y="110"/>
-      <point x="357" y="114"/>
-      <point x="358" y="116" type="curve"/>
-      <point x="397" y="232"/>
-      <point x="417" y="299"/>
-      <point x="463" y="413" type="curve" smooth="yes"/>
-      <point x="465" y="418"/>
-      <point x="464" y="425"/>
-      <point x="458" y="425" type="curve" smooth="yes"/>
-      <point x="457" y="425" type="line"/>
-      <point x="450" y="424"/>
-      <point x="408" y="393"/>
-      <point x="388" y="376" type="curve" smooth="yes"/>
-      <point x="314" y="315"/>
-      <point x="157" y="170"/>
-      <point x="43" y="61" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="136" y="96" type="line"/>
-      <point x="132" y="96"/>
-      <point x="136" y="102"/>
-      <point x="139" y="105" type="curve" smooth="yes"/>
-      <point x="219" y="181"/>
-      <point x="264" y="224"/>
-      <point x="346" y="297" type="curve"/>
-      <point x="349" y="299"/>
-      <point x="356" y="299"/>
-      <point x="355" y="296" type="curve" smooth="yes"/>
-      <point x="292" y="112" type="line"/>
-      <point x="291" y="108"/>
-      <point x="284" y="104"/>
-      <point x="279" y="104" type="curve"/>
-    </contour>
+    <component base="four"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-20 23:32:31 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>four</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

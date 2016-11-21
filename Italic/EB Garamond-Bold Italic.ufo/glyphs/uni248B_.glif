@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni248B" format="1">
-  <advance width="600"/>
+  <advance width="819"/>
   <unicode hex="248B"/>
   <note>
     uni248B
   </note>
   <outline>
+    <component base="four"/>
+    <component base="period" xOffset="539"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-20 23:27:51 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>four</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>period</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

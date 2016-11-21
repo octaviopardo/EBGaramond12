@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered" format="1">
-  <advance width="184"/>
+  <advance width="201"/>
   <unicode hex="00B7"/>
   <note>
     periodcentered
   </note>
   <outline>
-    <contour>
-      <point x="144" y="260"/>
-      <point x="113" y="235"/>
-      <point x="104" y="205" type="curve" smooth="yes"/>
-      <point x="95" y="175"/>
-      <point x="110" y="150"/>
-      <point x="138" y="150" type="curve" smooth="yes"/>
-      <point x="166" y="150"/>
-      <point x="197" y="175"/>
-      <point x="206" y="205" type="curve" smooth="yes"/>
-      <point x="215" y="235"/>
-      <point x="200" y="260"/>
-      <point x="172" y="260" type="curve" smooth="yes"/>
-    </contour>
+    <component base="period" xOffset="44" yOffset="164"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-21 12:01:31 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
