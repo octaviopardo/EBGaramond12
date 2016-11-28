@@ -5,55 +5,16 @@
     hookabovecomb.stack
   </note>
   <outline>
-    <contour>
-      <point x="87" y="648"/>
-      <point x="78" y="635"/>
-      <point x="78" y="620" type="curve" smooth="yes"/>
-      <point x="78" y="610"/>
-      <point x="84" y="593"/>
-      <point x="96" y="593" type="curve" smooth="yes"/>
-      <point x="102" y="593"/>
-      <point x="108" y="596"/>
-      <point x="112" y="602" type="curve" smooth="yes"/>
-      <point x="137" y="640"/>
-      <point x="149" y="653"/>
-      <point x="169" y="653" type="curve" smooth="yes"/>
-      <point x="179" y="653"/>
-      <point x="185" y="645"/>
-      <point x="185" y="634" type="curve" smooth="yes"/>
-      <point x="185" y="610"/>
-      <point x="171" y="596"/>
-      <point x="152" y="581" type="curve" smooth="yes"/>
-      <point x="140" y="572"/>
-      <point x="118" y="556"/>
-      <point x="118" y="535" type="curve" smooth="yes"/>
-      <point x="118" y="522"/>
-      <point x="130" y="508"/>
-      <point x="140" y="508" type="curve" smooth="yes"/>
-      <point x="147" y="508"/>
-      <point x="160" y="514"/>
-      <point x="160" y="520" type="curve" smooth="yes"/>
-      <point x="160" y="525"/>
-      <point x="151" y="529"/>
-      <point x="151" y="534" type="curve" smooth="yes"/>
-      <point x="151" y="539"/>
-      <point x="156" y="544"/>
-      <point x="167" y="550" type="curve" smooth="yes"/>
-      <point x="217" y="576"/>
-      <point x="239" y="601"/>
-      <point x="239" y="634" type="curve" smooth="yes"/>
-      <point x="239" y="662"/>
-      <point x="212" y="677"/>
-      <point x="182" y="677" type="curve" smooth="yes"/>
-      <point x="147" y="677"/>
-      <point x="121" y="666"/>
-      <point x="99" y="654" type="curve"/>
-    </contour>
+    <component base="hookabovecomb"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-27 16:27:16 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

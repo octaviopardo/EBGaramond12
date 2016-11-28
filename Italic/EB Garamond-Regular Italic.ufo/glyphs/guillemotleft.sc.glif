@@ -5,81 +5,12 @@
     guillemotleft.sc
   </note>
   <outline>
-    <contour>
-      <point x="466" y="232"/>
-      <point x="558" y="299"/>
-      <point x="625" y="357" type="curve" smooth="yes"/>
-      <point x="635" y="366"/>
-      <point x="638" y="381"/>
-      <point x="632" y="381" type="curve" smooth="yes"/>
-      <point x="619" y="381"/>
-      <point x="611" y="376"/>
-      <point x="604" y="371" type="curve"/>
-      <point x="532" y="324"/>
-      <point x="402" y="256"/>
-      <point x="310" y="209" type="curve" smooth="yes"/>
-      <point x="306" y="207"/>
-      <point x="299" y="203"/>
-      <point x="299" y="196" type="curve" smooth="yes"/>
-      <point x="299" y="188"/>
-      <point x="304" y="184"/>
-      <point x="310" y="181" type="curve"/>
-      <point x="356" y="155"/>
-      <point x="454" y="80"/>
-      <point x="498" y="37" type="curve" smooth="yes"/>
-      <point x="502" y="33"/>
-      <point x="518" y="19"/>
-      <point x="529" y="19" type="curve" smooth="yes"/>
-      <point x="536" y="19"/>
-      <point x="537" y="33"/>
-      <point x="532" y="42" type="curve" smooth="yes"/>
-      <point x="505" y="89"/>
-      <point x="449" y="148"/>
-      <point x="415" y="184" type="curve" smooth="yes"/>
-      <point x="409" y="190"/>
-      <point x="406" y="194"/>
-      <point x="415" y="200" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="268" y="232"/>
-      <point x="360" y="299"/>
-      <point x="427" y="357" type="curve" smooth="yes"/>
-      <point x="437" y="366"/>
-      <point x="440" y="381"/>
-      <point x="434" y="381" type="curve" smooth="yes"/>
-      <point x="421" y="381"/>
-      <point x="413" y="376"/>
-      <point x="406" y="371" type="curve"/>
-      <point x="334" y="324"/>
-      <point x="204" y="256"/>
-      <point x="112" y="209" type="curve" smooth="yes"/>
-      <point x="108" y="207"/>
-      <point x="101" y="203"/>
-      <point x="101" y="196" type="curve" smooth="yes"/>
-      <point x="101" y="188"/>
-      <point x="106" y="184"/>
-      <point x="112" y="181" type="curve"/>
-      <point x="158" y="155"/>
-      <point x="256" y="80"/>
-      <point x="300" y="37" type="curve" smooth="yes"/>
-      <point x="304" y="33"/>
-      <point x="320" y="19"/>
-      <point x="331" y="19" type="curve" smooth="yes"/>
-      <point x="338" y="19"/>
-      <point x="339" y="33"/>
-      <point x="334" y="42" type="curve" smooth="yes"/>
-      <point x="307" y="89"/>
-      <point x="251" y="148"/>
-      <point x="217" y="184" type="curve" smooth="yes"/>
-      <point x="211" y="190"/>
-      <point x="208" y="194"/>
-      <point x="217" y="200" type="curve" smooth="yes"/>
-    </contour>
+    <component base="guillemotleft"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-25 12:54:20 +0000</string>
     </dict>
   </lib>
 </glyph>

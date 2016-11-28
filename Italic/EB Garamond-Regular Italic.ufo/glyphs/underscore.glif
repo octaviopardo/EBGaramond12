@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscore" format="1">
-  <advance width="465"/>
+  <advance width="464"/>
   <unicode hex="005F"/>
   <note>
     underscore
   </note>
   <outline>
     <contour>
-      <point x="-18" y="-132" type="line" smooth="yes"/>
-      <point x="-34" y="-132"/>
-      <point x="-49" y="-161"/>
-      <point x="-52" y="-170" type="curve" smooth="yes"/>
-      <point x="-54" y="-176"/>
-      <point x="-50" y="-182"/>
-      <point x="-43" y="-182" type="curve" smooth="yes"/>
-      <point x="381" y="-182" type="line" smooth="yes"/>
-      <point x="398" y="-182"/>
-      <point x="409" y="-163"/>
-      <point x="420" y="-146" type="curve"/>
-      <point x="424" y="-139"/>
-      <point x="420" y="-132"/>
-      <point x="413" y="-132" type="curve" smooth="yes"/>
+      <point x="-81" y="-132" type="line" smooth="yes"/>
+      <point x="-97" y="-132"/>
+      <point x="-112" y="-161"/>
+      <point x="-115" y="-170" type="curve" smooth="yes"/>
+      <point x="-117" y="-176"/>
+      <point x="-113" y="-182"/>
+      <point x="-106" y="-182" type="curve" smooth="yes"/>
+      <point x="318" y="-182" type="line" smooth="yes"/>
+      <point x="335" y="-182"/>
+      <point x="346" y="-163"/>
+      <point x="357" y="-146" type="curve"/>
+      <point x="361" y="-139"/>
+      <point x="357" y="-132"/>
+      <point x="350" y="-132" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-27 17:39:50 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

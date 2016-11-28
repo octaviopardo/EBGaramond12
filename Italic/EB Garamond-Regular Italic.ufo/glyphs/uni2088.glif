@@ -1,88 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2088" format="1">
-  <advance width="277"/>
+  <advance width="283"/>
   <unicode hex="2088"/>
   <note>
     uni2088
   </note>
   <outline>
-    <contour>
-      <point x="113" y="-16"/>
-      <point x="116" y="-15"/>
-      <point x="118" y="-15" type="curve" smooth="yes"/>
-      <point x="121" y="-15"/>
-      <point x="123" y="-17"/>
-      <point x="126" y="-20" type="curve"/>
-      <point x="150" y="-42"/>
-      <point x="168" y="-71"/>
-      <point x="158" y="-105" type="curve" smooth="yes"/>
-      <point x="148" y="-137"/>
-      <point x="122" y="-166"/>
-      <point x="90" y="-166" type="curve" smooth="yes"/>
-      <point x="55" y="-166"/>
-      <point x="49" y="-126"/>
-      <point x="61" y="-88" type="curve" smooth="yes"/>
-      <point x="72" y="-53"/>
-      <point x="82" y="-37"/>
-      <point x="110" y="-18" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="168" y="15"/>
-      <point x="168" y="16"/>
-      <point x="179" y="23" type="curve" smooth="yes"/>
-      <point x="194" y="32"/>
-      <point x="201" y="37"/>
-      <point x="214" y="46" type="curve" smooth="yes"/>
-      <point x="229" y="57"/>
-      <point x="256" y="73"/>
-      <point x="264" y="100" type="curve" smooth="yes"/>
-      <point x="278" y="147"/>
-      <point x="239" y="172"/>
-      <point x="196" y="172" type="curve" smooth="yes"/>
-      <point x="149" y="172"/>
-      <point x="89" y="146"/>
-      <point x="75" y="101" type="curve" smooth="yes"/>
-      <point x="60" y="53"/>
-      <point x="86" y="27"/>
-      <point x="109" y="-1" type="curve"/>
-      <point x="111" y="-5"/>
-      <point x="114" y="-5"/>
-      <point x="108" y="-8" type="curve" smooth="yes"/>
-      <point x="76" y="-24"/>
-      <point x="17" y="-48"/>
-      <point x="2" y="-97" type="curve" smooth="yes"/>
-      <point x="-14" y="-151"/>
-      <point x="28" y="-182"/>
-      <point x="78" y="-182" type="curve" smooth="yes"/>
-      <point x="130" y="-182"/>
-      <point x="202" y="-143"/>
-      <point x="221" y="-82" type="curve" smooth="yes"/>
-      <point x="234" y="-38"/>
-      <point x="205" y="-16"/>
-      <point x="173" y="11" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="162" y="21"/>
-      <point x="159" y="23"/>
-      <point x="157" y="24" type="curve"/>
-      <point x="130" y="56"/>
-      <point x="114" y="70"/>
-      <point x="127" y="112" type="curve" smooth="yes"/>
-      <point x="135" y="139"/>
-      <point x="164" y="159"/>
-      <point x="190" y="159" type="curve" smooth="yes"/>
-      <point x="217" y="159"/>
-      <point x="226" y="132"/>
-      <point x="217" y="103" type="curve" smooth="yes"/>
-      <point x="207" y="70"/>
-      <point x="195" y="44"/>
-      <point x="164" y="23" type="curve"/>
-    </contour>
+    <component base="eight.ordn" xOffset="-138" yOffset="-443"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-11-24 10:43:50 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>eight.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>eight.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
