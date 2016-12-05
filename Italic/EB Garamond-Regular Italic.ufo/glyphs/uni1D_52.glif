@@ -1,44 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D52" format="1">
-  <advance width="286"/>
+  <advance width="317"/>
   <unicode hex="1D52"/>
   <note>
     uni1D52
   </note>
   <outline>
-    <contour>
-      <point x="240" y="524"/>
-      <point x="164" y="462"/>
-      <point x="141" y="388" type="curve" smooth="yes"/>
-      <point x="119" y="316"/>
-      <point x="157" y="268"/>
-      <point x="219" y="268" type="curve" smooth="yes"/>
-      <point x="303" y="268"/>
-      <point x="366" y="334"/>
-      <point x="387" y="404" type="curve" smooth="yes"/>
-      <point x="407" y="469"/>
-      <point x="369" y="524"/>
-      <point x="309" y="524" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="331" y="493"/>
-      <point x="340" y="441"/>
-      <point x="324" y="389" type="curve" smooth="yes"/>
-      <point x="309" y="341"/>
-      <point x="280" y="297"/>
-      <point x="239" y="297" type="curve" smooth="yes"/>
-      <point x="198" y="297"/>
-      <point x="187" y="347"/>
-      <point x="204" y="402" type="curve" smooth="yes"/>
-      <point x="218" y="448"/>
-      <point x="247" y="493"/>
-      <point x="289" y="493" type="curve" smooth="yes"/>
-    </contour>
+    <component base="o.ordn"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 12:48:41 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

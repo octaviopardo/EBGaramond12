@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2216" format="1">
-  <advance width="370"/>
+  <advance width="410"/>
   <unicode hex="2216"/>
   <note>
     uni2216
   </note>
   <outline>
-    <contour>
-      <point x="81" y="648" type="line" smooth="yes"/>
-      <point x="74" y="663"/>
-      <point x="59" y="665"/>
-      <point x="42" y="665" type="curve" smooth="yes"/>
-      <point x="34" y="665"/>
-      <point x="26" y="656"/>
-      <point x="29" y="648" type="curve"/>
-      <point x="326" y="-47" type="line" smooth="yes"/>
-      <point x="332" y="-61"/>
-      <point x="347" y="-62"/>
-      <point x="362" y="-62" type="curve" smooth="yes"/>
-      <point x="371" y="-62"/>
-      <point x="381" y="-55"/>
-      <point x="378" y="-47" type="curve"/>
-    </contour>
+    <component base="backslash"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-02 10:01:02 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>backslash</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

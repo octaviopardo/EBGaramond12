@@ -1,139 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="daggerdbl.sups" format="1">
-  <advance width="440"/>
+  <advance width="330"/>
   <note>
     daggerdbl.sups
   </note>
   <outline>
-    <contour>
-      <point x="433" y="610"/>
-      <point x="418" y="642"/>
-      <point x="427" y="672" type="curve" smooth="yes"/>
-      <point x="444" y="725" type="line" smooth="yes"/>
-      <point x="455" y="760"/>
-      <point x="486" y="780"/>
-      <point x="489" y="790" type="curve" smooth="yes"/>
-      <point x="494" y="806"/>
-      <point x="472" y="829"/>
-      <point x="481" y="858" type="curve"/>
-      <point x="483" y="863"/>
-      <point x="491" y="875"/>
-      <point x="499" y="875" type="curve" smooth="yes"/>
-      <point x="538" y="875"/>
-      <point x="564" y="855"/>
-      <point x="610" y="855" type="curve" smooth="yes"/>
-      <point x="630" y="855"/>
-      <point x="639" y="873"/>
-      <point x="644" y="890" type="curve" smooth="yes"/>
-      <point x="651" y="913"/>
-      <point x="649" y="925"/>
-      <point x="628" y="925" type="curve" smooth="yes"/>
-      <point x="582" y="925"/>
-      <point x="544" y="905"/>
-      <point x="505" y="905" type="curve" smooth="yes"/>
-      <point x="500" y="905"/>
-      <point x="496" y="909"/>
-      <point x="498" y="915" type="curve" smooth="yes"/>
-      <point x="513" y="965"/>
-      <point x="540" y="991"/>
-      <point x="555" y="1041" type="curve" smooth="yes"/>
-      <point x="562" y="1065"/>
-      <point x="547" y="1070"/>
-      <point x="531" y="1070" type="curve" smooth="yes"/>
-      <point x="515" y="1070"/>
-      <point x="495" y="1059"/>
-      <point x="490" y="1041" type="curve" smooth="yes"/>
-      <point x="470" y="976"/>
-      <point x="490" y="980"/>
-      <point x="470" y="915" type="curve" smooth="yes"/>
-      <point x="468" y="908"/>
-      <point x="460" y="905"/>
-      <point x="453" y="905" type="curve" smooth="yes"/>
-      <point x="409" y="905"/>
-      <point x="386" y="925"/>
-      <point x="347" y="925" type="curve" smooth="yes"/>
-      <point x="331" y="925"/>
-      <point x="314" y="908"/>
-      <point x="309" y="890" type="curve"/>
-      <point x="303" y="871"/>
-      <point x="309" y="855"/>
-      <point x="325" y="855" type="curve" smooth="yes"/>
-      <point x="371" y="855"/>
-      <point x="402" y="875"/>
-      <point x="448" y="875" type="curve" smooth="yes"/>
-      <point x="453" y="875"/>
-      <point x="454" y="862"/>
-      <point x="452" y="857" type="curve"/>
-      <point x="443" y="828"/>
-      <point x="408" y="805"/>
-      <point x="403" y="790" type="curve"/>
-      <point x="401" y="783"/>
-      <point x="417" y="755"/>
-      <point x="408" y="725" type="curve" smooth="yes"/>
-      <point x="392" y="672" type="line" smooth="yes"/>
-      <point x="381" y="637"/>
-      <point x="349" y="613"/>
-      <point x="346" y="603" type="curve" smooth="yes"/>
-      <point x="341" y="587"/>
-      <point x="363" y="565"/>
-      <point x="354" y="536" type="curve"/>
-      <point x="352" y="531"/>
-      <point x="344" y="519"/>
-      <point x="336" y="519" type="curve" smooth="yes"/>
-      <point x="297" y="519"/>
-      <point x="274" y="539"/>
-      <point x="230" y="539" type="curve" smooth="yes"/>
-      <point x="210" y="539"/>
-      <point x="197" y="522"/>
-      <point x="191" y="504" type="curve" smooth="yes"/>
-      <point x="184" y="481"/>
-      <point x="192" y="469"/>
-      <point x="213" y="469" type="curve" smooth="yes"/>
-      <point x="257" y="469"/>
-      <point x="291" y="489"/>
-      <point x="330" y="489" type="curve" smooth="yes"/>
-      <point x="335" y="489"/>
-      <point x="339" y="485"/>
-      <point x="337" y="479" type="curve" smooth="yes"/>
-      <point x="322" y="429"/>
-      <point x="294" y="402"/>
-      <point x="279" y="352" type="curve" smooth="yes"/>
-      <point x="272" y="328"/>
-      <point x="287" y="322"/>
-      <point x="303" y="322" type="curve" smooth="yes"/>
-      <point x="319" y="322"/>
-      <point x="339" y="334"/>
-      <point x="344" y="352" type="curve" smooth="yes"/>
-      <point x="364" y="417"/>
-      <point x="345" y="414"/>
-      <point x="365" y="479" type="curve" smooth="yes"/>
-      <point x="367" y="486"/>
-      <point x="375" y="489"/>
-      <point x="382" y="489" type="curve" smooth="yes"/>
-      <point x="426" y="489"/>
-      <point x="449" y="469"/>
-      <point x="488" y="469" type="curve" smooth="yes"/>
-      <point x="504" y="469"/>
-      <point x="521" y="486"/>
-      <point x="526" y="504" type="curve"/>
-      <point x="532" y="523"/>
-      <point x="525" y="539"/>
-      <point x="509" y="539" type="curve" smooth="yes"/>
-      <point x="463" y="539"/>
-      <point x="433" y="519"/>
-      <point x="387" y="519" type="curve" smooth="yes"/>
-      <point x="382" y="519"/>
-      <point x="380" y="532"/>
-      <point x="382" y="537" type="curve"/>
-      <point x="391" y="565"/>
-      <point x="426" y="588"/>
-      <point x="431" y="603" type="curve"/>
-    </contour>
+    <component base="daggerdbl.ordn" xOffset="50" yOffset="160"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 16:11:24 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>daggerdbl.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>daggerdbl.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

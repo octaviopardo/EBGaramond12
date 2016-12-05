@@ -1,70 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F49" format="1">
-  <advance width="718"/>
+  <advance width="814"/>
   <unicode hex="1F49"/>
   <note>
     uni1F49
   </note>
   <outline>
-    <contour>
-      <point x="-20" y="462"/>
-      <point x="16" y="426"/>
-      <point x="55" y="426" type="curve" smooth="yes"/>
-      <point x="69" y="426"/>
-      <point x="77" y="432"/>
-      <point x="77" y="438" type="curve" smooth="yes"/>
-      <point x="77" y="442"/>
-      <point x="74" y="448"/>
-      <point x="67" y="450" type="curve" smooth="yes"/>
-      <point x="48" y="456"/>
-      <point x="28" y="482"/>
-      <point x="28" y="506" type="curve" smooth="yes"/>
-      <point x="28" y="538"/>
-      <point x="57" y="560"/>
-      <point x="86" y="570" type="curve" smooth="yes"/>
-      <point x="112" y="579"/>
-      <point x="140" y="590"/>
-      <point x="140" y="618" type="curve" smooth="yes"/>
-      <point x="140" y="632"/>
-      <point x="130" y="646"/>
-      <point x="107" y="646" type="curve" smooth="yes"/>
-      <point x="54" y="646"/>
-      <point x="-20" y="590"/>
-      <point x="-20" y="514" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="260" y="664"/>
-      <point x="95" y="456"/>
-      <point x="95" y="226" type="curve" smooth="yes"/>
-      <point x="95" y="94"/>
-      <point x="203" y="-14"/>
-      <point x="335" y="-14" type="curve" smooth="yes"/>
-      <point x="571" y="-14"/>
-      <point x="730" y="208"/>
-      <point x="730" y="444" type="curve" smooth="yes"/>
-      <point x="730" y="571"/>
-      <point x="617" y="664"/>
-      <point x="490" y="664" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="570" y="628"/>
-      <point x="648" y="569"/>
-      <point x="648" y="484" type="curve" smooth="yes"/>
-      <point x="648" y="284"/>
-      <point x="542" y="21"/>
-      <point x="342" y="21" type="curve" smooth="yes"/>
-      <point x="251" y="21"/>
-      <point x="177" y="95"/>
-      <point x="177" y="186" type="curve" smooth="yes"/>
-      <point x="177" y="386"/>
-      <point x="285" y="628"/>
-      <point x="485" y="628" type="curve" smooth="yes"/>
-    </contour>
+    <component base="Omicron" xOffset="101"/>
+    <component base="uni1FFE" xOffset="-66" yOffset="20"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-05 16:47:34 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Omicron</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Omicron</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

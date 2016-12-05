@@ -6,45 +6,16 @@
     arrowdown
   </note>
   <outline>
-    <contour>
-      <point x="32" y="67"/>
-      <point x="39" y="34"/>
-      <point x="50" y="24" type="curve" smooth="yes"/>
-      <point x="109" y="-33"/>
-      <point x="166" y="-90"/>
-      <point x="206" y="-167" type="curve" smooth="yes"/>
-      <point x="211" y="-176"/>
-      <point x="213" y="-179"/>
-      <point x="219" y="-179" type="curve" smooth="yes"/>
-      <point x="225" y="-179"/>
-      <point x="226" y="-179"/>
-      <point x="232" y="-166" type="curve"/>
-      <point x="272" y="-89"/>
-      <point x="329" y="-32"/>
-      <point x="388" y="25" type="curve" smooth="yes"/>
-      <point x="399" y="35"/>
-      <point x="406" y="68"/>
-      <point x="388" y="61" type="curve" smooth="yes"/>
-      <point x="326" y="37"/>
-      <point x="278" y="-1"/>
-      <point x="242" y="-35" type="curve"/>
-      <point x="242" y="649" type="line" smooth="yes"/>
-      <point x="242" y="656"/>
-      <point x="235" y="665"/>
-      <point x="228" y="662" type="curve"/>
-      <point x="212" y="656"/>
-      <point x="196" y="648"/>
-      <point x="196" y="631" type="curve" smooth="yes"/>
-      <point x="196" y="-35" type="line"/>
-      <point x="162" y="-2"/>
-      <point x="112" y="36"/>
-      <point x="50" y="60" type="curve" smooth="yes"/>
-    </contour>
+    <component base="arrowup" xOffset="-94" yOffset="480" yScale="-1"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 15:21:17 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

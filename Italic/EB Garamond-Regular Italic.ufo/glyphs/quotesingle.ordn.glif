@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotesingle.ordn" format="1">
-  <advance width="126"/>
+  <advance width="123"/>
   <note>
     quotesingle.ordn
   </note>
   <outline>
     <contour>
-      <point x="208" y="555"/>
-      <point x="207" y="546"/>
-      <point x="210" y="546" type="curve" smooth="yes"/>
-      <point x="213" y="546"/>
-      <point x="221" y="554"/>
-      <point x="226" y="561" type="curve" smooth="yes"/>
-      <point x="242" y="583"/>
-      <point x="263" y="613"/>
-      <point x="281" y="654" type="curve" smooth="yes"/>
-      <point x="287" y="667"/>
-      <point x="294" y="686"/>
-      <point x="285" y="686" type="curve" smooth="yes"/>
-      <point x="272" y="686"/>
-      <point x="239" y="668"/>
-      <point x="236" y="651" type="curve"/>
-      <point x="227" y="614"/>
-      <point x="221" y="592"/>
-      <point x="210" y="560" type="curve"/>
+      <point x="157" y="546"/>
+      <point x="165" y="554"/>
+      <point x="170" y="561" type="curve" smooth="yes"/>
+      <point x="186" y="583"/>
+      <point x="207" y="613"/>
+      <point x="225" y="654" type="curve" smooth="yes"/>
+      <point x="231" y="667"/>
+      <point x="238" y="686"/>
+      <point x="229" y="686" type="curve" smooth="yes"/>
+      <point x="216" y="686"/>
+      <point x="183" y="668"/>
+      <point x="180" y="651" type="curve"/>
+      <point x="171" y="614"/>
+      <point x="165" y="592"/>
+      <point x="154" y="560" type="curve"/>
+      <point x="152" y="555"/>
+      <point x="151" y="546"/>
+      <point x="154" y="546" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 11:50:15 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

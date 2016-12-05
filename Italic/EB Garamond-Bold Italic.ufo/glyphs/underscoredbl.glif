@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscoredbl" format="1">
-  <advance width="600"/>
+  <advance width="609"/>
   <unicode hex="2017"/>
   <note>
     underscoredbl
   </note>
   <outline>
+    <component base="underscore" xOffset="-34" yOffset="-108"/>
+    <component base="underscore"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-02 10:03:25 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>underscore</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>underscore</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

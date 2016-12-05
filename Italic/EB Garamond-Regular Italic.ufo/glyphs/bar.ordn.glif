@@ -6,26 +6,30 @@
   </note>
   <outline>
     <contour>
-      <point x="115" y="180" type="line"/>
-      <point x="114" y="176"/>
-      <point x="116" y="172"/>
-      <point x="120" y="172" type="curve" smooth="yes"/>
-      <point x="126" y="172"/>
-      <point x="149" y="173"/>
-      <point x="153" y="186" type="curve" smooth="yes"/>
-      <point x="301" y="671" type="line"/>
-      <point x="302" y="675"/>
-      <point x="300" y="679"/>
-      <point x="295" y="679" type="curve" smooth="yes"/>
-      <point x="291" y="679"/>
-      <point x="265" y="673"/>
-      <point x="261" y="660" type="curve" smooth="yes"/>
+      <point x="141" y="172"/>
+      <point x="170" y="171"/>
+      <point x="170" y="186" type="curve" smooth="yes"/>
+      <point x="170" y="671" type="line" smooth="yes"/>
+      <point x="170" y="677"/>
+      <point x="162" y="679"/>
+      <point x="157" y="679" type="curve" smooth="yes"/>
+      <point x="153" y="679"/>
+      <point x="123" y="675"/>
+      <point x="123" y="660" type="curve" smooth="yes"/>
+      <point x="123" y="180" type="line" smooth="yes"/>
+      <point x="123" y="174"/>
+      <point x="131" y="172"/>
+      <point x="135" y="172" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 11:50:33 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

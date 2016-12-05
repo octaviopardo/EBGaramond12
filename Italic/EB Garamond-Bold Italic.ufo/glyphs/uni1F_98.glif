@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F98" format="1">
-  <advance width="600"/>
+  <advance width="989"/>
   <unicode hex="1F98"/>
   <note>
     uni1F98
   </note>
   <outline>
+    <component base="uni1F28"/>
+    <component base="uni0345" xOffset="581"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-05 16:47:34 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Eta</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

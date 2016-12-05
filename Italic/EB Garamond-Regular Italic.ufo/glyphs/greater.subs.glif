@@ -1,44 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greater.subs" format="1">
-  <advance width="328"/>
+  <advance width="331"/>
   <note>
     greater.subs
   </note>
   <outline>
-    <contour>
-      <point x="307" y="140" type="line" smooth="yes"/>
-      <point x="309" y="139"/>
-      <point x="309" y="138"/>
-      <point x="307" y="137" type="curve"/>
-      <point x="51" y="33" type="line"/>
-      <point x="37" y="28"/>
-      <point x="30" y="18"/>
-      <point x="22" y="5" type="curve"/>
-      <point x="20" y="2"/>
-      <point x="22" y="-3"/>
-      <point x="26" y="-3" type="curve" smooth="yes"/>
-      <point x="28" y="-3" type="line"/>
-      <point x="329" y="117" type="line"/>
-      <point x="343" y="122"/>
-      <point x="355" y="140"/>
-      <point x="357" y="145" type="curve"/>
-      <point x="358" y="149"/>
-      <point x="347" y="156"/>
-      <point x="338" y="161" type="curve" smooth="yes"/>
-      <point x="115" y="281" type="line"/>
-      <point x="113" y="281" type="line" smooth="yes"/>
-      <point x="109" y="281"/>
-      <point x="106" y="277"/>
-      <point x="105" y="274" type="curve"/>
-      <point x="103" y="269"/>
-      <point x="100" y="250"/>
-      <point x="110" y="245" type="curve" smooth="yes"/>
-    </contour>
+    <component base="greater.ordn" xOffset="-87" yOffset="-280"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 13:01:53 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>greater.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>greater.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

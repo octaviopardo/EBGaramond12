@@ -7,26 +7,30 @@
   </note>
   <outline>
     <contour>
-      <point x="100" y="-275" type="line" smooth="yes"/>
-      <point x="100" y="-282"/>
-      <point x="106" y="-289"/>
-      <point x="112" y="-289" type="curve" smooth="yes"/>
-      <point x="121" y="-289"/>
-      <point x="160" y="-286"/>
-      <point x="160" y="-265" type="curve" smooth="yes"/>
-      <point x="160" y="694" type="line" smooth="yes"/>
-      <point x="160" y="701"/>
-      <point x="153" y="707"/>
-      <point x="146" y="707" type="curve" smooth="yes"/>
-      <point x="140" y="707"/>
-      <point x="100" y="698"/>
-      <point x="100" y="676" type="curve" smooth="yes"/>
+      <point x="122" y="-289"/>
+      <point x="161" y="-286"/>
+      <point x="161" y="-265" type="curve" smooth="yes"/>
+      <point x="161" y="694" type="line" smooth="yes"/>
+      <point x="161" y="701"/>
+      <point x="154" y="707"/>
+      <point x="147" y="707" type="curve" smooth="yes"/>
+      <point x="141" y="707"/>
+      <point x="101" y="698"/>
+      <point x="101" y="676" type="curve" smooth="yes"/>
+      <point x="101" y="-275" type="line" smooth="yes"/>
+      <point x="101" y="-282"/>
+      <point x="107" y="-289"/>
+      <point x="113" y="-289" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-02 10:10:59 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

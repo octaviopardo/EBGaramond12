@@ -90,12 +90,14 @@
 			<integer>664</integer>
 		</dict>
 		<dict>
+			<key>angle</key>
+			<real>0.86</real>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
 			<integer>38</integer>
 			<key>y</key>
-			<integer>458</integer>
+			<integer>457</integer>
 		</dict>
 	</array>
 	<key>com.typemytype.robofont.layerOrder</key>
@@ -584,6 +586,7 @@
 		<string>egrave</string>
 		<string>emacron</string>
 		<string>eogonek</string>
+		<string>uni0259</string>
 		<string>f</string>
 		<string>g</string>
 		<string>gbreve</string>
@@ -647,7 +650,6 @@
 		<string>scircumflex</string>
 		<string>germandbls</string>
 		<string>longs</string>
-		<string>uni0259</string>
 		<string>t</string>
 		<string>tbar</string>
 		<string>tcaron</string>
@@ -1320,6 +1322,10 @@
 		<string>uni02E1</string>
 		<string>uni02E2</string>
 		<string>uni02E3</string>
+		<string>uni1D62</string>
+		<string>uni1D63</string>
+		<string>uni1D64</string>
+		<string>uni1D65</string>
 		<string>uni2071</string>
 		<string>uni207F</string>
 		<string>uni2090</string>
@@ -1383,6 +1389,7 @@
 		<string>uni04C1</string>
 		<string>uni04D0</string>
 		<string>uni04D2</string>
+		<string>uni04D4</string>
 		<string>uni04D6</string>
 		<string>uni04D8</string>
 		<string>uni04DA</string>
@@ -1455,6 +1462,7 @@
 		<string>uni04C2</string>
 		<string>uni04D1</string>
 		<string>uni04D3</string>
+		<string>uni04D5</string>
 		<string>uni04D7</string>
 		<string>uni04DD</string>
 		<string>uni04DF</string>
@@ -1477,8 +1485,6 @@
 		<string>uni043F.SRB</string>
 		<string>uni0442.SRB</string>
 		<string>uni0448.SRB</string>
-		<string>uni04D4</string>
-		<string>uni04D5</string>
 		<string>Alpha</string>
 		<string>Beta</string>
 		<string>Gamma</string>
@@ -1774,6 +1780,8 @@
 		<string>uni1FA6</string>
 		<string>uni1FA7</string>
 		<string>uni1FF7</string>
+		<string>uni1D68</string>
+		<string>uni1D6A</string>
 		<string>uni2112</string>
 		<string>uni212A</string>
 		<string>uni212B</string>
@@ -2612,12 +2620,7 @@
 		<string>uni1FFD</string>
 		<string>uni1FC0</string>
 		<string>uni2C7D</string>
-		<string>uni1D62</string>
-		<string>uni1D63</string>
-		<string>uni1D64</string>
-		<string>uni1D65</string>
-		<string>uni1D68</string>
-		<string>uni1D6A</string>
+		<string>uni0313.grkstacksc</string>
 		<string>uniE001</string>
 		<string>uniE002</string>
 		<string>uniF6BE</string>

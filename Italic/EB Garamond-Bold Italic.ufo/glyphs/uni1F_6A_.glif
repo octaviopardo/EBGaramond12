@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F6A" format="1">
-  <advance width="600"/>
+  <advance width="1048"/>
   <unicode hex="1F6A"/>
   <note>
     uni1F6A
   </note>
   <outline>
+    <component base="Omega" xOffset="234"/>
+    <component base="uni1FCD" xOffset="-39" yOffset="20"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-05 16:47:34 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Omega</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Omega</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

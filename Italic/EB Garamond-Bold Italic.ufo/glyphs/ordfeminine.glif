@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordfeminine" format="1">
-  <advance width="600"/>
+  <advance width="334"/>
   <unicode hex="00AA"/>
   <note>
     ordfeminine
   </note>
   <outline>
+    <contour>
+      <point x="266" y="159" type="line" smooth="yes"/>
+      <point x="285" y="159"/>
+      <point x="307" y="177"/>
+      <point x="307" y="190" type="curve" smooth="yes"/>
+      <point x="307" y="199"/>
+      <point x="297" y="206"/>
+      <point x="289" y="206" type="curve" smooth="yes"/>
+      <point x="49" y="206" type="line" smooth="yes"/>
+      <point x="33" y="206"/>
+      <point x="18" y="186"/>
+      <point x="18" y="175" type="curve" smooth="yes"/>
+      <point x="18" y="168"/>
+      <point x="27" y="159"/>
+      <point x="36" y="159" type="curve" smooth="yes"/>
+    </contour>
+    <component base="a.ordn" xOffset="-2" yOffset="-7"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 12:44:05 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>a.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>a.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

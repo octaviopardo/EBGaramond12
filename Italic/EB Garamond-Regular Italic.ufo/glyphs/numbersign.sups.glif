@@ -1,91 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="numbersign.sups" format="1">
-  <advance width="304"/>
+  <advance width="280"/>
   <note>
     numbersign.sups
   </note>
   <outline>
-    <contour>
-      <point x="274" y="600" type="line"/>
-      <point x="319" y="682" type="line"/>
-      <point x="389" y="686" type="line"/>
-      <point x="344" y="603" type="line"/>
-    </contour>
-    <contour>
-      <point x="254" y="564" type="line"/>
-      <point x="323" y="567" type="line"/>
-      <point x="266" y="463" type="line"/>
-      <point x="264" y="459"/>
-      <point x="264" y="454"/>
-      <point x="269" y="454" type="curve" smooth="yes"/>
-      <point x="276" y="454"/>
-      <point x="286" y="455"/>
-      <point x="290" y="463" type="curve"/>
-      <point x="348" y="568" type="line"/>
-      <point x="384" y="570" type="line" smooth="yes"/>
-      <point x="397" y="571"/>
-      <point x="403" y="585"/>
-      <point x="411" y="598" type="curve"/>
-      <point x="413" y="602"/>
-      <point x="411" y="606"/>
-      <point x="406" y="606" type="curve"/>
-      <point x="368" y="604" type="line"/>
-      <point x="414" y="687" type="line"/>
-      <point x="448" y="689" type="line" smooth="yes"/>
-      <point x="461" y="690"/>
-      <point x="468" y="704"/>
-      <point x="476" y="717" type="curve"/>
-      <point x="478" y="721"/>
-      <point x="475" y="725"/>
-      <point x="470" y="725" type="curve"/>
-      <point x="434" y="723" type="line"/>
-      <point x="491" y="826" type="line"/>
-      <point x="493" y="830"/>
-      <point x="496" y="837"/>
-      <point x="491" y="837" type="curve" smooth="yes"/>
-      <point x="483" y="837"/>
-      <point x="471" y="834"/>
-      <point x="467" y="826" type="curve"/>
-      <point x="409" y="722" type="line"/>
-      <point x="340" y="718" type="line"/>
-      <point x="395" y="820" type="line" smooth="yes"/>
-      <point x="397" y="824"/>
-      <point x="399" y="830"/>
-      <point x="394" y="830" type="curve" smooth="yes"/>
-      <point x="386" y="830"/>
-      <point x="375" y="828"/>
-      <point x="371" y="820" type="curve"/>
-      <point x="314" y="717" type="line"/>
-      <point x="272" y="715" type="line" smooth="yes"/>
-      <point x="259" y="714"/>
-      <point x="251" y="692"/>
-      <point x="249" y="687" type="curve"/>
-      <point x="248" y="683"/>
-      <point x="250" y="679"/>
-      <point x="255" y="679" type="curve"/>
-      <point x="294" y="681" type="line"/>
-      <point x="248" y="598" type="line"/>
-      <point x="208" y="597" type="line"/>
-      <point x="195" y="596"/>
-      <point x="186" y="573"/>
-      <point x="184" y="568" type="curve"/>
-      <point x="183" y="564"/>
-      <point x="185" y="561"/>
-      <point x="190" y="561" type="curve" smooth="yes"/>
-      <point x="229" y="562" type="line"/>
-      <point x="169" y="456" type="line"/>
-      <point x="167" y="452"/>
-      <point x="168" y="447"/>
-      <point x="173" y="447" type="curve" smooth="yes"/>
-      <point x="180" y="447"/>
-      <point x="190" y="448"/>
-      <point x="194" y="456" type="curve"/>
-    </contour>
+    <component base="numbersign.ordn" xOffset="49" yOffset="159"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 12:26:25 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>numbersign.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>numbersign.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

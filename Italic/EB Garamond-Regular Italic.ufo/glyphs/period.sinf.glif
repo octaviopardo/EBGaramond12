@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period.sinf" format="1">
-  <advance width="149"/>
+  <advance width="148"/>
   <note>
     period.sinf
   </note>
   <outline>
-    <contour>
-      <point x="24" y="-86"/>
-      <point x="5" y="-101"/>
-      <point x="-1" y="-119" type="curve" smooth="yes"/>
-      <point x="-7" y="-137"/>
-      <point x="4" y="-152"/>
-      <point x="23" y="-152" type="curve" smooth="yes"/>
-      <point x="42" y="-152"/>
-      <point x="59" y="-137"/>
-      <point x="65" y="-119" type="curve" smooth="yes"/>
-      <point x="71" y="-101"/>
-      <point x="62" y="-86"/>
-      <point x="43" y="-86" type="curve" smooth="yes"/>
-    </contour>
+    <component base="period.ordn" xOffset="-131" yOffset="-423"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 12:26:25 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>period.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>period.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

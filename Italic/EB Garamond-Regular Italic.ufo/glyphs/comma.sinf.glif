@@ -5,35 +5,20 @@
     comma.sinf
   </note>
   <outline>
-    <contour>
-      <point x="28" y="-128"/>
-      <point x="33" y="-143"/>
-      <point x="30" y="-153" type="curve" smooth="yes"/>
-      <point x="17" y="-195"/>
-      <point x="-19" y="-213"/>
-      <point x="-47" y="-218" type="curve" smooth="yes"/>
-      <point x="-60" y="-220"/>
-      <point x="-62" y="-232"/>
-      <point x="-49" y="-232" type="curve" smooth="yes"/>
-      <point x="-48" y="-232" type="line" smooth="yes"/>
-      <point x="-17" y="-231"/>
-      <point x="49" y="-193"/>
-      <point x="68" y="-132" type="curve" smooth="yes"/>
-      <point x="78" y="-98"/>
-      <point x="65" y="-74"/>
-      <point x="36" y="-74" type="curve" smooth="yes"/>
-      <point x="18" y="-74"/>
-      <point x="-1" y="-85"/>
-      <point x="-6" y="-101" type="curve" smooth="yes"/>
-      <point x="-10" y="-114"/>
-      <point x="-2" y="-125"/>
-      <point x="15" y="-127" type="curve"/>
-    </contour>
+    <component base="comma.ordn" xOffset="-131" yOffset="-423"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 12:26:25 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>comma.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>comma.ordn</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

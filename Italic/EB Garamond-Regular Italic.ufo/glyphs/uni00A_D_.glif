@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni00AD" format="1">
-  <advance width="253"/>
+  <advance width="268"/>
   <unicode hex="00AD"/>
   <note>
     uni00AD
   </note>
   <outline>
-    <contour>
-      <point x="88" y="170" type="line"/>
-      <point x="150" y="177"/>
-      <point x="208" y="186"/>
-      <point x="267" y="195" type="curve" smooth="yes"/>
-      <point x="282" y="197"/>
-      <point x="293" y="224"/>
-      <point x="303" y="249" type="curve"/>
-      <point x="304" y="253"/>
-      <point x="302" y="255"/>
-      <point x="298" y="255" type="curve"/>
-      <point x="236" y="248"/>
-      <point x="174" y="239"/>
-      <point x="112" y="230" type="curve"/>
-      <point x="102" y="229"/>
-      <point x="89" y="198"/>
-      <point x="80" y="176" type="curve"/>
-      <point x="79" y="172"/>
-      <point x="79" y="170"/>
-      <point x="84" y="170" type="curve" smooth="yes"/>
-    </contour>
+    <component base="hyphen"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-01 18:41:02 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>hyphen</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>hyphen</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

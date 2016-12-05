@@ -1,109 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Upsilontonos" format="1">
-  <advance width="686"/>
+  <advance width="759"/>
   <unicode hex="038E"/>
   <note>
     Upsilontonos
   </note>
   <outline>
-    <contour>
-      <point x="63" y="542"/>
-      <point x="147" y="645"/>
-      <point x="147" y="650" type="curve" smooth="yes"/>
-      <point x="147" y="665"/>
-      <point x="118" y="687"/>
-      <point x="108" y="687" type="curve" smooth="yes"/>
-      <point x="98" y="687"/>
-      <point x="90" y="675"/>
-      <point x="83" y="662" type="curve" smooth="yes"/>
-      <point x="66" y="631"/>
-      <point x="21" y="545"/>
-      <point x="8" y="518" type="curve" smooth="yes"/>
-      <point x="6" y="514"/>
-      <point x="6" y="510"/>
-      <point x="6" y="506" type="curve" smooth="yes"/>
-      <point x="6" y="502"/>
-      <point x="9" y="498"/>
-      <point x="14" y="498" type="curve" smooth="yes"/>
-      <point x="22" y="498"/>
-      <point x="30" y="506"/>
-      <point x="37" y="513" type="curve"/>
-    </contour>
-    <contour>
-      <point x="609" y="650"/>
-      <point x="481" y="452"/>
-      <point x="477" y="452" type="curve" smooth="yes"/>
-      <point x="473" y="452"/>
-      <point x="496" y="650"/>
-      <point x="356" y="650" type="curve" smooth="yes"/>
-      <point x="297" y="650"/>
-      <point x="222" y="591"/>
-      <point x="205" y="575" type="curve" smooth="yes"/>
-      <point x="188" y="560"/>
-      <point x="187" y="553"/>
-      <point x="187" y="553" type="curve"/>
-      <point x="185" y="549"/>
-      <point x="191" y="546"/>
-      <point x="195" y="549" type="curve" smooth="yes"/>
-      <point x="226" y="573"/>
-      <point x="277" y="600"/>
-      <point x="323" y="600" type="curve" smooth="yes"/>
-      <point x="398" y="600"/>
-      <point x="415" y="528"/>
-      <point x="417" y="452" type="curve" smooth="yes"/>
-      <point x="419" y="392"/>
-      <point x="402" y="327"/>
-      <point x="390" y="287" type="curve" smooth="yes"/>
-      <point x="335" y="108" type="line" smooth="yes"/>
-      <point x="320" y="60"/>
-      <point x="286" y="33"/>
-      <point x="237" y="24" type="curve" smooth="yes"/>
-      <point x="214" y="20"/>
-      <point x="203" y="15"/>
-      <point x="200" y="6" type="curve"/>
-      <point x="198" y="-2"/>
-      <point x="208" y="-5"/>
-      <point x="224" y="-5" type="curve" smooth="yes"/>
-      <point x="274" y="-5"/>
-      <point x="299" y="0"/>
-      <point x="345" y="0" type="curve" smooth="yes"/>
-      <point x="387" y="0"/>
-      <point x="402" y="-5"/>
-      <point x="452" y="-5" type="curve" smooth="yes"/>
-      <point x="468" y="-5"/>
-      <point x="480" y="-2"/>
-      <point x="482" y="6" type="curve"/>
-      <point x="485" y="15"/>
-      <point x="477" y="20"/>
-      <point x="457" y="24" type="curve" smooth="yes"/>
-      <point x="413" y="33"/>
-      <point x="395" y="63"/>
-      <point x="409" y="108" type="curve" smooth="yes"/>
-      <point x="464" y="288" type="line" smooth="yes"/>
-      <point x="476" y="326"/>
-      <point x="504" y="408"/>
-      <point x="533" y="453" type="curve" smooth="yes"/>
-      <point x="587" y="537"/>
-      <point x="663" y="600"/>
-      <point x="746" y="600" type="curve" smooth="yes"/>
-      <point x="784" y="600"/>
-      <point x="820" y="589"/>
-      <point x="842" y="567" type="curve" smooth="yes"/>
-      <point x="844" y="565"/>
-      <point x="851" y="569"/>
-      <point x="852" y="573" type="curve" smooth="yes"/>
-      <point x="853" y="577"/>
-      <point x="848" y="585"/>
-      <point x="846" y="589" type="curve"/>
-      <point x="829" y="616"/>
-      <point x="806" y="650"/>
-      <point x="749" y="650" type="curve" smooth="yes"/>
-    </contour>
+    <component base="Upsilon" xOffset="70"/>
+    <component base="tonos" xOffset="20"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-05 16:57:45 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>Upsilon</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Upsilon</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>
