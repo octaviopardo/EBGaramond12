@@ -5,42 +5,19 @@
     uni032C.cap
   </note>
   <outline>
+    <component base="uni030C.cap" xOffset="-279" yOffset="-900"/>
     <contour>
-      <point x="268" y="-83"/>
-      <point x="165" y="-127"/>
-      <point x="138" y="-138" type="curve" smooth="yes"/>
-      <point x="128" y="-142"/>
-      <point x="118" y="-145"/>
-      <point x="110" y="-138" type="curve" smooth="yes"/>
-      <point x="88" y="-120"/>
-      <point x="32" y="-82"/>
-      <point x="19" y="-82" type="curve" smooth="yes"/>
-      <point x="10" y="-82"/>
-      <point x="5" y="-87"/>
-      <point x="5" y="-93" type="curve" smooth="yes"/>
-      <point x="5" y="-97"/>
-      <point x="7" y="-100"/>
-      <point x="11" y="-105" type="curve"/>
-      <point x="83" y="-187" type="line" smooth="yes"/>
-      <point x="93" y="-198"/>
-      <point x="110" y="-209"/>
-      <point x="120" y="-209" type="curve" smooth="yes"/>
-      <point x="130" y="-209"/>
-      <point x="144" y="-201"/>
-      <point x="165" y="-187" type="curve" smooth="yes"/>
-      <point x="289" y="-105" type="line"/>
-      <point x="294" y="-101"/>
-      <point x="296" y="-97"/>
-      <point x="296" y="-93" type="curve" smooth="yes"/>
-      <point x="296" y="-87"/>
-      <point x="290" y="-83"/>
-      <point x="281" y="-83" type="curve" smooth="yes"/>
+      <point x="-69" y="-30" type="move" name="_bottom.cap"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:05:13 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

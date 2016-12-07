@@ -6,38 +6,16 @@
     uni0328
   </note>
   <outline>
-    <contour>
-      <point x="107" y="-285"/>
-      <point x="148" y="-248"/>
-      <point x="183" y="-201" type="curve" smooth="yes"/>
-      <point x="186" y="-197"/>
-      <point x="193" y="-184"/>
-      <point x="193" y="-181" type="curve" smooth="yes"/>
-      <point x="193" y="-160"/>
-      <point x="172" y="-179"/>
-      <point x="169" y="-183" type="curve"/>
-      <point x="157" y="-197"/>
-      <point x="126" y="-222"/>
-      <point x="105" y="-222" type="curve" smooth="yes"/>
-      <point x="79" y="-222"/>
-      <point x="71" y="-204"/>
-      <point x="71" y="-186" type="curve" smooth="yes"/>
-      <point x="71" y="-89"/>
-      <point x="136" y="-34"/>
-      <point x="211" y="18" type="curve"/>
-      <point x="184" y="18" type="line"/>
-      <point x="97" y="-32"/>
-      <point x="0" y="-110"/>
-      <point x="0" y="-216" type="curve" smooth="yes"/>
-      <point x="0" y="-250"/>
-      <point x="23" y="-287"/>
-      <point x="52" y="-286" type="curve" smooth="yes"/>
-    </contour>
+    <component base="ogonek"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:05:13 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

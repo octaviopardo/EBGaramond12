@@ -5,27 +5,16 @@
     uni0304.stack
   </note>
   <outline>
-    <contour>
-      <point x="87" y="534" type="line" smooth="yes"/>
-      <point x="71" y="534"/>
-      <point x="58" y="510"/>
-      <point x="58" y="499" type="curve" smooth="yes"/>
-      <point x="58" y="494"/>
-      <point x="62" y="490"/>
-      <point x="67" y="490" type="curve" smooth="yes"/>
-      <point x="267" y="490" type="line" smooth="yes"/>
-      <point x="280" y="490"/>
-      <point x="303" y="507"/>
-      <point x="303" y="524" type="curve" smooth="yes"/>
-      <point x="303" y="529"/>
-      <point x="299" y="534"/>
-      <point x="294" y="534" type="curve" smooth="yes"/>
-    </contour>
+    <component base="uni0331" xOffset="196" yOffset="631"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:29:16 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -6,37 +6,19 @@
     uni032F
   </note>
   <outline>
+    <component base="uni032E" xOffset="-217" yOffset="-300" xScale="-1" yScale="-1"/>
     <contour>
-      <point x="78" y="-148"/>
-      <point x="113" y="-132"/>
-      <point x="154" y="-132" type="curve" smooth="yes"/>
-      <point x="194" y="-132"/>
-      <point x="201" y="-169"/>
-      <point x="203" y="-202" type="curve"/>
-      <point x="204" y="-211"/>
-      <point x="203" y="-223"/>
-      <point x="212" y="-223" type="curve" smooth="yes"/>
-      <point x="233" y="-223"/>
-      <point x="241" y="-182"/>
-      <point x="241" y="-162" type="curve" smooth="yes"/>
-      <point x="241" y="-120"/>
-      <point x="218" y="-83"/>
-      <point x="169" y="-83" type="curve" smooth="yes"/>
-      <point x="117" y="-83"/>
-      <point x="32" y="-124"/>
-      <point x="32" y="-211" type="curve" smooth="yes"/>
-      <point x="32" y="-218"/>
-      <point x="35" y="-223"/>
-      <point x="41" y="-223" type="curve" smooth="yes"/>
-      <point x="50" y="-223"/>
-      <point x="60" y="-213"/>
-      <point x="63" y="-202" type="curve" smooth="yes"/>
+      <point x="-68" y="-30" type="move" name="_bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:05:13 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

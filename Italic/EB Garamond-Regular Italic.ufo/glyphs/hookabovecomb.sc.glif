@@ -5,55 +5,16 @@
     hookabovecomb.sc
   </note>
   <outline>
-    <contour>
-      <point x="88" y="649"/>
-      <point x="82" y="640"/>
-      <point x="79" y="630" type="curve" smooth="yes"/>
-      <point x="75" y="617"/>
-      <point x="79" y="609"/>
-      <point x="84" y="599" type="curve" smooth="yes"/>
-      <point x="86" y="595"/>
-      <point x="90" y="593"/>
-      <point x="95" y="593" type="curve" smooth="yes"/>
-      <point x="101" y="593"/>
-      <point x="107" y="596"/>
-      <point x="111" y="602" type="curve" smooth="yes"/>
-      <point x="136" y="640"/>
-      <point x="148" y="653"/>
-      <point x="168" y="653" type="curve" smooth="yes"/>
-      <point x="182" y="653"/>
-      <point x="187" y="638"/>
-      <point x="182" y="622" type="curve" smooth="yes"/>
-      <point x="177" y="606"/>
-      <point x="169" y="595"/>
-      <point x="151" y="581" type="curve" smooth="yes"/>
-      <point x="138" y="571"/>
-      <point x="124" y="558"/>
-      <point x="118" y="540" type="curve"/>
-      <point x="114" y="526"/>
-      <point x="127" y="508"/>
-      <point x="139" y="508" type="curve" smooth="yes"/>
-      <point x="148" y="508"/>
-      <point x="164" y="517"/>
-      <point x="157" y="523" type="curve" smooth="yes"/>
-      <point x="148" y="531"/>
-      <point x="146" y="540"/>
-      <point x="166" y="550" type="curve" smooth="yes"/>
-      <point x="211" y="573"/>
-      <point x="230" y="600"/>
-      <point x="235" y="617" type="curve" smooth="yes"/>
-      <point x="247" y="656"/>
-      <point x="217" y="677"/>
-      <point x="181" y="677" type="curve" smooth="yes"/>
-      <point x="146" y="677"/>
-      <point x="120" y="666"/>
-      <point x="98" y="654" type="curve"/>
-    </contour>
+    <component base="hookabovecomb"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:21:17 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

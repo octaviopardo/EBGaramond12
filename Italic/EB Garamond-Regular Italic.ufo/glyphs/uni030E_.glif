@@ -6,43 +6,17 @@
     uni030E
   </note>
   <outline>
-    <contour>
-      <point x="30" y="519" type="line" smooth="yes"/>
-      <point x="30" y="510"/>
-      <point x="35" y="500"/>
-      <point x="43" y="500" type="curve" smooth="yes"/>
-      <point x="56" y="500"/>
-      <point x="70" y="513"/>
-      <point x="70" y="520" type="curve" smooth="yes"/>
-      <point x="70" y="659" type="line" smooth="yes"/>
-      <point x="70" y="667"/>
-      <point x="65" y="675"/>
-      <point x="57" y="675" type="curve" smooth="yes"/>
-      <point x="48" y="675"/>
-      <point x="30" y="665"/>
-      <point x="30" y="657" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="110" y="519" type="line" smooth="yes"/>
-      <point x="110" y="510"/>
-      <point x="115" y="500"/>
-      <point x="123" y="500" type="curve" smooth="yes"/>
-      <point x="136" y="500"/>
-      <point x="150" y="513"/>
-      <point x="150" y="520" type="curve" smooth="yes"/>
-      <point x="150" y="659" type="line" smooth="yes"/>
-      <point x="150" y="667"/>
-      <point x="145" y="675"/>
-      <point x="137" y="675" type="curve" smooth="yes"/>
-      <point x="128" y="675"/>
-      <point x="110" y="665"/>
-      <point x="110" y="657" type="curve" smooth="yes"/>
-    </contour>
+    <component base="uni030D" xOffset="-44"/>
+    <component base="uni030D" xOffset="44"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:05:13 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FFD" format="1">
-  <advance width="201"/>
+  <advance width="164"/>
   <unicode hex="1FFD"/>
   <note>
     uni1FFD
   </note>
   <outline>
-    <contour>
-      <point x="87" y="104"/>
-      <point x="171" y="207"/>
-      <point x="171" y="212" type="curve" smooth="yes"/>
-      <point x="171" y="227"/>
-      <point x="142" y="249"/>
-      <point x="132" y="249" type="curve" smooth="yes"/>
-      <point x="122" y="249"/>
-      <point x="114" y="237"/>
-      <point x="107" y="224" type="curve" smooth="yes"/>
-      <point x="90" y="193"/>
-      <point x="45" y="107"/>
-      <point x="32" y="80" type="curve" smooth="yes"/>
-      <point x="30" y="76"/>
-      <point x="30" y="72"/>
-      <point x="30" y="68" type="curve" smooth="yes"/>
-      <point x="30" y="64"/>
-      <point x="33" y="60"/>
-      <point x="38" y="60" type="curve" smooth="yes"/>
-      <point x="46" y="60"/>
-      <point x="54" y="68"/>
-      <point x="61" y="75" type="curve"/>
-    </contour>
+    <component base="tonos" xOffset="83"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:02:39 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>tonos</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

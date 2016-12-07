@@ -6,46 +6,14 @@
     uni0327
   </note>
   <outline>
-    <contour>
-      <point x="71" y="-150"/>
-      <point x="123" y="-175"/>
-      <point x="123" y="-207" type="curve" smooth="yes"/>
-      <point x="123" y="-222"/>
-      <point x="114" y="-235"/>
-      <point x="99" y="-235" type="curve" smooth="yes"/>
-      <point x="82" y="-235"/>
-      <point x="59" y="-219"/>
-      <point x="42" y="-199" type="curve" smooth="yes"/>
-      <point x="38" y="-194"/>
-      <point x="33" y="-190"/>
-      <point x="26" y="-190" type="curve" smooth="yes"/>
-      <point x="15" y="-190"/>
-      <point x="14" y="-202"/>
-      <point x="14" y="-210" type="curve" smooth="yes"/>
-      <point x="14" y="-219"/>
-      <point x="29" y="-273"/>
-      <point x="78" y="-273" type="curve" smooth="yes"/>
-      <point x="117" y="-273"/>
-      <point x="182" y="-226"/>
-      <point x="182" y="-179" type="curve" smooth="yes"/>
-      <point x="182" y="-146"/>
-      <point x="130" y="-101"/>
-      <point x="130" y="-80" type="curve" smooth="yes"/>
-      <point x="130" y="-62"/>
-      <point x="153" y="-24"/>
-      <point x="215" y="25" type="curve"/>
-      <point x="185" y="25" type="line"/>
-      <point x="127" y="-5"/>
-      <point x="71" y="-67"/>
-      <point x="71" y="-100" type="curve" smooth="yes"/>
-    </contour>
+    <component base="cedilla" xOffset="-189"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-03 10:11:28 +0000</string>
+      <string>2016-12-07 11:05:13 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

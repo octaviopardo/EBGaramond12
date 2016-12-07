@@ -1,62 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut" format="1">
-  <advance width="260"/>
+  <advance width="306"/>
   <unicode hex="02DD"/>
   <note>
     hungarumlaut
   </note>
   <outline>
-    <contour>
-      <point x="339" y="507"/>
-      <point x="423" y="610"/>
-      <point x="423" y="615" type="curve" smooth="yes"/>
-      <point x="423" y="630"/>
-      <point x="394" y="652"/>
-      <point x="384" y="652" type="curve" smooth="yes"/>
-      <point x="374" y="652"/>
-      <point x="366" y="640"/>
-      <point x="359" y="627" type="curve" smooth="yes"/>
-      <point x="342" y="596"/>
-      <point x="297" y="510"/>
-      <point x="284" y="483" type="curve" smooth="yes"/>
-      <point x="282" y="479"/>
-      <point x="282" y="475"/>
-      <point x="282" y="471" type="curve" smooth="yes"/>
-      <point x="282" y="467"/>
-      <point x="285" y="463"/>
-      <point x="290" y="463" type="curve" smooth="yes"/>
-      <point x="298" y="463"/>
-      <point x="306" y="471"/>
-      <point x="313" y="478" type="curve"/>
-    </contour>
-    <contour>
-      <point x="228" y="507"/>
-      <point x="312" y="610"/>
-      <point x="312" y="615" type="curve" smooth="yes"/>
-      <point x="312" y="630"/>
-      <point x="283" y="652"/>
-      <point x="273" y="652" type="curve" smooth="yes"/>
-      <point x="263" y="652"/>
-      <point x="255" y="640"/>
-      <point x="248" y="627" type="curve" smooth="yes"/>
-      <point x="231" y="596"/>
-      <point x="186" y="510"/>
-      <point x="173" y="483" type="curve" smooth="yes"/>
-      <point x="171" y="479"/>
-      <point x="171" y="475"/>
-      <point x="171" y="471" type="curve" smooth="yes"/>
-      <point x="171" y="467"/>
-      <point x="174" y="463"/>
-      <point x="179" y="463" type="curve" smooth="yes"/>
-      <point x="187" y="463"/>
-      <point x="195" y="471"/>
-      <point x="202" y="478" type="curve"/>
-    </contour>
+    <component base="uni030B" xOffset="124"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 11:29:18 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

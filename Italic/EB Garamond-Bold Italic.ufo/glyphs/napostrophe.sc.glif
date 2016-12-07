@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe.sc" format="1">
-  <advance width="600"/>
+  <advance width="611"/>
   <note>
     napostrophe.sc
   </note>
   <outline>
+    <component base="N.sc" xOffset="25"/>
+    <component base="uni030C.altcap" xOffset="-10" yOffset="-34"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-07 12:18:18 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>uni030C.altcap</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>N.sc</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>N.sc</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

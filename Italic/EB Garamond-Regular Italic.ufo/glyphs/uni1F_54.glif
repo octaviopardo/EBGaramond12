@@ -1,110 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F54" format="1">
-  <advance width="486"/>
+  <advance width="423"/>
   <unicode hex="1F54"/>
   <note>
     uni1F54
   </note>
   <outline>
-    <contour>
-      <point x="370" y="565"/>
-      <point x="454" y="668"/>
-      <point x="454" y="673" type="curve" smooth="yes"/>
-      <point x="454" y="688"/>
-      <point x="425" y="710"/>
-      <point x="415" y="710" type="curve" smooth="yes"/>
-      <point x="405" y="710"/>
-      <point x="397" y="698"/>
-      <point x="390" y="685" type="curve" smooth="yes"/>
-      <point x="373" y="654"/>
-      <point x="328" y="568"/>
-      <point x="315" y="541" type="curve" smooth="yes"/>
-      <point x="313" y="537"/>
-      <point x="313" y="533"/>
-      <point x="313" y="529" type="curve" smooth="yes"/>
-      <point x="313" y="525"/>
-      <point x="316" y="521"/>
-      <point x="321" y="521" type="curve" smooth="yes"/>
-      <point x="329" y="521"/>
-      <point x="337" y="529"/>
-      <point x="344" y="536" type="curve"/>
-    </contour>
-    <contour>
-      <point x="448" y="624"/>
-      <point x="456" y="598"/>
-      <point x="447" y="576" type="curve" smooth="yes"/>
-      <point x="435" y="546"/>
-      <point x="404" y="514"/>
-      <point x="361" y="505" type="curve" smooth="yes"/>
-      <point x="341" y="501"/>
-      <point x="337" y="484"/>
-      <point x="358" y="484" type="curve" smooth="yes"/>
-      <point x="360" y="484" type="line"/>
-      <point x="408" y="486"/>
-      <point x="485" y="543"/>
-      <point x="505" y="607" type="curve" smooth="yes"/>
-      <point x="522" y="663"/>
-      <point x="488" y="704"/>
-      <point x="443" y="704" type="curve" smooth="yes"/>
-      <point x="416" y="704"/>
-      <point x="393" y="684"/>
-      <point x="388" y="668" type="curve" smooth="yes"/>
-      <point x="381" y="646"/>
-      <point x="392" y="627"/>
-      <point x="419" y="626" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="135" y="257"/>
-      <point x="104" y="197"/>
-      <point x="104" y="120" type="curve" smooth="yes"/>
-      <point x="104" y="54"/>
-      <point x="144" y="-14"/>
-      <point x="209" y="-14" type="curve" smooth="yes"/>
-      <point x="329" y="-14"/>
-      <point x="420" y="168"/>
-      <point x="420" y="301" type="curve" smooth="yes"/>
-      <point x="420" y="363"/>
-      <point x="395" y="424"/>
-      <point x="381" y="424" type="curve" smooth="yes"/>
-      <point x="376" y="424"/>
-      <point x="363" y="415"/>
-      <point x="363" y="400" type="curve" smooth="yes"/>
-      <point x="363" y="385"/>
-      <point x="381" y="347"/>
-      <point x="381" y="296" type="curve" smooth="yes"/>
-      <point x="381" y="195"/>
-      <point x="308" y="65"/>
-      <point x="219" y="65" type="curve" smooth="yes"/>
-      <point x="171" y="65"/>
-      <point x="146" y="106"/>
-      <point x="146" y="157" type="curve" smooth="yes"/>
-      <point x="146" y="197"/>
-      <point x="175" y="261"/>
-      <point x="196" y="302" type="curve" smooth="yes"/>
-      <point x="209" y="327"/>
-      <point x="219" y="349"/>
-      <point x="219" y="364" type="curve" smooth="yes"/>
-      <point x="219" y="395"/>
-      <point x="198" y="417"/>
-      <point x="167" y="417" type="curve" smooth="yes"/>
-      <point x="115" y="417"/>
-      <point x="76" y="347"/>
-      <point x="76" y="318" type="curve" smooth="yes"/>
-      <point x="76" y="307"/>
-      <point x="85" y="294"/>
-      <point x="97" y="294" type="curve" smooth="yes"/>
-      <point x="120" y="294"/>
-      <point x="122" y="328"/>
-      <point x="145" y="328" type="curve" smooth="yes"/>
-      <point x="160" y="328"/>
-      <point x="168" y="317"/>
-      <point x="161" y="305" type="curve" smooth="yes"/>
-    </contour>
+    <component base="upsilon"/>
+    <component base="uni1FCE" xOffset="68"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-06 18:18:17 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
