@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name=".notdef" format="1">
-  <advance width="600"/>
+  <advance width="516"/>
   <note>
     .notdef
   </note>
   <outline>
+    <contour>
+      <point x="511" y="1" type="line"/>
+      <point x="511" y="552" type="line"/>
+      <point x="45" y="552" type="line"/>
+      <point x="45" y="1" type="line"/>
+    </contour>
+    <contour>
+      <point x="149" y="436" type="line"/>
+      <point x="407" y="436" type="line"/>
+      <point x="407" y="117" type="line"/>
+      <point x="149" y="117" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-12 15:06:52 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

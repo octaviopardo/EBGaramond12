@@ -6,22 +6,26 @@
   </note>
   <outline>
     <contour>
-      <point x="50" y="0" type="line"/>
-      <point x="450" y="0" type="line"/>
-      <point x="450" y="473" type="line"/>
-      <point x="50" y="473" type="line"/>
+      <point x="461" y="0" type="line"/>
+      <point x="461" y="473" type="line"/>
+      <point x="61" y="473" type="line"/>
+      <point x="61" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="100" y="50" type="line"/>
-      <point x="100" y="423" type="line"/>
-      <point x="400" y="423" type="line"/>
-      <point x="400" y="50" type="line"/>
+      <point x="111" y="423" type="line"/>
+      <point x="411" y="423" type="line"/>
+      <point x="411" y="50" type="line"/>
+      <point x="111" y="50" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-12 15:06:52 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

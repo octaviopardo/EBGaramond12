@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2A74" format="1">
-  <advance width="600"/>
+  <advance width="1151"/>
   <unicode hex="2A74"/>
   <note>
     uni2A74
   </note>
   <outline>
+    <component base="equal" xOffset="508"/>
+    <component base="colon" xOffset="253" yOffset="77"/>
+    <component base="colon" xOffset="24" yOffset="77"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-09 17:27:40 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>colon</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>equal</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03F1" format="1">
-  <advance width="600"/>
+  <advance width="418"/>
   <unicode hex="03F1"/>
   <note>
     uni03F1
   </note>
   <outline>
+    <component base="rho"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-25 14:49:02 +0000</string>
+      <string>2016-12-12 16:42:02 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
