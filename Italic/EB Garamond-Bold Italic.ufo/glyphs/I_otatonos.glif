@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotatonos" format="1">
-  <advance width="498"/>
+  <advance width="484"/>
   <unicode hex="038A"/>
   <note>
     Iotatonos
   </note>
   <outline>
-    <component base="Iota" xOffset="128"/>
-    <component base="tonos" xOffset="56"/>
+    <component base="Iota" xOffset="103"/>
+    <component base="tonos" xOffset="-92"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:57:45 +0000</string>
+      <string>2017-01-16 18:00:36 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Iota</string>
       <key>public.markColor</key>
@@ -28,6 +28,14 @@
           <integer>0</integer>
           <key>name</key>
           <string>Iota</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tonos</string>
         </dict>
       </array>
     </dict>

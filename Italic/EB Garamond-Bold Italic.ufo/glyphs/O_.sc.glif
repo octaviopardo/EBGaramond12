@@ -6,35 +6,35 @@
   </note>
   <outline>
     <contour>
-      <point x="412" y="-14"/>
-      <point x="569" y="127"/>
-      <point x="569" y="280" type="curve" smooth="yes"/>
-      <point x="569" y="386"/>
-      <point x="481" y="458"/>
-      <point x="372" y="458" type="curve" smooth="yes"/>
-      <point x="183" y="458"/>
-      <point x="28" y="318"/>
-      <point x="28" y="164" type="curve" smooth="yes"/>
-      <point x="28" y="58"/>
-      <point x="115" y="-14"/>
-      <point x="224" y="-14" type="curve" smooth="yes"/>
+      <point x="443" y="-14"/>
+      <point x="582" y="126"/>
+      <point x="563" y="279" type="curve" smooth="yes"/>
+      <point x="550" y="385"/>
+      <point x="454" y="457"/>
+      <point x="344" y="457" type="curve" smooth="yes"/>
+      <point x="155" y="457"/>
+      <point x="18" y="317"/>
+      <point x="36" y="164" type="curve" smooth="yes"/>
+      <point x="49" y="58"/>
+      <point x="145" y="-14"/>
+      <point x="255" y="-14" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="195" y="20"/>
-      <point x="177" y="65"/>
-      <point x="179" y="123" type="curve" smooth="yes"/>
-      <point x="183" y="235"/>
-      <point x="273" y="425"/>
-      <point x="360" y="425" type="curve" smooth="yes"/>
-      <point x="400" y="425"/>
-      <point x="423" y="380"/>
-      <point x="421" y="321" type="curve" smooth="yes"/>
-      <point x="417" y="210"/>
-      <point x="322" y="20"/>
-      <point x="234" y="20" type="curve" smooth="yes"/>
+      <point x="209" y="17"/>
+      <point x="185" y="63"/>
+      <point x="179" y="120" type="curve" smooth="yes"/>
+      <point x="167" y="229"/>
+      <point x="247" y="429"/>
+      <point x="344" y="429" type="curve" smooth="yes"/>
+      <point x="388" y="429"/>
+      <point x="414" y="380"/>
+      <point x="421" y="322" type="curve" smooth="yes"/>
+      <point x="432" y="214"/>
+      <point x="351" y="17"/>
+      <point x="253" y="17" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="387" y="503" type="move" name="top"/>
+      <point x="384" y="503" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
@@ -42,7 +42,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-16 11:09:35 +0000</string>
+      <string>2017-01-09 11:10:41 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -171,7 +171,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>201</integer>
+                  <integer>195</integer>
                   <key>y</key>
                   <integer>20</integer>
                 </dict>
@@ -179,7 +179,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>184</integer>
+                  <integer>177</integer>
                   <key>y</key>
                   <integer>65</integer>
                 </dict>
@@ -189,7 +189,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>186</integer>
+                  <integer>179</integer>
                   <key>y</key>
                   <integer>123</integer>
                 </dict>
@@ -197,7 +197,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>190</integer>
+                  <integer>183</integer>
                   <key>y</key>
                   <integer>235</integer>
                 </dict>
@@ -205,7 +205,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>275</integer>
+                  <integer>273</integer>
                   <key>y</key>
                   <integer>425</integer>
                 </dict>
@@ -215,7 +215,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>356</integer>
+                  <integer>360</integer>
                   <key>y</key>
                   <integer>425</integer>
                 </dict>
@@ -223,7 +223,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>394</integer>
+                  <integer>400</integer>
                   <key>y</key>
                   <integer>425</integer>
                 </dict>
@@ -231,7 +231,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>416</integer>
+                  <integer>423</integer>
                   <key>y</key>
                   <integer>380</integer>
                 </dict>
@@ -241,7 +241,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>414</integer>
+                  <integer>421</integer>
                   <key>y</key>
                   <integer>321</integer>
                 </dict>
@@ -249,7 +249,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>410</integer>
+                  <integer>417</integer>
                   <key>y</key>
                   <integer>210</integer>
                 </dict>
@@ -257,7 +257,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>320</integer>
+                  <integer>322</integer>
                   <key>y</key>
                   <integer>20</integer>
                 </dict>
@@ -267,7 +267,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>238</integer>
+                  <integer>234</integer>
                   <key>y</key>
                   <integer>20</integer>
                 </dict>

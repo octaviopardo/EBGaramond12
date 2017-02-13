@@ -3,16 +3,18 @@
   <advance width="746"/>
   <unicode hex="01D7"/>
   <note>
-	uni01D7
+    uni01D7
   </note>
   <outline>
     <component base="Udieresis"/>
-    <component base="acutecomb.flat" xOffset="302" yOffset="360"/>
+    <component base="acutecomb.flat" xOffset="452" yOffset="360"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 09:39:28 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

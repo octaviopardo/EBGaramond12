@@ -2,16 +2,18 @@
 <glyph name="Scedilla.sc" format="1">
   <advance width="425"/>
   <note>
-	Scedilla.sc
+    Scedilla.sc
   </note>
   <outline>
     <component base="S.sc"/>
-    <component base="cedilla" xOffset="-63"/>
+    <component base="cedilla" xOffset="52"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:47:39 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

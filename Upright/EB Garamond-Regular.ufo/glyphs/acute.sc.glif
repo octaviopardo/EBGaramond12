@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acute.sc" format="1">
-  <advance width="382"/>
+  <advance width="200"/>
   <note>
-	acute.sc
+    acute.sc
   </note>
   <outline>
-    <component base="acutecomb.sc" xOffset="136" yOffset="1"/>
+    <component base="acutecomb.sc" xOffset="99" yOffset="1"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-03 16:55:35 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -194,7 +196,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>382</integer>
+          <integer>200</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

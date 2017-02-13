@@ -3,16 +3,18 @@
   <advance width="390"/>
   <unicode hex="011B"/>
   <note>
-	ecaron
+    ecaron
   </note>
   <outline>
     <component base="e"/>
-    <component base="caron" xOffset="73"/>
+    <component base="caron" xOffset="72"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:26:34 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

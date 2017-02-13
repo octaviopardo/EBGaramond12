@@ -2,16 +2,18 @@
 <glyph name="Tcaron.sc" format="1">
   <advance width="550"/>
   <note>
-	Tcaron.sc
+    Tcaron.sc
   </note>
   <outline>
     <component base="T.sc"/>
-    <component base="uni030C.sc" xOffset="132" yOffset="84"/>
+    <component base="uni030C.sc" xOffset="270" yOffset="84"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:47:39 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

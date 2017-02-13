@@ -3,7 +3,7 @@
   <advance width="603"/>
   <unicode hex="044B"/>
   <note>
-	uni044B
+    uni044B
   </note>
   <outline>
     <component base="uni044C"/>
@@ -16,12 +16,33 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-07 17:00:21 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>uni044C</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>uni026A</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni044C</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni026A</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

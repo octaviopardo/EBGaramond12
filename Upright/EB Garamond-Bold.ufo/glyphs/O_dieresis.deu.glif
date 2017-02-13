@@ -2,17 +2,19 @@
 <glyph name="Odieresis.deu" format="1">
   <advance width="759"/>
   <note>
-	Odieresis.deu
+    Odieresis.deu
   </note>
   <outline>
     <component base="O"/>
-    <component base="uni0307.cap" xOffset="10" yOffset="-90"/>
-    <component base="uni0307.cap" xOffset="578" yOffset="-88"/>
+    <component base="uni0307.cap" xOffset="90" yOffset="-90"/>
+    <component base="uni0307.cap" xOffset="656" yOffset="-88"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:23:10 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -476,6 +478,25 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0307.cap</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>uni0307.cap</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

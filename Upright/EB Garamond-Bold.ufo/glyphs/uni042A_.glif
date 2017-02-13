@@ -3,7 +3,7 @@
   <advance width="761"/>
   <unicode hex="042A"/>
   <note>
-	uni042A
+    uni042A
   </note>
   <outline>
     <contour>
@@ -79,12 +79,12 @@
       <point x="179" y="-5" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="443" y="58"/>
-      <point x="431" y="64"/>
-      <point x="422" y="74" type="curve"/>
-      <point x="414" y="85"/>
-      <point x="410" y="100"/>
-      <point x="410" y="119" type="curve" smooth="yes"/>
+      <point x="443" y="38"/>
+      <point x="431" y="44"/>
+      <point x="422" y="54" type="curve"/>
+      <point x="414" y="65"/>
+      <point x="410" y="80"/>
+      <point x="410" y="99" type="curve" smooth="yes"/>
       <point x="410" y="301" type="line" smooth="yes"/>
       <point x="410" y="320"/>
       <point x="418" y="328"/>
@@ -99,14 +99,16 @@
       <point x="559" y="266"/>
       <point x="559" y="195" type="curve" smooth="yes"/>
       <point x="559" y="115"/>
-      <point x="509" y="58"/>
-      <point x="459" y="58" type="curve" smooth="yes"/>
+      <point x="509" y="38"/>
+      <point x="459" y="38" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-13 12:53:50 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

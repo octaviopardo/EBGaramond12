@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F1A" format="1">
-  <advance width="739"/>
+  <advance width="753"/>
   <unicode hex="1F1A"/>
   <note>
-	uni1F1A
+    uni1F1A
   </note>
   <outline>
     <component base="Epsilon" xOffset="204"/>
@@ -13,6 +13,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-01 19:09:24 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>E</string>
       <key>com.typemytype.robofont.layerData</key>
@@ -1370,11 +1372,22 @@
           <array>
           </array>
           <key>width</key>
-          <integer>739</integer>
+          <integer>753</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Epsilon</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

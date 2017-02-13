@@ -3,7 +3,7 @@
   <advance width="830"/>
   <unicode hex="1F69"/>
   <note>
-	uni1F69
+    uni1F69
   </note>
   <outline>
     <component base="Omega"/>
@@ -13,6 +13,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 18:30:18 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omega</string>
       <key>com.typemytype.robofont.layerData</key>
@@ -1190,6 +1192,17 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Omega</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

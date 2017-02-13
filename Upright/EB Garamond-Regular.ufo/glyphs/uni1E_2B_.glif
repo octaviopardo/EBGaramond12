@@ -3,18 +3,31 @@
   <advance width="515"/>
   <unicode hex="1E2B"/>
   <note>
-	uni1E2B
+    uni1E2B
   </note>
   <outline>
     <component base="h"/>
-    <component base="uni0311" xOffset="90" yOffset="394" yScale="-1"/>
+    <component base="uni0311" xOffset="258" yOffset="394" yScale="-1"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:56:34 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0311</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

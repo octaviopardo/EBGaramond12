@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilontonos" format="1">
-  <advance width="720"/>
+  <advance width="695"/>
   <unicode hex="0388"/>
   <note>
     Epsilontonos
   </note>
   <outline>
-    <component base="Epsilon" xOffset="148"/>
-    <component base="tonos" xOffset="56"/>
+    <component base="Epsilon" xOffset="123"/>
+    <component base="tonos" xOffset="-92"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:57:45 +0000</string>
+      <string>2017-01-16 18:00:18 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Epsilon</string>
       <key>public.markColor</key>
@@ -31,7 +31,7 @@
         </dict>
         <dict>
           <key>alignment</key>
-          <integer>1</integer>
+          <integer>-1</integer>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>

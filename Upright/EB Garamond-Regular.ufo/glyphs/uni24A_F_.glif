@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni24AF" format="1">
-  <advance width="964"/>
+  <advance width="968"/>
   <unicode hex="24AF"/>
   <note>
-	uni24AF
+    uni24AF
   </note>
   <outline>
     <component base="t" xOffset="315"/>
@@ -14,6 +14,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 17:53:22 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>parenleft</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -989,11 +991,22 @@
           <array>
           </array>
           <key>width</key>
-          <integer>964</integer>
+          <integer>968</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

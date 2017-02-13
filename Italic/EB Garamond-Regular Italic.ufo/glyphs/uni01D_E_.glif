@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01DE" format="1">
-  <advance width="730"/>
+  <advance width="658"/>
   <unicode hex="01DE"/>
   <note>
     uni01DE
   </note>
   <outline>
     <component base="Adieresis"/>
-    <component base="uni0304.cap" xOffset="601" yOffset="119"/>
+    <component base="uni0304.cap" xOffset="481" yOffset="117"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-10-31 12:11:07 +0000</string>
+      <string>2017-01-08 16:11:51 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1150,21 +1150,13 @@
           <array>
           </array>
           <key>width</key>
-          <integer>730</integer>
+          <integer>658</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Adieresis</string>
-        </dict>
         <dict>
           <key>alignment</key>
           <integer>-1</integer>

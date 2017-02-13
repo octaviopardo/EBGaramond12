@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2100" format="1">
-  <advance width="573"/>
+  <advance width="600"/>
   <unicode hex="2100"/>
   <note>
-	uni2100
+    uni2100
   </note>
   <outline>
     <component base="fraction" xOffset="270"/>
@@ -14,12 +14,41 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-02 10:49:24 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>a.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>c.ordn</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>fraction</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>a.ordn</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>c.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

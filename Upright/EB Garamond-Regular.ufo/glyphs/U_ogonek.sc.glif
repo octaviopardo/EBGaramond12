@@ -2,16 +2,18 @@
 <glyph name="Uogonek.sc" format="1">
   <advance width="600"/>
   <note>
-	Uogonek.sc
+    Uogonek.sc
   </note>
   <outline>
     <component base="U.sc"/>
-    <component base="ogonek" xOffset="223"/>
+    <component base="ogonek" xOffset="183"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:48:05 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

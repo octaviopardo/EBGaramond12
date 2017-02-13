@@ -1,62 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five.taboldstyle" format="1">
-  <advance width="475"/>
+  <advance width="480"/>
   <note>
-	five.taboldstyle
+    five.taboldstyle
   </note>
   <outline>
-    <contour>
-      <point x="240" y="-189"/>
-      <point x="363" y="-112"/>
-      <point x="363" y="17" type="curve" smooth="yes"/>
-      <point x="363" y="109"/>
-      <point x="267" y="195"/>
-      <point x="165" y="252" type="curve" smooth="yes"/>
-      <point x="151" y="260"/>
-      <point x="145" y="268"/>
-      <point x="145" y="276" type="curve" smooth="yes"/>
-      <point x="145" y="296"/>
-      <point x="157" y="308"/>
-      <point x="164" y="309" type="curve" smooth="yes"/>
-      <point x="201" y="314"/>
-      <point x="235" y="318"/>
-      <point x="286" y="328" type="curve" smooth="yes"/>
-      <point x="313" y="333"/>
-      <point x="337" y="376"/>
-      <point x="337" y="401" type="curve" smooth="yes"/>
-      <point x="337" y="408"/>
-      <point x="333" y="415"/>
-      <point x="326" y="415" type="curve" smooth="yes"/>
-      <point x="311" y="415"/>
-      <point x="219" y="395"/>
-      <point x="179" y="380" type="curve" smooth="yes"/>
-      <point x="169" y="376"/>
-      <point x="152" y="366"/>
-      <point x="143" y="347" type="curve" smooth="yes"/>
-      <point x="135" y="330"/>
-      <point x="112" y="276"/>
-      <point x="112" y="222" type="curve" smooth="yes"/>
-      <point x="112" y="205"/>
-      <point x="124" y="190"/>
-      <point x="162" y="167" type="curve" smooth="yes"/>
-      <point x="225" y="129"/>
-      <point x="283" y="67"/>
-      <point x="283" y="0" type="curve" smooth="yes"/>
-      <point x="283" y="-106"/>
-      <point x="214" y="-147"/>
-      <point x="139" y="-160" type="curve" smooth="yes"/>
-      <point x="127" y="-162"/>
-      <point x="106" y="-167"/>
-      <point x="106" y="-177" type="curve" smooth="yes"/>
-      <point x="106" y="-186"/>
-      <point x="125" y="-189"/>
-      <point x="140" y="-189" type="curve" smooth="yes"/>
-    </contour>
+    <component base="five" xOffset="54"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-19 11:50:07 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

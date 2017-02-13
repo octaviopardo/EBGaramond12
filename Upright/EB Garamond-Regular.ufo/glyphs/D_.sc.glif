@@ -2,7 +2,7 @@
 <glyph name="D.sc" format="1">
   <advance width="603"/>
   <note>
-	D.sc
+    D.sc
   </note>
   <outline>
     <contour>
@@ -45,19 +45,19 @@
       <point x="50" y="-3" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="234" y="28"/>
-      <point x="195" y="59"/>
-      <point x="195" y="91" type="curve" smooth="yes"/>
-      <point x="195" y="383" type="line" smooth="yes"/>
-      <point x="195" y="411"/>
-      <point x="225" y="422"/>
-      <point x="252" y="422" type="curve" smooth="yes"/>
-      <point x="378" y="422"/>
+      <point x="230" y="25"/>
+      <point x="195" y="51"/>
+      <point x="195" y="88" type="curve" smooth="yes"/>
+      <point x="195" y="386" type="line" smooth="yes"/>
+      <point x="195" y="414"/>
+      <point x="225" y="425"/>
+      <point x="252" y="425" type="curve" smooth="yes"/>
+      <point x="378" y="425"/>
       <point x="453" y="356"/>
       <point x="453" y="225" type="curve" smooth="yes"/>
       <point x="453" y="122"/>
-      <point x="384" y="28"/>
-      <point x="271" y="28" type="curve" smooth="yes"/>
+      <point x="384" y="25"/>
+      <point x="271" y="25" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="275" y="503" type="move" name="top"/>
@@ -67,6 +67,12 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:24:17 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o.sc</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

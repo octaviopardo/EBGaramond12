@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex" format="1">
-  <advance width="258"/>
+  <advance width="300"/>
   <unicode hex="02C6"/>
   <note>
     circumflex
   </note>
   <outline>
-    <component base="caron" xOffset="465" yOffset="1103" xScale="-1" yScale="-1"/>
+    <component base="caron" xOffset="468" yOffset="1103" xScale="-1" yScale="-1"/>
     <contour>
-      <point x="203" y="440" type="move" name="_top"/>
+      <point x="212" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-07 11:15:53 +0000</string>
+      <string>2017-01-09 10:16:23 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -2,16 +2,18 @@
 <glyph name="Idotaccent.sc" format="1">
   <advance width="315"/>
   <note>
-	Idotaccent.sc
+    Idotaccent.sc
   </note>
   <outline>
     <component base="I.sc"/>
-    <component base="uni0307.sc" xOffset="46" yOffset="64"/>
+    <component base="uni0307.sc" xOffset="156" yOffset="64"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:46:05 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

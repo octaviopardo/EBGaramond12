@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FFA" format="1">
-  <advance width="910"/>
+  <advance width="919"/>
   <unicode hex="1FFA"/>
   <note>
     uni1FFA
   </note>
   <outline>
-    <component base="Omega" xOffset="96"/>
-    <component base="gravecomb.grk" xOffset="88" yOffset="20"/>
+    <component base="Omega" xOffset="105"/>
+    <component base="gravecomb.grk" xOffset="27" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:47:34 +0000</string>
+      <string>2017-01-16 18:15:57 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omega</string>
       <key>public.markColor</key>
@@ -25,9 +25,9 @@
           <key>alignment</key>
           <integer>-1</integer>
           <key>index</key>
-          <integer>0</integer>
+          <integer>1</integer>
           <key>name</key>
-          <string>Omega</string>
+          <string>gravecomb.grk</string>
         </dict>
       </array>
     </dict>

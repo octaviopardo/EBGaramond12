@@ -2,18 +2,20 @@
 <glyph name="uni0306.sc" format="1">
   <advance width="0"/>
   <note>
-	uni0306.sc
+    uni0306.sc
   </note>
   <outline>
-    <component base="breve" xOffset="40" yOffset="-16"/>
+    <component base="breve" xOffset="-150" yOffset="-16"/>
     <contour>
-      <point x="169" y="419" type="move" name="_top"/>
+      <point x="0" y="419" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-03 16:50:38 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

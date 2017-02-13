@@ -3,16 +3,18 @@
   <advance width="306"/>
   <unicode hex="0069"/>
   <note>
-	i
+    i
   </note>
   <outline>
     <component base="dotlessi"/>
-    <component base="dotaccent" xOffset="-47"/>
+    <component base="dotaccent" xOffset="31"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 17:53:20 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>n</string>
       <key>com.typemytype.robofont.layerData</key>

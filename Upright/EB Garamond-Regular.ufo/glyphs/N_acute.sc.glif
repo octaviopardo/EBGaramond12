@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nacute.sc" format="1">
-  <advance width="600"/>
+  <advance width="605"/>
   <note>
-	Nacute.sc
+    Nacute.sc
   </note>
   <outline>
     <component base="N.sc"/>
-    <component base="acutecomb.sc" xOffset="277" yOffset="63"/>
+    <component base="acutecomb.sc" xOffset="372" yOffset="63"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:46:31 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -994,7 +996,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>600</integer>
+          <integer>605</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

@@ -3,17 +3,19 @@
   <advance width="240"/>
   <unicode hex="1E39"/>
   <note>
-	uni1E39
+    uni1E39
   </note>
   <outline>
     <component base="l"/>
-    <component base="dotbelowcomb" xOffset="70"/>
+    <component base="dotbelowcomb" xOffset="121"/>
     <component base="macron" xOffset="-42" yOffset="240"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:56:34 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

@@ -3,17 +3,19 @@
   <advance width="692"/>
   <unicode hex="1EA6"/>
   <note>
-	uni1EA6
+    uni1EA6
   </note>
   <outline>
     <component base="A"/>
-    <component base="uni0302.cap" xOffset="212" yOffset="-15"/>
-    <component base="gravecomb.capstack" xOffset="93" yOffset="49"/>
+    <component base="uni0302.cap" xOffset="362" yOffset="-15"/>
+    <component base="gravecomb.capstack" xOffset="182" yOffset="49"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:00:03 +0000</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>
@@ -1418,6 +1420,17 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0302.cap</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Alphatonos" format="1">
-  <advance width="726"/>
+  <advance width="658"/>
   <unicode hex="0386"/>
   <note>
     Alphatonos
   </note>
   <outline>
     <component base="Alpha"/>
-    <component base="tonos" xOffset="235"/>
+    <component base="tonos" xOffset="105" yOffset="10"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:57:45 +0000</string>
+      <string>2017-01-16 17:38:42 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

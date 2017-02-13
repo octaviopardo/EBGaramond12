@@ -3,19 +3,32 @@
   <advance width="505"/>
   <unicode hex="1ED7"/>
   <note>
-	uni1ED7
+    uni1ED7
   </note>
   <outline>
     <component base="o"/>
-    <component base="uni0302.stack" xOffset="115" yOffset="-18"/>
-    <component base="tildecomb.stack" xOffset="96" yOffset="159"/>
+    <component base="uni0302.stack" xOffset="244" yOffset="-18"/>
+    <component base="tildecomb.stack" xOffset="255" yOffset="161"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 17:51:05 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>tildecomb.stack</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

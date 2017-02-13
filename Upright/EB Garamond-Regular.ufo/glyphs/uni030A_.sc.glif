@@ -2,18 +2,20 @@
 <glyph name="uni030A.sc" format="1">
   <advance width="0"/>
   <note>
-	uni030A.sc
+    uni030A.sc
   </note>
   <outline>
-    <component base="ring" xOffset="6"/>
+    <component base="ring" xOffset="-100"/>
     <contour>
-      <point x="115" y="419" type="move" name="_top"/>
+      <point x="0" y="419" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-03 16:51:04 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EEC" format="1">
-  <advance width="748"/>
+  <advance width="738"/>
   <unicode hex="1EEC"/>
   <note>
-	uni1EEC
+    uni1EEC
   </note>
   <outline>
     <component base="Uhorn"/>
-    <component base="hookabovecomb.cap" xOffset="300"/>
+    <component base="hookabovecomb.cap" xOffset="390"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 16:45:38 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1063,7 +1065,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>748</integer>
+          <integer>738</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

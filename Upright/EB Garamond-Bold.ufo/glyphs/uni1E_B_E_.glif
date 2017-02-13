@@ -3,19 +3,32 @@
   <advance width="571"/>
   <unicode hex="1EBE"/>
   <note>
-	uni1EBE
+    uni1EBE
   </note>
   <outline>
     <component base="E"/>
-    <component base="uni0302.cap" xOffset="109" yOffset="-15"/>
-    <component base="acutecomb.capstack" xOffset="380" yOffset="69"/>
+    <component base="uni0302.cap" xOffset="271" yOffset="-15"/>
+    <component base="acutecomb.capstack" xOffset="484" yOffset="69"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:04:11 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0302.cap</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

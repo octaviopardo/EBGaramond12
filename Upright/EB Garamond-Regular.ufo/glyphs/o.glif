@@ -3,7 +3,7 @@
   <advance width="495"/>
   <unicode hex="006F"/>
   <note>
-	o
+    o
   </note>
   <outline>
     <contour>
@@ -41,7 +41,7 @@
       <point x="255" y="16" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="248" y="440" type="move" name="top"/>
+      <point x="254" y="440" type="move" name="top"/>
     </contour>
     <contour>
       <point x="247" y="-30" type="move" name="bottom"/>
@@ -51,6 +51,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-07 18:33:26 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

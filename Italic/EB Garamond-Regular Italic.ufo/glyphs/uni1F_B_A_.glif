@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FBA" format="1">
-  <advance width="726"/>
+  <advance width="658"/>
   <unicode hex="1FBA"/>
   <note>
     uni1FBA
   </note>
   <outline>
     <component base="Alpha"/>
-    <component base="gravecomb.grk" xOffset="218" yOffset="20"/>
+    <component base="gravecomb.grk" xOffset="128" yOffset="30"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 23:32:44 +0000</string>
+      <string>2017-01-16 17:45:04 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Alpha</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>gravecomb.grk</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

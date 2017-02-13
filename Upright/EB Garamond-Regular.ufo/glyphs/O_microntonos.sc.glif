@@ -2,16 +2,16 @@
 <glyph name="Omicrontonos.sc" format="1">
   <advance width="616"/>
   <note>
-	Omicrontonos.sc
+    Omicrontonos.sc
   </note>
   <outline>
     <component base="O.sc"/>
-    <component base="tonos" xOffset="262" yOffset="63"/>
+    <component base="tonos" xOffset="234" yOffset="63"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 17:21:28 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -416,8 +416,6 @@
           <integer>616</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

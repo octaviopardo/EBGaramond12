@@ -3,13 +3,13 @@
   <advance width="600"/>
   <unicode hex="20A5"/>
   <note>
-	uni20A5
+    uni20A5
   </note>
   <outline>
     <contour>
-      <point x="272" y="-80"/>
-      <point x="285" y="-76"/>
-      <point x="286" y="-65" type="curve"/>
+      <point x="263" y="-166"/>
+      <point x="276" y="-162"/>
+      <point x="277" y="-151" type="curve"/>
       <point x="295" y="1" type="line"/>
       <point x="297" y="1"/>
       <point x="299" y="1"/>
@@ -71,14 +71,14 @@
       <point x="345" y="362"/>
       <point x="343" y="360"/>
       <point x="341" y="358" type="curve"/>
-      <point x="355" y="462" type="line"/>
-      <point x="355" y="464" type="line" smooth="yes"/>
-      <point x="355" y="471"/>
-      <point x="349" y="479"/>
-      <point x="342" y="479" type="curve" smooth="yes"/>
-      <point x="329" y="479"/>
-      <point x="315" y="475"/>
-      <point x="313" y="462" type="curve" smooth="yes"/>
+      <point x="365" y="526" type="line"/>
+      <point x="365" y="528" type="line" smooth="yes"/>
+      <point x="365" y="535"/>
+      <point x="359" y="543"/>
+      <point x="352" y="543" type="curve" smooth="yes"/>
+      <point x="339" y="543"/>
+      <point x="325" y="539"/>
+      <point x="323" y="526" type="curve" smooth="yes"/>
       <point x="305" y="396" type="line"/>
       <point x="292" y="409"/>
       <point x="275" y="414"/>
@@ -159,17 +159,19 @@
       <point x="246" y="-3"/>
       <point x="250" y="-3"/>
       <point x="253" y="-3" type="curve"/>
-      <point x="245" y="-65" type="line"/>
-      <point x="245" y="-66" type="line" smooth="yes"/>
-      <point x="245" y="-73"/>
-      <point x="253" y="-80"/>
-      <point x="261" y="-80" type="curve" smooth="yes"/>
+      <point x="236" y="-151" type="line"/>
+      <point x="236" y="-152" type="line" smooth="yes"/>
+      <point x="236" y="-159"/>
+      <point x="244" y="-166"/>
+      <point x="252" y="-166" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-12 20:26:43 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>n</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

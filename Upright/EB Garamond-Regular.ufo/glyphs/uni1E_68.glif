@@ -3,17 +3,19 @@
   <advance width="465"/>
   <unicode hex="1E68"/>
   <note>
-	uni1E68
+    uni1E68
   </note>
   <outline>
     <component base="S"/>
-    <component base="dotbelowcomb.cap" xOffset="165"/>
-    <component base="uni0307.cap" xOffset="179"/>
+    <component base="dotbelowcomb.cap" xOffset="225"/>
+    <component base="uni0307.cap" xOffset="269"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 14:19:06 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

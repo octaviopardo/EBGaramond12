@@ -3,62 +3,55 @@
   <advance width="665"/>
   <unicode hex="04D8"/>
   <note>
-	uni04D8
+    uni04D8
   </note>
   <outline>
     <contour>
-      <point x="468" y="-15"/>
-      <point x="620" y="128"/>
-      <point x="620" y="341" type="curve" smooth="yes"/>
-      <point x="620" y="538"/>
-      <point x="473" y="663"/>
+      <point x="476" y="-14"/>
+      <point x="620" y="142"/>
+      <point x="620" y="332" type="curve" smooth="yes"/>
+      <point x="620" y="559"/>
+      <point x="462" y="663"/>
       <point x="306" y="663" type="curve" smooth="yes"/>
       <point x="230" y="663"/>
-      <point x="168" y="644"/>
-      <point x="132" y="630" type="curve" smooth="yes"/>
-      <point x="107" y="620"/>
-      <point x="88" y="617"/>
-      <point x="83" y="609" type="curve" smooth="yes"/>
-      <point x="70" y="589"/>
-      <point x="49" y="517"/>
-      <point x="49" y="497" type="curve" smooth="yes"/>
-      <point x="49" y="488"/>
-      <point x="52" y="479"/>
-      <point x="56" y="479" type="curve" smooth="yes"/>
-      <point x="69" y="479"/>
-      <point x="78" y="488"/>
-      <point x="83" y="498" type="curve"/>
-      <point x="111" y="549"/>
-      <point x="171" y="628"/>
-      <point x="283" y="628" type="curve" smooth="yes"/>
-      <point x="430" y="628"/>
-      <point x="521" y="495"/>
-      <point x="521" y="350" type="curve" smooth="yes"/>
-      <point x="521" y="334"/>
-      <point x="513" y="317"/>
-      <point x="496" y="317" type="curve" smooth="yes"/>
-      <point x="164" y="317" type="line" smooth="yes"/>
-      <point x="90" y="317"/>
-      <point x="28" y="259"/>
-      <point x="28" y="212" type="curve" smooth="yes"/>
-      <point x="28" y="53"/>
-      <point x="112" y="-15"/>
-      <point x="270" y="-15" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="177" y="24"/>
-      <point x="109" y="108"/>
-      <point x="109" y="206" type="curve" smooth="yes"/>
-      <point x="109" y="240"/>
-      <point x="130" y="266"/>
-      <point x="164" y="266" type="curve" smooth="yes"/>
-      <point x="503" y="266" type="line" smooth="yes"/>
-      <point x="512" y="266"/>
-      <point x="515" y="258"/>
-      <point x="515" y="246" type="curve" smooth="yes"/>
-      <point x="515" y="134"/>
-      <point x="416" y="24"/>
-      <point x="296" y="24" type="curve" smooth="yes"/>
+      <point x="168" y="641"/>
+      <point x="132" y="627" type="curve" smooth="yes"/>
+      <point x="107" y="617"/>
+      <point x="88" y="614"/>
+      <point x="83" y="606" type="curve" smooth="yes"/>
+      <point x="68" y="583"/>
+      <point x="54" y="527"/>
+      <point x="50" y="502" type="curve" smooth="yes"/>
+      <point x="48" y="490"/>
+      <point x="47" y="476"/>
+      <point x="58" y="476" type="curve" smooth="yes"/>
+      <point x="71" y="476"/>
+      <point x="78" y="485"/>
+      <point x="83" y="495" type="curve"/>
+      <point x="111" y="546"/>
+      <point x="171" y="622"/>
+      <point x="283" y="622" type="curve" smooth="yes"/>
+      <point x="453" y="622"/>
+      <point x="534" y="475"/>
+      <point x="534" y="315" type="curve" smooth="yes"/>
+      <point x="534" y="181"/>
+      <point x="452" y="26"/>
+      <point x="309" y="22" type="curve" smooth="yes"/>
+      <point x="205" y="20"/>
+      <point x="117" y="74"/>
+      <point x="117" y="196" type="curve" smooth="yes"/>
+      <point x="117" y="213"/>
+      <point x="129" y="226"/>
+      <point x="148" y="226" type="curve" smooth="yes"/>
+      <point x="553" y="227" type="line"/>
+      <point x="553" y="258" type="line"/>
+      <point x="71" y="258" type="line" smooth="yes"/>
+      <point x="50" y="258"/>
+      <point x="27" y="247"/>
+      <point x="27" y="218" type="curve" smooth="yes"/>
+      <point x="27" y="84"/>
+      <point x="148" y="-15"/>
+      <point x="293" y="-15" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="308" y="675" type="move" name="top.cap"/>
@@ -68,6 +61,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-13 12:43:35 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>O</string>
       <key>com.typemytype.robofont.layerData</key>

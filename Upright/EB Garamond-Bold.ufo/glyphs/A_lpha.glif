@@ -3,12 +3,12 @@
   <advance width="726"/>
   <unicode hex="0391"/>
   <note>
-	Alpha
+    Alpha
   </note>
   <outline>
     <component base="A"/>
     <contour>
-      <point x="106" y="464" type="move" name="top"/>
+      <point x="76" y="404" type="move" name="top"/>
     </contour>
     <contour>
       <point x="322" y="-30" type="move" name="bottom"/>
@@ -18,6 +18,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 18:30:18 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

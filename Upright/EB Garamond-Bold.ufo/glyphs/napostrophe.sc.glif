@@ -1,21 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe.sc" format="1">
-  <advance width="707"/>
+  <advance width="675"/>
   <note>
-	napostrophe.sc
+    napostrophe.sc
   </note>
   <outline>
-    <component base="uni030C.altcap" xOffset="16" yOffset="-34"/>
-    <component base="N.sc" xOffset="63"/>
+    <component base="N.sc" xOffset="48"/>
+    <component base="uni030C.altcap" yOffset="-34"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 20:28:27 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>uni030C.altcap</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>N.sc</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>uni030C.altcap</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>-34</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>baseGlyph</key>
+              <string>N.sc</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>47</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>napostrophe.sc</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>675</integer>
+        </dict>
+      </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>N.sc</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

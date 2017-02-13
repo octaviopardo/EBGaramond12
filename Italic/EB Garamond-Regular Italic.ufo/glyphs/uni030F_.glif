@@ -47,13 +47,15 @@
       <point x="86" y="470" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="159" y="440" type="move" name="_top"/>
+      <point x="129" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-10 12:32:44 +0000</string>
+      <string>2017-01-08 17:40:00 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -827,6 +829,8 @@
           <integer>0</integer>
         </dict>
       </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

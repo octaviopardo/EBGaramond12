@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut" format="1">
-  <advance width="306"/>
+  <advance width="300"/>
   <unicode hex="02DD"/>
   <note>
-	hungarumlaut
+    hungarumlaut
   </note>
   <outline>
-    <component base="uni030B"/>
+    <component base="uni030B" xOffset="150"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-12-27 12:10:11 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -356,7 +358,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>306</integer>
+          <integer>300</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

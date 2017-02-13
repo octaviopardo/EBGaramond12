@@ -3,7 +3,7 @@
   <advance width="515"/>
   <unicode hex="0068"/>
   <note>
-	h
+    h
   </note>
   <outline>
     <contour>
@@ -101,13 +101,15 @@
       <point x="39" y="-3" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="232" y="-30" type="move" name="bottom"/>
+      <point x="252" y="-30" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:56:33 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>n</string>
       <key>com.typemytype.robofont.guides</key>

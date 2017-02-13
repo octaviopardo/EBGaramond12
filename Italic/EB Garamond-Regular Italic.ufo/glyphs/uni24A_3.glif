@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni24A3" format="1">
-  <advance width="1106"/>
+  <advance width="1100"/>
   <unicode hex="24A3"/>
   <note>
     uni24A3
@@ -8,43 +8,16 @@
   <outline>
     <component base="parenleft"/>
     <component base="h" xOffset="308"/>
-    <component base="parenright" xOffset="797"/>
+    <component base="parenright" xOffset="791"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-11 14:47:01 +0000</string>
+      <string>2017-01-08 17:52:47 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>parenleft</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>h</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>parenright</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="longs_i" format="1">
   <advance width="519"/>
   <note>
-	longs_i
+    longs_i
   </note>
   <outline>
     <component base="longs._i"/>
@@ -10,8 +10,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-01 19:22:08 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>longs._i</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -923,8 +923,25 @@
           <integer>519</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>longs._i</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotlessi</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -3,37 +3,37 @@
   <advance width="448"/>
   <unicode hex="03B8"/>
   <note>
-	theta
+    theta
   </note>
   <outline>
     <contour>
-      <point x="324" y="-14"/>
+      <point x="322" y="-14"/>
       <point x="413" y="164"/>
       <point x="413" y="331" type="curve" smooth="yes"/>
       <point x="413" y="514"/>
-      <point x="351" y="706"/>
+      <point x="342" y="706"/>
       <point x="242" y="706" type="curve" smooth="yes"/>
       <point x="124" y="706"/>
       <point x="35" y="517"/>
       <point x="35" y="340" type="curve" smooth="yes"/>
-      <point x="35" y="189"/>
-      <point x="86" y="-14"/>
-      <point x="200" y="-14" type="curve" smooth="yes"/>
+      <point x="35" y="161"/>
+      <point x="103" y="-14"/>
+      <point x="198" y="-14" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="138" y="112"/>
-      <point x="93" y="172"/>
+      <point x="127" y="112"/>
+      <point x="93" y="157"/>
       <point x="93" y="277" type="curve" smooth="yes"/>
       <point x="93" y="285"/>
       <point x="97" y="290"/>
       <point x="104" y="290" type="curve"/>
-      <point x="323" y="290" type="line" smooth="yes"/>
-      <point x="330" y="290"/>
-      <point x="331" y="287"/>
-      <point x="330" y="278" type="curve" smooth="yes"/>
-      <point x="323" y="178"/>
-      <point x="272" y="112"/>
-      <point x="196" y="112" type="curve" smooth="yes"/>
+      <point x="330" y="290" type="line" smooth="yes"/>
+      <point x="337" y="290"/>
+      <point x="338" y="287"/>
+      <point x="337" y="278" type="curve" smooth="yes"/>
+      <point x="326" y="178"/>
+      <point x="274" y="112"/>
+      <point x="198" y="112" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="123" y="406"/>
@@ -42,8 +42,8 @@
       <point x="147" y="521"/>
       <point x="178" y="574"/>
       <point x="252" y="574" type="curve" smooth="yes"/>
-      <point x="299" y="574"/>
-      <point x="352" y="524"/>
+      <point x="326" y="574"/>
+      <point x="352" y="541"/>
       <point x="352" y="443" type="curve" smooth="yes"/>
       <point x="352" y="416"/>
       <point x="349" y="407"/>
@@ -55,6 +55,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-15 18:43:21 +0000</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>

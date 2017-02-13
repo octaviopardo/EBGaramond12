@@ -2,16 +2,16 @@
 <glyph name="Upsilondieresis.sc" format="1">
   <advance width="590"/>
   <note>
-	Upsilondieresis.sc
+    Upsilondieresis.sc
   </note>
   <outline>
     <component base="Upsilon.sc"/>
-    <component base="dieresis.sc" xOffset="139" yOffset="84"/>
+    <component base="dieresis.sc" xOffset="142" yOffset="84"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-04 11:24:47 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -774,8 +774,6 @@
           <integer>590</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

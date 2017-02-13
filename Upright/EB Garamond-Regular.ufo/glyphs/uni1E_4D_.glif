@@ -3,17 +3,19 @@
   <advance width="495"/>
   <unicode hex="1E4D"/>
   <note>
-	uni1E4D
+    uni1E4D
   </note>
   <outline>
     <component base="o"/>
-    <component base="tildecomb.stack" xOffset="116"/>
-    <component base="acutecomb.stack" xOffset="238" yOffset="151"/>
+    <component base="tildecomb.stack" xOffset="263"/>
+    <component base="acutecomb.stack" xOffset="310" yOffset="151"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:56:33 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

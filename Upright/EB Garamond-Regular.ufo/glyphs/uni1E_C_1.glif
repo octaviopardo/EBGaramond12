@@ -3,17 +3,19 @@
   <advance width="390"/>
   <unicode hex="1EC1"/>
   <note>
-	uni1EC1
+    uni1EC1
   </note>
   <outline>
     <component base="e"/>
-    <component base="uni0302.stack" xOffset="95"/>
-    <component base="gravecomb.stack" xOffset="12" yOffset="102"/>
+    <component base="uni0302.stack" xOffset="208"/>
+    <component base="gravecomb.stack" xOffset="81" yOffset="102"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 17:05:32 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

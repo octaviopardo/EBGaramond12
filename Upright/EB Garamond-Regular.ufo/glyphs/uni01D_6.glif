@@ -3,7 +3,7 @@
   <advance width="527"/>
   <unicode hex="01D6"/>
   <note>
-	uni01D6
+    uni01D6
   </note>
   <outline>
     <component base="udieresis"/>
@@ -13,6 +13,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:42:00 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1102,6 +1104,17 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macron</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

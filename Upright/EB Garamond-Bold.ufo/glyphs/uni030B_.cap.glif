@@ -2,19 +2,21 @@
 <glyph name="uni030B.cap" format="1">
   <advance width="0"/>
   <note>
-	uni030B.cap
+    uni030B.cap
   </note>
   <outline>
-    <component base="acutecomb.cap" xOffset="168"/>
-    <component base="acutecomb.cap"/>
+    <component base="acutecomb.cap" xOffset="84"/>
+    <component base="acutecomb.cap" xOffset="-84"/>
     <contour>
-      <point x="129" y="675" type="move" name="_top.cap"/>
+      <point x="-45" y="675" type="move" name="_top.cap"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-13 12:34:54 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

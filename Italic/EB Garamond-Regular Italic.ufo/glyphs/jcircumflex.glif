@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jcircumflex" format="1">
-  <advance width="255"/>
+  <advance width="259"/>
   <unicode hex="0135"/>
   <note>
     jcircumflex
   </note>
   <outline>
     <component base="j.dotless"/>
-    <component base="circumflex" xOffset="2"/>
+    <component base="circumflex" xOffset="-12"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-10 12:24:59 +0000</string>
+      <string>2017-01-08 17:22:57 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -691,7 +691,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>255</integer>
+          <integer>259</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

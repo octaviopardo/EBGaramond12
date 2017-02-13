@@ -1,51 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FC0" format="1">
-  <advance width="343"/>
+  <advance width="367"/>
   <unicode hex="1FC0"/>
   <note>
-	uni1FC0
+    uni1FC0
   </note>
   <outline>
+    <component base="tildecomb.stack" xOffset="183" yOffset="14"/>
     <contour>
-      <point x="42" y="499"/>
-      <point x="75" y="536"/>
-      <point x="103" y="536" type="curve" smooth="yes"/>
-      <point x="118" y="536"/>
-      <point x="144" y="529"/>
-      <point x="170" y="522" type="curve" smooth="yes"/>
-      <point x="194" y="516"/>
-      <point x="217" y="510"/>
-      <point x="230" y="510" type="curve" smooth="yes"/>
-      <point x="279" y="510"/>
-      <point x="333" y="576"/>
-      <point x="333" y="587" type="curve"/>
-      <point x="333" y="601"/>
-      <point x="322" y="612"/>
-      <point x="308" y="612" type="curve"/>
-      <point x="299" y="612"/>
-      <point x="274" y="583"/>
-      <point x="240" y="583" type="curve" smooth="yes"/>
-      <point x="227" y="583"/>
-      <point x="207" y="589"/>
-      <point x="185" y="595" type="curve" smooth="yes"/>
-      <point x="159" y="602"/>
-      <point x="131" y="611"/>
-      <point x="114" y="611" type="curve" smooth="yes"/>
-      <point x="63" y="611"/>
-      <point x="10" y="533"/>
-      <point x="10" y="523" type="curve"/>
-      <point x="10" y="508"/>
-      <point x="16" y="499"/>
-      <point x="33" y="499" type="curve"/>
-    </contour>
-    <contour>
-      <point x="172" y="440" type="move" name="_top"/>
+      <point x="182" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 18:30:19 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -281,7 +252,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>343</integer>
+          <integer>367</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

@@ -3,18 +3,31 @@
   <advance width="726"/>
   <unicode hex="1EAA"/>
   <note>
-	uni1EAA
+    uni1EAA
   </note>
   <outline>
     <component base="Acircumflex"/>
-    <component base="tildecomb.cap" xOffset="220" yOffset="137"/>
+    <component base="tildecomb.cap" xOffset="393" yOffset="140"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 16:45:37 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tildecomb.cap</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

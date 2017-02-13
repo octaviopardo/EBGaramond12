@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FC0" format="1">
-  <advance width="316"/>
+  <advance width="300"/>
   <unicode hex="1FC0"/>
   <note>
     uni1FC0
   </note>
   <outline>
-    <component base="tilde" yOffset="1"/>
+    <component base="tilde" xOffset="1" yOffset="1"/>
     <contour>
-      <point x="223" y="440" type="move" name="_topgreek"/>
+      <point x="224" y="440" type="move" name="_topgreek"/>
     </contour>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-07 11:54:24 +0000</string>
+      <string>2017-01-16 18:15:57 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -312,7 +312,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>316</integer>
+          <integer>300</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

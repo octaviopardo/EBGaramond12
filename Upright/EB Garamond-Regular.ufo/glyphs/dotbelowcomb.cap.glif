@@ -2,18 +2,20 @@
 <glyph name="dotbelowcomb.cap" format="1">
   <advance width="0"/>
   <note>
-	dotbelowcomb.cap
+    dotbelowcomb.cap
   </note>
   <outline>
     <component base="uni0307.cap" yOffset="-900"/>
     <contour>
-      <point x="61" y="-30" type="move" name="_bottom.cap"/>
+      <point x="1" y="-30" type="move" name="_bottom.cap"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 16:16:49 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

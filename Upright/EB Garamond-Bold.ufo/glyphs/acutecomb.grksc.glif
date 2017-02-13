@@ -2,15 +2,17 @@
 <glyph name="acutecomb.grksc" format="1">
   <advance width="0"/>
   <note>
-	acutecomb.grksc
+    acutecomb.grksc
   </note>
   <outline>
-    <component base="gravecomb.grksc" xOffset="140" xScale="-1"/>
+    <component base="gravecomb.grksc" xScale="-1"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-12-27 10:59:09 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

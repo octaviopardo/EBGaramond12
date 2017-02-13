@@ -3,17 +3,19 @@
   <advance width="390"/>
   <unicode hex="1E15"/>
   <note>
-	uni1E15
+    uni1E15
   </note>
   <outline>
     <component base="e"/>
     <component base="macron" xOffset="60" yOffset="-10"/>
-    <component base="gravecomb.stack" xOffset="125" yOffset="124"/>
+    <component base="gravecomb.stack" xOffset="175" yOffset="124"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:53:25 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -751,6 +753,17 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macron</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

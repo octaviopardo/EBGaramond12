@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D0C" format="1">
-  <advance width="470"/>
+  <advance width="415"/>
   <unicode hex="1D0C"/>
   <note>
-	uni1D0C
+    uni1D0C
   </note>
   <outline>
-    <component base="Lslash.sc"/>
+    <component base="Lslash.sc" xScale="0.883" yScale="0.883"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-09 12:56:49 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

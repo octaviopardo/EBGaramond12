@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FCF" format="1">
-  <advance width="363"/>
+  <advance width="367"/>
   <unicode hex="1FCF"/>
   <note>
-	uni1FCF
+    uni1FCF
   </note>
   <outline>
-    <component base="uni1FC0" xOffset="10" yOffset="170"/>
-    <component base="uni0313.grkstacksc" xOffset="84" yOffset="19"/>
+    <component base="uni1FC0" yOffset="170"/>
+    <component base="uni0313.grkstacksc" xOffset="179" yOffset="15"/>
     <contour>
-      <point x="164" y="440" type="move" name="_top"/>
+      <point x="171" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 18:30:19 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni1FC0</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

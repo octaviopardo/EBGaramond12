@@ -3,7 +3,7 @@
   <advance width="600"/>
   <unicode hex="0446"/>
   <note>
-	uni0446
+    uni0446
   </note>
   <outline>
     <contour>
@@ -50,14 +50,14 @@
       <point x="335" y="386"/>
       <point x="349" y="382"/>
       <point x="349" y="355" type="curve" smooth="yes"/>
-      <point x="349" y="96" type="line"/>
-      <point x="349" y="69"/>
-      <point x="335" y="64"/>
-      <point x="315" y="64" type="curve"/>
-      <point x="259" y="64" type="line"/>
-      <point x="240" y="64"/>
-      <point x="225" y="69"/>
-      <point x="225" y="96" type="curve"/>
+      <point x="349" y="83" type="line"/>
+      <point x="349" y="56"/>
+      <point x="335" y="51"/>
+      <point x="315" y="51" type="curve"/>
+      <point x="259" y="51" type="line"/>
+      <point x="240" y="51"/>
+      <point x="225" y="56"/>
+      <point x="225" y="83" type="curve"/>
       <point x="225" y="355" type="line" smooth="yes"/>
       <point x="225" y="382"/>
       <point x="240" y="385"/>
@@ -112,6 +112,46 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-07 17:00:21 +0000</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>baseGlyph</key>
+              <string>uni043F</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>-1</integer>
+                <integer>0</integer>
+                <integer>425</integer>
+              </array>
+            </dict>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni0446</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>600</integer>
+        </dict>
+      </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave.subs" format="1">
-  <advance width="143"/>
+  <advance width="200"/>
   <note>
-	grave.subs
+    grave.subs
   </note>
   <outline>
     <component base="grave.ordn" yOffset="-302"/>
@@ -11,12 +11,25 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 20:38:34 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>grave.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>grave.ordn</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>grave.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

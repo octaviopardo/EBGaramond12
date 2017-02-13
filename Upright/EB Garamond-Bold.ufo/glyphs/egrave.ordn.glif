@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="egrave.ordn" format="1">
-  <advance width="282"/>
+  <advance width="315"/>
   <note>
-	egrave.ordn
+    egrave.ordn
   </note>
   <outline>
     <component base="e.ordn"/>
-    <component base="grave.ordn" xOffset="48"/>
+    <component base="grave.ordn" xOffset="-3"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-02 10:50:38 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -195,7 +197,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>282</integer>
+          <integer>315</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

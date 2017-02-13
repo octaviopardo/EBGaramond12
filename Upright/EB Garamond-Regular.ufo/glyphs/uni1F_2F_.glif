@@ -3,16 +3,18 @@
   <advance width="1017"/>
   <unicode hex="1F2F"/>
   <note>
-	uni1F2F
+    uni1F2F
   </note>
   <outline>
-    <component base="uni1FDF" xOffset="-50" yOffset="24"/>
     <component base="Eta" xOffset="207"/>
+    <component base="uni1FDF" xOffset="-50" yOffset="24"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 18:30:19 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>H</string>
       <key>com.typemytype.robofont.layerData</key>
@@ -1489,6 +1491,17 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Eta</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave.sinf" format="1">
-  <advance width="143"/>
+  <advance width="200"/>
   <note>
-	grave.sinf
+    grave.sinf
   </note>
   <outline>
     <component base="grave.ordn" yOffset="-445"/>
@@ -11,6 +11,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 20:36:54 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>grave.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -198,7 +200,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>143</integer>
+          <integer>200</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

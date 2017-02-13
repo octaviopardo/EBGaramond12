@@ -38,6 +38,10 @@
 		<string>uni1EB6</string>
 		<string>Adieresis.deu</string>
 	</array>
+	<key>@MMK_L_A.ordn</key>
+	<array>
+		<string>A.ordn</string>
+	</array>
 	<key>@MMK_L_B</key>
 	<array>
 		<string>B</string>
@@ -46,6 +50,10 @@
 		<string>uni1E02</string>
 		<string>uni1E04</string>
 		<string>uni1E06</string>
+	</array>
+	<key>@MMK_L_B.ordn</key>
+	<array>
+		<string>B.ordn</string>
 	</array>
 	<key>@MMK_L_C</key>
 	<array>
@@ -59,9 +67,14 @@
 		<string>uni023B</string>
 		<string>uni1E08</string>
 	</array>
-	<key>@MMK_L_D</key>
+	<key>@MMK_L_C.ordn</key>
 	<array>
-		<string>uni01B2</string>
+		<string>C.ordn</string>
+	</array>
+	<key>@MMK_L_CHOOK</key>
+	<array>
+		<string>uni0187</string>
+		<string>uni0193</string>
 	</array>
 	<key>@MMK_L_E</key>
 	<array>
@@ -98,11 +111,19 @@
 		<string>uni1EC4</string>
 		<string>uni1EC6</string>
 	</array>
+	<key>@MMK_L_E.ordn</key>
+	<array>
+		<string>E.ordn</string>
+	</array>
 	<key>@MMK_L_F</key>
 	<array>
 		<string>F</string>
 		<string>uni0191</string>
 		<string>uni1E1E</string>
+	</array>
+	<key>@MMK_L_F.ordn</key>
+	<array>
+		<string>F.ordn</string>
 	</array>
 	<key>@MMK_L_G</key>
 	<array>
@@ -115,6 +136,10 @@
 		<string>uni01E4</string>
 		<string>uni01F4</string>
 		<string>uni1E20</string>
+	</array>
+	<key>@MMK_L_G.ordn</key>
+	<array>
+		<string>G.ordn</string>
 	</array>
 	<key>@MMK_L_Gamma</key>
 	<array>
@@ -157,6 +182,11 @@
 		<string>uniA7AA</string>
 		<string>J.hist</string>
 	</array>
+	<key>@MMK_L_H.ordn</key>
+	<array>
+		<string>H.ordn</string>
+		<string>I.ordn</string>
+	</array>
 	<key>@MMK_L_HWAIR</key>
 	<array>
 		<string>uni01F6</string>
@@ -171,6 +201,10 @@
 		<string>uni0248</string>
 		<string>uniA726</string>
 	</array>
+	<key>@MMK_L_J.ordn</key>
+	<array>
+		<string>J.ordn</string>
+	</array>
 	<key>@MMK_L_K</key>
 	<array>
 		<string>K</string>
@@ -182,6 +216,10 @@
 		<string>uni1E34</string>
 		<string>uni2C69</string>
 		<string>uniA742</string>
+	</array>
+	<key>@MMK_L_K.ordn</key>
+	<array>
+		<string>K.ordn</string>
 	</array>
 	<key>@MMK_L_L</key>
 	<array>
@@ -200,12 +238,20 @@
 		<string>uni2C60</string>
 		<string>uni2C62</string>
 	</array>
+	<key>@MMK_L_L.ordn</key>
+	<array>
+		<string>L.ordn</string>
+	</array>
 	<key>@MMK_L_M</key>
 	<array>
 		<string>M</string>
 		<string>uni1E3E</string>
 		<string>uni1E40</string>
 		<string>uni1E42</string>
+	</array>
+	<key>@MMK_L_M.ordn</key>
+	<array>
+		<string>M.ordn</string>
 	</array>
 	<key>@MMK_L_N</key>
 	<array>
@@ -221,6 +267,10 @@
 		<string>uni1E46</string>
 		<string>uni1E48</string>
 		<string>uni1E4A</string>
+	</array>
+	<key>@MMK_L_N.ordn</key>
+	<array>
+		<string>N.ordn</string>
 	</array>
 	<key>@MMK_L_O</key>
 	<array>
@@ -246,6 +296,7 @@
 		<string>uni0189</string>
 		<string>uni018A</string>
 		<string>uni019F</string>
+		<string>uni01B2</string>
 		<string>uni01D1</string>
 		<string>uni01EA</string>
 		<string>uni01EC</string>
@@ -282,6 +333,12 @@
 		<string>Q.low</string>
 		<string>Q.short</string>
 	</array>
+	<key>@MMK_L_O.ordn</key>
+	<array>
+		<string>D.ordn</string>
+		<string>O.ordn</string>
+		<string>Q.ordn</string>
+	</array>
 	<key>@MMK_L_P</key>
 	<array>
 		<string>P</string>
@@ -289,6 +346,10 @@
 		<string>uni1E54</string>
 		<string>uni1E56</string>
 		<string>uni2C63</string>
+	</array>
+	<key>@MMK_L_P.ordn</key>
+	<array>
+		<string>P.ordn</string>
 	</array>
 	<key>@MMK_L_R</key>
 	<array>
@@ -305,6 +366,10 @@
 		<string>uni1E5E</string>
 		<string>uni2C64</string>
 	</array>
+	<key>@MMK_L_R.ordn</key>
+	<array>
+		<string>R.ordn</string>
+	</array>
 	<key>@MMK_L_S</key>
 	<array>
 		<string>S</string>
@@ -318,6 +383,10 @@
 		<string>uni1E64</string>
 		<string>uni1E66</string>
 		<string>uni1E68</string>
+	</array>
+	<key>@MMK_L_S.ordn</key>
+	<array>
+		<string>S.ordn</string>
 	</array>
 	<key>@MMK_L_T</key>
 	<array>
@@ -333,6 +402,10 @@
 		<string>uni1E6C</string>
 		<string>uni1E6E</string>
 		<string>uni1E70</string>
+	</array>
+	<key>@MMK_L_T.ordn</key>
+	<array>
+		<string>T.ordn</string>
 	</array>
 	<key>@MMK_L_Tau</key>
 	<array>
@@ -375,6 +448,10 @@
 		<string>Udieresis.deu.01</string>
 		<string>Udieresis.deu</string>
 	</array>
+	<key>@MMK_L_U.ordn</key>
+	<array>
+		<string>U.ordn</string>
+	</array>
 	<key>@MMK_L_Upsilontonos</key>
 	<array>
 		<string>Upsilon</string>
@@ -398,15 +475,24 @@
 		<string>uni1E7E</string>
 		<string>uni1E86</string>
 		<string>uni1E88</string>
+		<string>uni1EFE</string>
 		<string>uni2C6F</string>
-		<string>uni2C72</string>
 		<string>U.LAT</string>
+	</array>
+	<key>@MMK_L_V.ordn</key>
+	<array>
+		<string>V.ordn</string>
+		<string>W.ordn</string>
 	</array>
 	<key>@MMK_L_X</key>
 	<array>
 		<string>X</string>
 		<string>uni1E8A</string>
 		<string>uni1E8C</string>
+	</array>
+	<key>@MMK_L_X.ordn</key>
+	<array>
+		<string>X.ordn</string>
 	</array>
 	<key>@MMK_L_Y</key>
 	<array>
@@ -423,6 +509,10 @@
 		<string>uni1EF6</string>
 		<string>uni1EF8</string>
 	</array>
+	<key>@MMK_L_Y.ordn</key>
+	<array>
+		<string>Y.ordn</string>
+	</array>
 	<key>@MMK_L_Z</key>
 	<array>
 		<string>Z</string>
@@ -432,11 +522,14 @@
 		<string>uni01B5</string>
 		<string>uni01C4</string>
 		<string>uni01F1</string>
-		<string>uni0224</string>
 		<string>uni1E90</string>
 		<string>uni1E92</string>
 		<string>uni1E94</string>
 		<string>uni2C6B</string>
+	</array>
+	<key>@MMK_L_Z.ordn</key>
+	<array>
+		<string>Z.ordn</string>
 	</array>
 	<key>@MMK_L_a</key>
 	<array>
@@ -498,11 +591,8 @@
 	</array>
 	<key>@MMK_L_b</key>
 	<array>
-		<string>uni0255</string>
-		<string>uni025A</string>
-		<string>uni0277</string>
-		<string>b.f_</string>
 		<string>thorn.f_</string>
+		<string>b.f_</string>
 	</array>
 	<key>@MMK_L_b.sc</key>
 	<array>
@@ -537,6 +627,7 @@
 	</array>
 	<key>@MMK_L_comma</key>
 	<array>
+		<string>uniA72E</string>
 		<string>uniA72F</string>
 		<string>comma</string>
 		<string>period</string>
@@ -566,9 +657,9 @@
 		<string>uni1E39</string>
 		<string>uni1E3B</string>
 		<string>uni1E3D</string>
-		<string>uni1EFB</string>
 		<string>uni2C61</string>
 		<string>l.f_</string>
+		<string>univ</string>
 	</array>
 	<key>@MMK_L_dcaron</key>
 	<array>
@@ -578,7 +669,9 @@
 	<key>@MMK_L_dhook</key>
 	<array>
 		<string>uni01AA</string>
+		<string>uni0256</string>
 		<string>uni026D</string>
+		<string>uni0273</string>
 		<string>uni027B</string>
 		<string>uni0285</string>
 		<string>uni0290</string>
@@ -809,6 +902,13 @@
 		<string>uni013C.sc</string>
 		<string>lslash.sc</string>
 	</array>
+	<key>@MMK_L_lambda.ipa</key>
+	<array>
+		<string>uni019B</string>
+		<string>uni028C</string>
+		<string>uni028D</string>
+		<string>lambda.ipa</string>
+	</array>
 	<key>@MMK_L_longs</key>
 	<array>
 		<string>longs</string>
@@ -880,7 +980,9 @@
 	</array>
 	<key>@MMK_L_o</key>
 	<array>
+		<string>uni1EFC</string>
 		<string>b</string>
+		<string>uni0259</string>
 		<string>o</string>
 		<string>oacute</string>
 		<string>obreve</string>
@@ -894,7 +996,6 @@
 		<string>otilde</string>
 		<string>p</string>
 		<string>thorn</string>
-		<string>uni0259</string>
 		<string>uni0180</string>
 		<string>uni0183</string>
 		<string>uni0185</string>
@@ -917,6 +1018,7 @@
 		<string>uni0254</string>
 		<string>uni0258</string>
 		<string>uni0275</string>
+		<string>uni0277</string>
 		<string>uni0278</string>
 		<string>uni029A</string>
 		<string>uni1E03</string>
@@ -1174,14 +1276,87 @@
 		<string>uring.sc</string>
 		<string>utilde.sc</string>
 	</array>
+	<key>@MMK_L_uni0184</key>
+	<array>
+		<string>uni0184</string>
+		<string>uni042C</string>
+		<string>uni042A</string>
+		<string>uni0409</string>
+		<string>uni040A</string>
+	</array>
+	<key>@MMK_L_uni0188</key>
+	<array>
+		<string>uni0188</string>
+	</array>
+	<key>@MMK_L_uni0195</key>
+	<array>
+		<string>uni0195</string>
+		<string>uni028B</string>
+	</array>
+	<key>@MMK_L_uni01A6</key>
+	<array>
+		<string>uni01A6</string>
+	</array>
+	<key>@MMK_L_uni0240</key>
+	<array>
+		<string>uni0240</string>
+	</array>
+	<key>@MMK_L_uni0251</key>
+	<array>
+		<string>uni0251</string>
+		<string>uni0269</string>
+	</array>
+	<key>@MMK_L_uni0255</key>
+	<array>
+		<string>uni0255</string>
+		<string>uni02A8</string>
+	</array>
+	<key>@MMK_L_uni0257</key>
+	<array>
+		<string>uni0257</string>
+		<string>uni0260</string>
+		<string>uni02A0</string>
+	</array>
+	<key>@MMK_L_uni025C</key>
+	<array>
+		<string>uni025C</string>
+		<string>uni025E</string>
+	</array>
+	<key>@MMK_L_uni025D</key>
+	<array>
+		<string>uni025A</string>
+		<string>uni025D</string>
+	</array>
+	<key>@MMK_L_uni0261</key>
+	<array>
+		<string>uni0261</string>
+		<string>g.01</string>
+	</array>
 	<key>@MMK_L_uni0283</key>
 	<array>
 		<string>uni0283</string>
+	</array>
+	<key>@MMK_L_uni0291</key>
+	<array>
+		<string>uni0291</string>
+	</array>
+	<key>@MMK_L_uni0292</key>
+	<array>
+		<string>uni01BA</string>
+		<string>uni01EF</string>
+		<string>uni026E</string>
+		<string>uni0292</string>
+		<string>uni0293</string>
+		<string>uniA729</string>
 	</array>
 	<key>@MMK_L_uni02BE</key>
 	<array>
 		<string>uni02BE</string>
 		<string>uni02BF</string>
+	</array>
+	<key>@MMK_L_uni0394</key>
+	<array>
+		<string>uni0394</string>
 	</array>
 	<key>@MMK_L_uni0413</key>
 	<array>
@@ -1199,6 +1374,14 @@
 		<string>uni1E9D.short</string>
 		<string>longs.short</string>
 		<string>longs_longs.short</string>
+	</array>
+	<key>@MMK_L_uni2C72</key>
+	<array>
+		<string>uni2C72</string>
+	</array>
+	<key>@MMK_L_uniA728</key>
+	<array>
+		<string>uniA728</string>
 	</array>
 	<key>@MMK_L_v</key>
 	<array>
@@ -1243,6 +1426,7 @@
 	</array>
 	<key>@MMK_L_vhorn</key>
 	<array>
+		<string>uni01B4</string>
 		<string>uni2C71</string>
 		<string>uni2C73</string>
 	</array>
@@ -1332,11 +1516,20 @@
 		<string>uni1EB6</string>
 		<string>Adieresis.deu</string>
 	</array>
+	<key>@MMK_R_A.ordn</key>
+	<array>
+		<string>A.ordn</string>
+	</array>
 	<key>@MMK_R_AE</key>
 	<array>
 		<string>AE</string>
 		<string>AEacute</string>
 		<string>uni01E2</string>
+	</array>
+	<key>@MMK_R_Ccedilla</key>
+	<array>
+		<string>Ohorn.sc</string>
+		<string>ohorn.sc</string>
 	</array>
 	<key>@MMK_R_H</key>
 	<array>
@@ -1477,15 +1670,27 @@
 		<string>uni2C75</string>
 		<string>uniA726</string>
 		<string>uniA742</string>
-		<string>uniA78D</string>
 		<string>J.hist</string>
+	</array>
+	<key>@MMK_R_H.ordn</key>
+	<array>
+		<string>B.ordn</string>
+		<string>D.ordn</string>
+		<string>E.ordn</string>
+		<string>F.ordn</string>
+		<string>H.ordn</string>
+		<string>I.ordn</string>
+		<string>K.ordn</string>
+		<string>L.ordn</string>
+		<string>N.ordn</string>
+		<string>P.ordn</string>
+		<string>R.ordn</string>
 	</array>
 	<key>@MMK_R_HOOK</key>
 	<array>
 		<string>uni0181</string>
 		<string>uni018A</string>
 		<string>uni01A4</string>
-		<string>uni01AC</string>
 		<string>uniA7AA</string>
 	</array>
 	<key>@MMK_R_J</key>
@@ -1495,6 +1700,10 @@
 		<string>uni0191</string>
 		<string>uni0248</string>
 	</array>
+	<key>@MMK_R_J.ordn</key>
+	<array>
+		<string>J.ordn</string>
+	</array>
 	<key>@MMK_R_M</key>
 	<array>
 		<string>M</string>
@@ -1502,6 +1711,10 @@
 		<string>uni1E40</string>
 		<string>uni1E42</string>
 		<string>uni2C6E</string>
+	</array>
+	<key>@MMK_R_M.ordn</key>
+	<array>
+		<string>M.ordn</string>
 	</array>
 	<key>@MMK_R_O</key>
 	<array>
@@ -1572,6 +1785,13 @@
 		<string>Q.low</string>
 		<string>Q.short</string>
 	</array>
+	<key>@MMK_R_O.ordn</key>
+	<array>
+		<string>C.ordn</string>
+		<string>G.ordn</string>
+		<string>O.ordn</string>
+		<string>Q.ordn</string>
+	</array>
 	<key>@MMK_R_S</key>
 	<array>
 		<string>S</string>
@@ -1586,6 +1806,10 @@
 		<string>uni1E66</string>
 		<string>uni1E68</string>
 	</array>
+	<key>@MMK_R_S.ordn</key>
+	<array>
+		<string>S.ordn</string>
+	</array>
 	<key>@MMK_R_T</key>
 	<array>
 		<string>T</string>
@@ -1599,6 +1823,15 @@
 		<string>uni1E6C</string>
 		<string>uni1E6E</string>
 		<string>uni1E70</string>
+		<string>uniA728</string>
+	</array>
+	<key>@MMK_R_T.ordn</key>
+	<array>
+		<string>T.ordn</string>
+	</array>
+	<key>@MMK_R_THOOK</key>
+	<array>
+		<string>uni01AC</string>
 	</array>
 	<key>@MMK_R_U</key>
 	<array>
@@ -1614,6 +1847,7 @@
 		<string>Uogonek</string>
 		<string>Uring</string>
 		<string>Utilde</string>
+		<string>uni01B2</string>
 		<string>uni01D3</string>
 		<string>uni01D5</string>
 		<string>uni01D7</string>
@@ -1637,6 +1871,10 @@
 		<string>Udieresis.deu.01</string>
 		<string>Udieresis.deu</string>
 	</array>
+	<key>@MMK_R_U.ordn</key>
+	<array>
+		<string>U.ordn</string>
+	</array>
 	<key>@MMK_R_V</key>
 	<array>
 		<string>V</string>
@@ -1654,11 +1892,20 @@
 		<string>uni2C72</string>
 		<string>U.LAT</string>
 	</array>
+	<key>@MMK_R_V.ordn</key>
+	<array>
+		<string>V.ordn</string>
+		<string>W.ordn</string>
+	</array>
 	<key>@MMK_R_X</key>
 	<array>
 		<string>X</string>
 		<string>uni1E8A</string>
 		<string>uni1E8C</string>
+	</array>
+	<key>@MMK_R_X.ordn</key>
+	<array>
+		<string>X.ordn</string>
 	</array>
 	<key>@MMK_R_Y</key>
 	<array>
@@ -1675,6 +1922,10 @@
 		<string>uni1EF6</string>
 		<string>uni1EF8</string>
 	</array>
+	<key>@MMK_R_Y.ordn</key>
+	<array>
+		<string>Y.ordn</string>
+	</array>
 	<key>@MMK_R_Z</key>
 	<array>
 		<string>Z</string>
@@ -1687,6 +1938,10 @@
 		<string>uni1E92</string>
 		<string>uni1E94</string>
 		<string>uni2C6B</string>
+	</array>
+	<key>@MMK_R_Z.ordn</key>
+	<array>
+		<string>Z.ordn</string>
 	</array>
 	<key>@MMK_R_a</key>
 	<array>
@@ -1704,13 +1959,13 @@
 		<string>ae</string>
 		<string>aeacute</string>
 		<string>uni01E3</string>
+		<string>uni025A</string>
 		<string>uni01CE</string>
 		<string>uni01DF</string>
 		<string>uni01E1</string>
 		<string>uni0201</string>
 		<string>uni0203</string>
 		<string>uni0227</string>
-		<string>uni025A</string>
 		<string>uni1E01</string>
 		<string>uni1E9A</string>
 		<string>uni1EA1</string>
@@ -1869,7 +2124,6 @@
 		<string>uni1E3B</string>
 		<string>uni1E3D</string>
 		<string>uni1E96</string>
-		<string>uni1EFB</string>
 		<string>uni2C61</string>
 		<string>uni2C68</string>
 		<string>uni2C6A</string>
@@ -1883,6 +2137,7 @@
 		<string>k.01</string>
 		<string>uni1E31.01</string>
 		<string>uni01E9.01</string>
+		<string>univ</string>
 	</array>
 	<key>@MMK_R_h.sc</key>
 	<array>
@@ -2011,6 +2266,12 @@
 		<string>i.TRK</string>
 		<string>j.hist</string>
 	</array>
+	<key>@MMK_R_invertedv</key>
+	<array>
+		<string>uni028C</string>
+		<string>uni028D</string>
+		<string>uni028E</string>
+	</array>
 	<key>@MMK_R_j</key>
 	<array>
 		<string>j</string>
@@ -2034,11 +2295,14 @@
 		<string>uni02AA</string>
 		<string>uni02AB</string>
 	</array>
+	<key>@MMK_R_lambda.ipa</key>
+	<array>
+		<string>uni019B</string>
+		<string>lambda.ipa</string>
+	</array>
 	<key>@MMK_R_m</key>
 	<array>
-		<string>uni01BA</string>
 		<string>uni021D</string>
-		<string>uni0269</string>
 		<string>uni026A</string>
 		<string>uni0274</string>
 	</array>
@@ -2101,6 +2365,7 @@
 		<string>uni0273</string>
 		<string>uni027C</string>
 		<string>uni027D</string>
+		<string>uni0281</string>
 		<string>uni1E3F</string>
 		<string>uni1E41</string>
 		<string>uni1E43</string>
@@ -2191,6 +2456,7 @@
 		<string>uni0262</string>
 		<string>uni0275</string>
 		<string>uni0276</string>
+		<string>uni0277</string>
 		<string>uni0278</string>
 		<string>uni029B</string>
 		<string>uni02A0</string>
@@ -2426,6 +2692,7 @@
 		<string>uni0217</string>
 		<string>uni0250</string>
 		<string>uni0265</string>
+		<string>uni0269</string>
 		<string>uni026F</string>
 		<string>uni0270</string>
 		<string>uni0289</string>
@@ -2473,10 +2740,51 @@
 		<string>uring.sc</string>
 		<string>utilde.sc</string>
 	</array>
+	<key>@MMK_R_uni0186</key>
+	<array>
+		<string>uni0186</string>
+	</array>
+	<key>@MMK_R_uni0190</key>
+	<array>
+		<string>uni0190</string>
+	</array>
+	<key>@MMK_R_uni01AA</key>
+	<array>
+		<string>uni01AA</string>
+	</array>
+	<key>@MMK_R_uni0258</key>
+	<array>
+		<string>uni0258</string>
+	</array>
+	<key>@MMK_R_uni0259</key>
+	<array>
+		<string>uni0259</string>
+		<string>uni01DD</string>
+	</array>
+	<key>@MMK_R_uni025B</key>
+	<array>
+		<string>uni025B</string>
+		<string>uni029A</string>
+	</array>
+	<key>@MMK_R_uni025C</key>
+	<array>
+		<string>uni0254</string>
+		<string>uni025C</string>
+		<string>uni025D</string>
+	</array>
+	<key>@MMK_R_uni02AE</key>
+	<array>
+		<string>uni02AE</string>
+		<string>uni02AF</string>
+	</array>
 	<key>@MMK_R_uni02BE</key>
 	<array>
 		<string>uni02BE</string>
 		<string>uni02BF</string>
+	</array>
+	<key>@MMK_R_uni0394</key>
+	<array>
+		<string>uni0394</string>
 	</array>
 	<key>@MMK_R_uni0430</key>
 	<array>
@@ -2539,6 +2847,11 @@
 	<key>@MMK_R_uni0447</key>
 	<array>
 		<string>uni0447</string>
+	</array>
+	<key>@MMK_R_uniA72C</key>
+	<array>
+		<string>uniA72C</string>
+		<string>uniA72E</string>
 	</array>
 	<key>@MMK_R_uniA72D</key>
 	<array>
@@ -2616,9 +2929,14 @@
 	<key>@MMK_R_z</key>
 	<array>
 		<string>uni01B6</string>
+		<string>uni01BA</string>
+		<string>uni01EF</string>
 		<string>uni0225</string>
 		<string>uni0240</string>
 		<string>uni0290</string>
+		<string>uni0291</string>
+		<string>uni0292</string>
+		<string>uni0293</string>
 		<string>uni1E91</string>
 		<string>uni1E93</string>
 		<string>uni1E95</string>

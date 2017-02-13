@@ -3,16 +3,18 @@
   <advance width="221"/>
   <unicode hex="1FD2"/>
   <note>
-	uni1FD2
+    uni1FD2
   </note>
   <outline>
     <component base="iota"/>
-    <component base="uni1FED" xOffset="-48" yOffset="21"/>
+    <component base="uni1FED" xOffset="-22"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 12:38:17 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

@@ -2,16 +2,18 @@
 <glyph name="Dcaron.sc" format="1">
   <advance width="603"/>
   <note>
-	Dcaron.sc
+    Dcaron.sc
   </note>
   <outline>
     <component base="D.sc"/>
-    <component base="uni030C.sc" xOffset="137" yOffset="84"/>
+    <component base="uni030C.sc" xOffset="275" yOffset="84"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:36:44 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

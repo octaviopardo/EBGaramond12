@@ -3,17 +3,19 @@
   <advance width="447"/>
   <unicode hex="1EB3"/>
   <note>
-	uni1EB3
+    uni1EB3
   </note>
   <outline>
     <component base="a"/>
-    <component base="uni0306.stack" xOffset="60" yOffset="8"/>
-    <component base="hookabovecomb.stack" xOffset="100" yOffset="107"/>
+    <component base="uni0306.stack" xOffset="226" yOffset="8"/>
+    <component base="hookabovecomb.stack" xOffset="215" yOffset="107"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 17:47:17 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -3,7 +3,7 @@
   <advance width="562"/>
   <unicode hex="1F3E"/>
   <note>
-	uni1F3E
+    uni1F3E
   </note>
   <outline>
     <component base="Iota" xOffset="222"/>
@@ -13,6 +13,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 18:30:18 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>I</string>
       <key>com.typemytype.robofont.layerData</key>
@@ -909,6 +911,17 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Iota</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

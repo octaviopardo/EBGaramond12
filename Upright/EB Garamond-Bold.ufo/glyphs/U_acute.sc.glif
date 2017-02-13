@@ -2,16 +2,18 @@
 <glyph name="Uacute.sc" format="1">
   <advance width="594"/>
   <note>
-	Uacute.sc
+    Uacute.sc
   </note>
   <outline>
     <component base="U.sc"/>
-    <component base="acutecomb.sc" xOffset="294" yOffset="63"/>
+    <component base="acutecomb.sc" xOffset="364" yOffset="63"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:48:05 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

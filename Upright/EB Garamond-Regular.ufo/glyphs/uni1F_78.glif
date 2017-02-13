@@ -3,16 +3,18 @@
   <advance width="400"/>
   <unicode hex="1F78"/>
   <note>
-	uni1F78
+    uni1F78
   </note>
   <outline>
     <component base="omicron"/>
-    <component base="gravecomb.grk" xOffset="128"/>
+    <component base="gravecomb.grk" xOffset="191"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 12:28:00 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

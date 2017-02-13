@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EBC" format="1">
-  <advance width="535"/>
+  <advance width="549"/>
   <unicode hex="1EBC"/>
   <note>
-	uni1EBC
+    uni1EBC
   </note>
   <outline>
     <component base="E"/>
-    <component base="tildecomb.cap" xOffset="141"/>
+    <component base="tildecomb.cap" xOffset="316"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-23 23:06:13 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1207,7 +1209,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>535</integer>
+          <integer>549</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

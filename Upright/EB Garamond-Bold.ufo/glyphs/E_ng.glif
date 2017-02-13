@@ -3,13 +3,13 @@
   <advance width="795"/>
   <unicode hex="014A"/>
   <note>
-	Eng
+    Eng
   </note>
   <outline>
     <contour>
-      <point x="650" y="-255"/>
-      <point x="693" y="-124"/>
-      <point x="693" y="79" type="curve" smooth="yes"/>
+      <point x="623" y="-275"/>
+      <point x="691" y="-124"/>
+      <point x="691" y="35" type="curve" smooth="yes"/>
       <point x="694" y="556" type="line"/>
       <point x="694" y="596"/>
       <point x="714" y="610"/>
@@ -99,32 +99,28 @@
       <point x="205" y="448"/>
       <point x="207" y="445" type="curve"/>
       <point x="315" y="317"/>
-      <point x="483" y="127"/>
-      <point x="588" y="-3" type="curve" smooth="yes"/>
-      <point x="598" y="-16"/>
-      <point x="607" y="-37"/>
-      <point x="607" y="-70" type="curve" smooth="yes"/>
-      <point x="607" y="-151"/>
-      <point x="572" y="-196"/>
-      <point x="543" y="-196" type="curve" smooth="yes"/>
-      <point x="520" y="-196"/>
-      <point x="496" y="-186"/>
-      <point x="471" y="-157" type="curve" smooth="yes"/>
-      <point x="453" y="-137"/>
-      <point x="439" y="-126"/>
-      <point x="416" y="-126" type="curve" smooth="yes"/>
-      <point x="383" y="-126"/>
-      <point x="366" y="-150"/>
-      <point x="366" y="-186" type="curve" smooth="yes"/>
-      <point x="366" y="-235"/>
-      <point x="457" y="-255"/>
-      <point x="521" y="-255" type="curve" smooth="yes"/>
+      <point x="493" y="122"/>
+      <point x="603" y="-7" type="curve" smooth="yes"/>
+      <point x="615" y="-21"/>
+      <point x="624" y="-38"/>
+      <point x="624" y="-61" type="curve" smooth="yes"/>
+      <point x="624" y="-117"/>
+      <point x="595" y="-154"/>
+      <point x="473" y="-161" type="curve" smooth="yes"/>
+      <point x="446" y="-163"/>
+      <point x="440" y="-168"/>
+      <point x="440" y="-189" type="curve" smooth="yes"/>
+      <point x="440" y="-239"/>
+      <point x="475" y="-275"/>
+      <point x="527" y="-275" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-12-23 10:40:18 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

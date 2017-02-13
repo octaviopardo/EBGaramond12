@@ -3,17 +3,19 @@
   <advance width="763"/>
   <unicode hex="1ED4"/>
   <note>
-	uni1ED4
+    uni1ED4
   </note>
   <outline>
     <component base="O"/>
-    <component base="uni0302.cap" xOffset="223" yOffset="-15"/>
-    <component base="hookabovecomb.cap" xOffset="431" yOffset="32"/>
+    <component base="uni0302.cap" xOffset="382" yOffset="-15"/>
+    <component base="hookabovecomb.cap" xOffset="534" yOffset="32"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:08:39 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -887,6 +889,25 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni0302.cap</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>hookabovecomb.cap</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

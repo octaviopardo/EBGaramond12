@@ -1,46 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="greater" format="1">
-  <advance width="563"/>
+  <advance width="537"/>
   <unicode hex="003E"/>
   <note>
-	greater
+    greater
   </note>
   <outline>
-    <contour>
-      <point x="486" y="197" type="line"/>
-      <point x="512" y="209"/>
-      <point x="528" y="240"/>
-      <point x="528" y="250" type="curve" smooth="yes"/>
-      <point x="528" y="257"/>
-      <point x="498" y="273"/>
-      <point x="476" y="282" type="curve"/>
-      <point x="59" y="474" type="line" smooth="yes"/>
-      <point x="57" y="475"/>
-      <point x="54" y="476"/>
-      <point x="52" y="476" type="curve" smooth="yes"/>
-      <point x="39" y="476"/>
-      <point x="35" y="464"/>
-      <point x="35" y="452" type="curve" smooth="yes"/>
-      <point x="35" y="432"/>
-      <point x="50" y="412"/>
-      <point x="72" y="402" type="curve" smooth="yes"/>
-      <point x="425" y="244" type="line" smooth="yes"/>
-      <point x="430" y="242"/>
-      <point x="432" y="237"/>
-      <point x="425" y="234" type="curve" smooth="yes"/>
-      <point x="72" y="77" type="line" smooth="yes"/>
-      <point x="50" y="67"/>
-      <point x="35" y="47"/>
-      <point x="35" y="27" type="curve" smooth="yes"/>
-      <point x="35" y="6"/>
-      <point x="48" y="-1"/>
-      <point x="59" y="5" type="curve"/>
-    </contour>
+    <component base="less" xOffset="537" yOffset="465" xScale="-1" yScale="-1"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-03 16:52:01 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>=|less</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -53,7 +26,7 @@
           <key>isGlobal</key>
           <false/>
           <key>x</key>
-          <integer>407</integer>
+          <integer>384</integer>
           <key>y</key>
           <integer>-1</integer>
         </dict>

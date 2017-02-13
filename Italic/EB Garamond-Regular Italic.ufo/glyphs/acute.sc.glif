@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acute.sc" format="1">
-  <advance width="382"/>
+  <advance width="200"/>
   <note>
     acute.sc
   </note>
   <outline>
-    <component base="acutecomb.sc" xOffset="191" yOffset="1"/>
+    <component base="acutecomb.sc" xOffset="100"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-07 11:33:50 +0000</string>
+      <string>2017-01-08 11:48:58 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>acutecomb.sc</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

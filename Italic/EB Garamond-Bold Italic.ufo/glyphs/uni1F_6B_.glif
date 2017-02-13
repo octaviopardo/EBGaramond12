@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F6B" format="1">
-  <advance width="1074"/>
+  <advance width="1079"/>
   <unicode hex="1F6B"/>
   <note>
     uni1F6B
   </note>
   <outline>
-    <component base="Omega" xOffset="260"/>
-    <component base="uni1FDD" xOffset="-30" yOffset="20"/>
+    <component base="Omega" xOffset="265"/>
+    <component base="uni1FDD" xOffset="-68" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:47:34 +0000</string>
+      <string>2017-01-16 18:15:57 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omega</string>
       <key>public.markColor</key>
@@ -25,9 +25,9 @@
           <key>alignment</key>
           <integer>-1</integer>
           <key>index</key>
-          <integer>0</integer>
+          <integer>1</integer>
           <key>name</key>
-          <string>Omega</string>
+          <string>uni1FDD</string>
         </dict>
       </array>
     </dict>

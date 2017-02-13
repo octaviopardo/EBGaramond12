@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F5B" format="1">
-  <advance width="1059"/>
+  <advance width="1034"/>
   <unicode hex="1F5B"/>
   <note>
     uni1F5B
   </note>
   <outline>
-    <component base="Upsilon" xOffset="327"/>
-    <component base="uni1FDD" xOffset="-30" yOffset="20"/>
+    <component base="Upsilon" xOffset="302"/>
+    <component base="uni1FDD" xOffset="-71" yOffset="-40"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:57:48 +0000</string>
+      <string>2017-01-16 18:12:52 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Upsilon</string>
       <key>public.markColor</key>
@@ -28,6 +28,14 @@
           <integer>0</integer>
           <key>name</key>
           <string>Upsilon</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni1FDD</string>
         </dict>
       </array>
     </dict>

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright.ordn" format="1">
-  <advance width="242"/>
+  <advance width="223"/>
   <note>
-	bracketright.ordn
+    bracketright.ordn
   </note>
   <outline>
-    <component base="bracketleft.ordn" xOffset="242" xScale="-1"/>
+    <component base="bracketleft.ordn" xOffset="223" xScale="-1"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-02 11:41:20 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>=|bracketleft.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

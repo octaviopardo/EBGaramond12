@@ -2,16 +2,18 @@
 <glyph name="Cacute.sc" format="1">
   <advance width="560"/>
   <note>
-	Cacute.sc
+    Cacute.sc
   </note>
   <outline>
     <component base="C.sc"/>
-    <component base="acutecomb.sc" xOffset="275" yOffset="63"/>
+    <component base="acutecomb.sc" xOffset="365" yOffset="63"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:24:48 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

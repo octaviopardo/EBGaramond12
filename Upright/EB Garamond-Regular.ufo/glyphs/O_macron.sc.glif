@@ -2,16 +2,18 @@
 <glyph name="Omacron.sc" format="1">
   <advance width="616"/>
   <note>
-	Omacron.sc
+    Omacron.sc
   </note>
   <outline>
     <component base="O.sc"/>
-    <component base="macron.sc" xOffset="181" yOffset="84"/>
+    <component base="macron.sc" xOffset="160" yOffset="84"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:47:14 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

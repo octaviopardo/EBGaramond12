@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2105" format="1">
-  <advance width="606"/>
+  <advance width="602"/>
   <unicode hex="2105"/>
   <note>
-	uni2105
+    uni2105
   </note>
   <outline>
-    <component base="c.ordn" xOffset="17" yOffset="123"/>
-    <component base="fraction" xOffset="255" yOffset="-1"/>
-    <component base="o.ordn" xOffset="302" yOffset="-279"/>
+    <component base="c.ordn" xOffset="8" yOffset="123"/>
+    <component base="fraction" xOffset="246" yOffset="-1"/>
+    <component base="o.ordn" xOffset="293" yOffset="-279"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-02 10:49:24 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>c.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -36,7 +38,7 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <integer>17</integer>
+                <integer>8</integer>
                 <integer>123</integer>
               </array>
             </dict>
@@ -49,7 +51,7 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <integer>255</integer>
+                <integer>246</integer>
                 <integer>-1</integer>
               </array>
             </dict>
@@ -62,7 +64,7 @@
                 <integer>0</integer>
                 <integer>0</integer>
                 <integer>1</integer>
-                <integer>302</integer>
+                <integer>293</integer>
                 <integer>-279</integer>
               </array>
             </dict>
@@ -79,11 +81,38 @@
           <array>
           </array>
           <key>width</key>
-          <integer>606</integer>
+          <integer>602</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>c.ordn</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>fraction</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>o.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

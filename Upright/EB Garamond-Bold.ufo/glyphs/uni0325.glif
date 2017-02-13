@@ -3,18 +3,20 @@
   <advance width="0"/>
   <unicode hex="0325"/>
   <note>
-	uni0325
+    uni0325
   </note>
   <outline>
-    <component base="uni030A" xOffset="-10" yOffset="-744"/>
+    <component base="uni030A" yOffset="-744"/>
     <contour>
-      <point x="106" y="-30" type="move" name="_bottom"/>
+      <point x="1" y="-30" type="move" name="_bottom"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:53:23 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

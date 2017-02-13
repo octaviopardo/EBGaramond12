@@ -2,7 +2,7 @@
 <glyph name="K.sc" format="1">
   <advance width="568"/>
   <note>
-	K.sc
+    K.sc
   </note>
   <outline>
     <contour>
@@ -131,11 +131,18 @@
       <point x="43" y="-3"/>
       <point x="50" y="-3" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="290" y="-30" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:24:17 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>h.sc</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

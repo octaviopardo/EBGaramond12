@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tilde" format="1">
-  <advance width="316"/>
+  <advance width="300"/>
   <unicode hex="02DC"/>
   <note>
-	tilde
+    tilde
   </note>
   <outline>
-    <component base="tildecomb" xOffset="-2"/>
+    <component base="tildecomb" xOffset="146"/>
     <contour>
       <point x="151" y="440" type="move" name="_top"/>
     </contour>
@@ -15,6 +15,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:47:14 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

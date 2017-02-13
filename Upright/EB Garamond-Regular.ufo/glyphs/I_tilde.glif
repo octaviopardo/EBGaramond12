@@ -3,16 +3,18 @@
   <advance width="340"/>
   <unicode hex="0128"/>
   <note>
-	Itilde
+    Itilde
   </note>
   <outline>
     <component base="I"/>
-    <component base="tildecomb.cap" xOffset="27"/>
+    <component base="tildecomb.cap" xOffset="188"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-04 14:17:40 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

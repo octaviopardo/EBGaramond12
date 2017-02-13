@@ -3,17 +3,19 @@
   <advance width="399"/>
   <unicode hex="1EB1"/>
   <note>
-	uni1EB1
+    uni1EB1
   </note>
   <outline>
     <component base="a"/>
-    <component base="uni0306.stack" xOffset="24" yOffset="-3"/>
-    <component base="gravecomb.stack" xOffset="93" yOffset="107"/>
+    <component base="uni0306.stack" xOffset="191" yOffset="-3"/>
+    <component base="gravecomb.stack" xOffset="158" yOffset="107"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 17:51:05 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

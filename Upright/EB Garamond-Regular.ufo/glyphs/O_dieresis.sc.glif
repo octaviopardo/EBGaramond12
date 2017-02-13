@@ -2,16 +2,18 @@
 <glyph name="Odieresis.sc" format="1">
   <advance width="616"/>
   <note>
-	Odieresis.sc
+    Odieresis.sc
   </note>
   <outline>
     <component base="O.sc"/>
-    <component base="dieresis.sc" xOffset="155" yOffset="84"/>
+    <component base="dieresis.sc" xOffset="162" yOffset="84"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:47:14 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

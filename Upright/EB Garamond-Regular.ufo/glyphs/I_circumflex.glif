@@ -3,16 +3,18 @@
   <advance width="340"/>
   <unicode hex="00CE"/>
   <note>
-	Icircumflex
+    Icircumflex
   </note>
   <outline>
     <component base="I"/>
-    <component base="uni0302.cap" xOffset="19"/>
+    <component base="uni0302.cap" xOffset="169"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-04 14:17:40 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

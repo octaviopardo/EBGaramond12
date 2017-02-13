@@ -2,18 +2,20 @@
 <glyph name="acutecomb.grk" format="1">
   <advance width="0"/>
   <note>
-	acutecomb.grk
+    acutecomb.grk
   </note>
   <outline>
-    <component base="gravecomb.grk" xOffset="180" xScale="-1"/>
+    <component base="gravecomb.grk" xScale="-1"/>
     <contour>
-      <point x="41" y="440" type="move" name="_top"/>
+      <point x="-29" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 18:30:19 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

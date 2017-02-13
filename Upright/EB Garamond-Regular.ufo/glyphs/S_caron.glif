@@ -3,16 +3,18 @@
   <advance width="465"/>
   <unicode hex="0160"/>
   <note>
-	Scaron
+    Scaron
   </note>
   <outline>
     <component base="S"/>
-    <component base="uni030C.cap" xOffset="89"/>
+    <component base="uni030C.cap" xOffset="269"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-04 14:21:59 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

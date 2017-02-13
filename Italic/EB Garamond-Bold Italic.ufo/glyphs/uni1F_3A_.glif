@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F3A" format="1">
-  <advance width="678"/>
+  <advance width="646"/>
   <unicode hex="1F3A"/>
   <note>
     uni1F3A
   </note>
   <outline>
-    <component base="Iota" xOffset="308"/>
-    <component base="uni1FCD" xOffset="-39" yOffset="20"/>
+    <component base="Iota" xOffset="265"/>
+    <component base="uni1FCD" xOffset="-73" yOffset="-40"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:47:34 +0000</string>
+      <string>2017-01-16 18:04:05 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Iota</string>
       <key>public.markColor</key>
@@ -28,6 +28,14 @@
           <integer>0</integer>
           <key>name</key>
           <string>Iota</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni1FCD</string>
         </dict>
       </array>
     </dict>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="K.sinf" format="1">
-  <advance width="442"/>
+  <advance width="491"/>
   <note>
-	K.sinf
+    K.sinf
   </note>
   <outline>
     <component base="K.ordn" yOffset="-424"/>
@@ -11,6 +11,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-02 08:08:34 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>=K.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -1194,11 +1196,22 @@
           <array>
           </array>
           <key>width</key>
-          <integer>442</integer>
+          <integer>491</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>K.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

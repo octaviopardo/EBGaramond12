@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omicrontonos" format="1">
-  <advance width="807"/>
+  <advance width="889"/>
   <unicode hex="038C"/>
   <note>
-	Omicrontonos
+    Omicrontonos
   </note>
   <outline>
-    <component base="Omicron" xOffset="48"/>
-    <component base="tonos" xOffset="-14" yOffset="26"/>
+    <component base="Omicron" xOffset="130"/>
+    <component base="tonos" xOffset="-35" yOffset="-38"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 17:40:27 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Omicron</string>
       <key>com.typemytype.robofont.guides</key>
@@ -23,13 +25,24 @@
           <key>isGlobal</key>
           <false/>
           <key>x</key>
-          <integer>392</integer>
+          <integer>474</integer>
           <key>y</key>
           <integer>720</integer>
         </dict>
       </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Omicron</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

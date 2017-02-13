@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FEB" format="1">
-  <advance width="795"/>
+  <advance width="779"/>
   <unicode hex="1FEB"/>
   <note>
     uni1FEB
   </note>
   <outline>
-    <component base="Upsilon" xOffset="106"/>
+    <component base="Upsilon" xOffset="90"/>
     <component base="acutecomb.grk" xOffset="26" yOffset="20"/>
   </outline>
   <lib>
@@ -14,7 +14,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:57:48 +0000</string>
+      <string>2017-01-16 18:12:52 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Upsilon</string>
       <key>public.markColor</key>
@@ -28,6 +28,14 @@
           <integer>0</integer>
           <key>name</key>
           <string>Upsilon</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acutecomb.grk</string>
         </dict>
       </array>
     </dict>

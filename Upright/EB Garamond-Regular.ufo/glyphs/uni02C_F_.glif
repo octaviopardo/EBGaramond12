@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni02CF" format="1">
-  <advance width="177"/>
+  <advance width="200"/>
   <unicode hex="02CF"/>
   <note>
-	uni02CF
+    uni02CF
   </note>
   <outline>
-    <component base="acutecomb" xOffset="-9" yOffset="-700"/>
+    <component base="acutecomb" xOffset="100" yOffset="-700"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-03 17:04:18 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -192,8 +192,16 @@
 	<string>E_dotaccent.sc.glif</string>
 	<key>Egrave</key>
 	<string>E_grave.glif</string>
+	<key>Egrave.ordn</key>
+	<string>E_grave.ordn.glif</string>
 	<key>Egrave.sc</key>
 	<string>E_grave.sc.glif</string>
+	<key>Egrave.sinf</key>
+	<string>E_grave.sinf.glif</string>
+	<key>Egrave.subs</key>
+	<string>E_grave.subs.glif</string>
+	<key>Egrave.sups</key>
+	<string>E_grave.sups.glif</string>
 	<key>Emacron</key>
 	<string>E_macron.glif</string>
 	<key>Emacron.sc</key>
@@ -276,6 +284,8 @@
 	<string>G_dotaccent.glif</string>
 	<key>Gdotaccent.sc</key>
 	<string>G_dotaccent.sc.glif</string>
+	<key>Glottalstop</key>
+	<string>G_lottalstop.glif</string>
 	<key>H</key>
 	<string>H_.glif</string>
 	<key>H.ordn</key>
@@ -528,6 +538,8 @@
 	<string>O_grave.sc.glif</string>
 	<key>Ohorn</key>
 	<string>O_horn.glif</string>
+	<key>Ohorn.sc</key>
+	<string>O_horn.sc.glif</string>
 	<key>Ohungarumlaut</key>
 	<string>O_hungarumlaut.glif</string>
 	<key>Ohungarumlaut.sc</key>
@@ -748,6 +760,8 @@
 	<string>U_grave.sc.glif</string>
 	<key>Uhorn</key>
 	<string>U_horn.glif</string>
+	<key>Uhorn.sc</key>
+	<string>U_horn.sc.glif</string>
 	<key>Uhungarumlaut</key>
 	<string>U_hungarumlaut.glif</string>
 	<key>Uhungarumlaut.sc</key>
@@ -1238,6 +1252,8 @@
 	<string>cdotaccent.sc.glif</string>
 	<key>cedilla</key>
 	<string>cedilla.glif</string>
+	<key>cedilla.sc</key>
+	<string>cedilla.sc.glif</string>
 	<key>cent</key>
 	<string>cent.glif</string>
 	<key>cent.sc</key>
@@ -1734,24 +1750,16 @@
 	<string>greaterequal.glif</string>
 	<key>guillemotleft</key>
 	<string>guillemotleft.glif</string>
-	<key>guillemotleft.alt</key>
-	<string>guillemotleft.alt.glif</string>
 	<key>guillemotleft.sc</key>
 	<string>guillemotleft.sc.glif</string>
 	<key>guillemotright</key>
 	<string>guillemotright.glif</string>
-	<key>guillemotright.alt</key>
-	<string>guillemotright.alt.glif</string>
 	<key>guillemotright.sc</key>
 	<string>guillemotright.sc.glif</string>
 	<key>guilsinglleft</key>
 	<string>guilsinglleft.glif</string>
-	<key>guilsinglleft.alt</key>
-	<string>guilsinglleft.alt.glif</string>
 	<key>guilsinglright</key>
 	<string>guilsinglright.glif</string>
-	<key>guilsinglright.alt</key>
-	<string>guilsinglright.alt.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
 	<key>h.01</key>
@@ -2170,6 +2178,8 @@
 	<string>ograve.sc.glif</string>
 	<key>ohorn</key>
 	<string>ohorn.glif</string>
+	<key>ohorn.sc</key>
+	<string>ohorn.sc.glif</string>
 	<key>ohungarumlaut</key>
 	<string>ohungarumlaut.glif</string>
 	<key>ohungarumlaut.sc</key>
@@ -2324,10 +2334,6 @@
 	<string>periodcentered.glif</string>
 	<key>periodcentered.CAT</key>
 	<string>periodcentered.C_A_T_.glif</string>
-	<key>periodcentered.CATsc</key>
-	<string>periodcentered.C_A_T_sc.glif</string>
-	<key>periodcentered.CATuc</key>
-	<string>periodcentered.C_A_T_uc.glif</string>
 	<key>periodcentered.sc</key>
 	<string>periodcentered.sc.glif</string>
 	<key>phi</key>
@@ -2420,8 +2426,6 @@
 	<string>quoteleft.glif</string>
 	<key>quoteright</key>
 	<string>quoteright.glif</string>
-	<key>quoteright.01</key>
-	<string>quoteright.01.glif</string>
 	<key>quotesinglbase</key>
 	<string>quotesinglbase.glif</string>
 	<key>quotesingle</key>
@@ -2808,6 +2812,8 @@
 	<string>ugrave.sc.glif</string>
 	<key>uhorn</key>
 	<string>uhorn.glif</string>
+	<key>uhorn.sc</key>
+	<string>uhorn.sc.glif</string>
 	<key>uhungarumlaut</key>
 	<string>uhungarumlaut.glif</string>
 	<key>uhungarumlaut.sc</key>
@@ -3254,8 +3260,6 @@
 	<string>uni023F_.glif</string>
 	<key>uni0240</key>
 	<string>uni0240.glif</string>
-	<key>uni0241</key>
-	<string>uni0241.glif</string>
 	<key>uni0242</key>
 	<string>uni0242.glif</string>
 	<key>uni0243</key>
@@ -4320,6 +4324,8 @@
 	<string>uni1D_58.glif</string>
 	<key>uni1D5B</key>
 	<string>uni1D_5B_.glif</string>
+	<key>uni1D61</key>
+	<string>uni1D_61.glif</string>
 	<key>uni1D62</key>
 	<string>uni1D_62.glif</string>
 	<key>uni1D63</key>
@@ -4330,10 +4336,14 @@
 	<string>uni1D_65.glif</string>
 	<key>uni1D9C</key>
 	<string>uni1D_9C_.glif</string>
+	<key>uni1D9E</key>
+	<string>uni1D_9E_.glif</string>
 	<key>uni1DA0</key>
 	<string>uni1D_A_0.glif</string>
 	<key>uni1DBB</key>
 	<string>uni1D_B_B_.glif</string>
+	<key>uni1DBE</key>
+	<string>uni1D_B_E_.glif</string>
 	<key>uni1DC4</key>
 	<string>uni1D_C_4.glif</string>
 	<key>uni1DD3</key>
@@ -5598,6 +5608,10 @@
 	<string>uni2198.glif</string>
 	<key>uni2199</key>
 	<string>uni2199.glif</string>
+	<key>uni219A</key>
+	<string>uni219A_.glif</string>
+	<key>uni219B</key>
+	<string>uni219B_.glif</string>
 	<key>uni219E</key>
 	<string>uni219E_.glif</string>
 	<key>uni219F</key>
@@ -5608,6 +5622,8 @@
 	<string>uni21A_1.glif</string>
 	<key>uni21A2</key>
 	<string>uni21A_2.glif</string>
+	<key>uni21AE</key>
+	<string>uni21A_E_.glif</string>
 	<key>uni21DA</key>
 	<string>uni21D_A_.glif</string>
 	<key>uni21DB</key>
@@ -6004,6 +6020,8 @@
 	<string>uniF_E_F_F_.glif</string>
 	<key>uniFFFD</key>
 	<string>uniF_F_F_D_.glif</string>
+	<key>univ</key>
+	<string>univ.glif</string>
 	<key>uogonek</key>
 	<string>uogonek.glif</string>
 	<key>uogonek.sc</key>

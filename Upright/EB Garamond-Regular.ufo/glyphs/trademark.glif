@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="trademark" format="1">
-  <advance width="1020"/>
+  <advance width="1066"/>
   <unicode hex="2122"/>
   <note>
-	trademark
+    trademark
   </note>
   <outline>
     <component base="T.ordn"/>
@@ -13,6 +13,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-03 16:46:06 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>T.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -1509,11 +1511,22 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1020</integer>
+          <integer>1066</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>M.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

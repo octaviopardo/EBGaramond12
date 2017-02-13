@@ -6,15 +6,15 @@
     uni1FC8
   </note>
   <outline>
-    <component base="Epsilon" xOffset="88"/>
-    <component base="gravecomb.grk" xOffset="46" yOffset="20"/>
+    <component base="Epsilon" xOffset="90"/>
+    <component base="gravecomb.grk" xOffset="39" yOffset="30"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:47:34 +0000</string>
+      <string>2017-01-16 17:49:08 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Epsilon</string>
       <key>public.markColor</key>
@@ -28,6 +28,14 @@
           <integer>0</integer>
           <key>name</key>
           <string>Epsilon</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>gravecomb.grk</string>
         </dict>
       </array>
     </dict>

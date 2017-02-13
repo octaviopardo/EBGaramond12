@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniA72E" format="1">
-  <advance width="480"/>
+  <advance width="602"/>
   <unicode hex="A72E"/>
   <note>
-	uniA72E
+    uniA72E
   </note>
   <outline>
     <component base="uniA72C"/>
-    <component base="comma" xOffset="354"/>
+    <component base="comma" xOffset="374"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 16:34:53 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>uniA72C</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>comma</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -978,7 +984,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>480</integer>
+          <integer>602</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

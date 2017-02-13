@@ -3,16 +3,18 @@
   <advance width="586"/>
   <unicode hex="0139"/>
   <note>
-	Lacute
+    Lacute
   </note>
   <outline>
     <component base="L"/>
-    <component base="acutecomb.cap" xOffset="141"/>
+    <component base="acutecomb.cap" xOffset="241"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 13:11:51 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

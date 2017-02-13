@@ -3,16 +3,18 @@
   <advance width="692"/>
   <unicode hex="0386"/>
   <note>
-	Alphatonos
+    Alphatonos
   </note>
   <outline>
     <component base="Alpha"/>
-    <component base="tonos" xOffset="83" yOffset="24"/>
+    <component base="tonos" xOffset="41" yOffset="24"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-17 17:10:15 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

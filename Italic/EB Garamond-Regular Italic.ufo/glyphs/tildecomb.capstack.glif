@@ -5,39 +5,14 @@
     tildecomb.capstack
   </note>
   <outline>
-    <contour>
-      <point x="39" y="688"/>
-      <point x="65" y="729"/>
-      <point x="99" y="729" type="curve" smooth="yes"/>
-      <point x="124" y="729"/>
-      <point x="192" y="720"/>
-      <point x="217" y="720" type="curve" smooth="yes"/>
-      <point x="254" y="720"/>
-      <point x="317" y="775"/>
-      <point x="326" y="805" type="curve" smooth="yes"/>
-      <point x="329" y="815"/>
-      <point x="325" y="822"/>
-      <point x="315" y="822" type="curve" smooth="yes"/>
-      <point x="303" y="822"/>
-      <point x="278" y="783"/>
-      <point x="243" y="783" type="curve" smooth="yes"/>
-      <point x="218" y="783"/>
-      <point x="155" y="794"/>
-      <point x="130" y="794" type="curve" smooth="yes"/>
-      <point x="93" y="794"/>
-      <point x="26" y="738"/>
-      <point x="16" y="705" type="curve" smooth="yes"/>
-      <point x="13" y="695"/>
-      <point x="21" y="688"/>
-      <point x="29" y="688" type="curve" smooth="yes"/>
-    </contour>
+    <component base="tildecomb.cap"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-07 11:05:24 +0000</string>
+      <string>2016-12-27 10:53:13 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

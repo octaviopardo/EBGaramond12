@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2C7C" format="1">
-  <advance width="255"/>
+  <advance width="163"/>
   <unicode hex="2C7C"/>
   <note>
     uni2C7C
   </note>
   <outline>
-    <component base="j"/>
+    <component base="j.ordn" xOffset="-86" yOffset="-280"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>0</integer>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-02 12:27:53 +0000</string>
+      <string>2017-02-08 16:29:34 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>j.ordn</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>j.ordn</string>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>j.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

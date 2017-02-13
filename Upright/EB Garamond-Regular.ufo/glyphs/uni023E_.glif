@@ -3,7 +3,7 @@
   <advance width="670"/>
   <unicode hex="023E"/>
   <note>
-	uni023E
+    uni023E
   </note>
   <outline>
     <contour>
@@ -28,12 +28,14 @@
       <point x="119" y="-92"/>
       <point x="130" y="-92" type="curve" smooth="yes"/>
     </contour>
-    <component base="T" xOffset="33"/>
+    <component base="T"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 13:26:39 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

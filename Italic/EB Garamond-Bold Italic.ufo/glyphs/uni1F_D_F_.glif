@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FDF" format="1">
-  <advance width="363"/>
+  <advance width="367"/>
   <unicode hex="1FDF"/>
   <note>
     uni1FDF
   </note>
   <outline>
-    <component base="uni0314.grkstack" xOffset="186" yOffset="37"/>
-    <component base="uni1FC0" xOffset="78" yOffset="218"/>
+    <component base="uni0314.grkstack" xOffset="193" yOffset="37"/>
+    <component base="uni1FC0" xOffset="85" yOffset="218"/>
     <contour>
-      <point x="254" y="440" type="move" name="_topgreek"/>
+      <point x="261" y="440" type="move" name="_topgreek"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-06 18:18:17 +0000</string>
+      <string>2017-01-16 18:15:57 +0000</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>
@@ -39,17 +41,8 @@
           <integer>466</integer>
         </dict>
       </array>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>uni1FC0</string>
-        </dict>
-      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

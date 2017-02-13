@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron" format="1">
-  <advance width="237"/>
+  <advance width="200"/>
   <unicode hex="02C7"/>
   <note>
     caron
   </note>
   <outline>
-    <component base="uni030C" xOffset="118"/>
+    <component base="uni030C" xOffset="100"/>
     <contour>
-      <point x="188" y="440" type="move" name="_top"/>
+      <point x="170" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-07 11:15:53 +0000</string>
+      <string>2017-01-09 10:16:23 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -256,7 +256,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>237</integer>
+          <integer>200</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

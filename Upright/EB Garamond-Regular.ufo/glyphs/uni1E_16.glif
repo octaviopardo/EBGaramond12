@@ -3,16 +3,18 @@
   <advance width="535"/>
   <unicode hex="1E16"/>
   <note>
-	uni1E16
+    uni1E16
   </note>
   <outline>
     <component base="Emacron"/>
-    <component base="acutecomb.flat" xOffset="195" yOffset="303"/>
+    <component base="acutecomb.flat" xOffset="315" yOffset="303"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 13:55:30 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1D48" format="1">
-  <advance width="379"/>
+  <advance width="403"/>
   <unicode hex="1D48"/>
   <note>
-	uni1D48
+    uni1D48
   </note>
   <outline>
     <component base="d.ordn"/>
@@ -12,12 +12,25 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-02-02 10:49:24 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>d.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>d.ordn</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>d.ordn</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

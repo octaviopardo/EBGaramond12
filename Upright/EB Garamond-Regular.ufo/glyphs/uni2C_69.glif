@@ -3,11 +3,11 @@
   <advance width="681"/>
   <unicode hex="2C69"/>
   <note>
-	uni2C69
+    uni2C69
   </note>
   <outline>
     <contour>
-      <point x="656" y="-205"/>
+      <point x="653" y="-218"/>
       <point x="665" y="-190"/>
       <point x="666" y="-174" type="curve" smooth="yes"/>
       <point x="670" y="-80"/>
@@ -140,14 +140,18 @@
       <point x="620" y="-139"/>
       <point x="619" y="-162" type="curve"/>
       <point x="619" y="-182"/>
-      <point x="621" y="-205"/>
-      <point x="640" y="-205" type="curve" smooth="yes"/>
+      <point x="618" y="-218"/>
+      <point x="637" y="-218" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 17:36:34 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>K</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

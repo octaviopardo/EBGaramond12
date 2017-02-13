@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron.sc" format="1">
-  <advance width="250"/>
+  <advance width="300"/>
   <note>
-	macron.sc
+    macron.sc
   </note>
   <outline>
-    <component base="macron" xOffset="-25" yOffset="-20"/>
+    <component base="macron" yOffset="-20"/>
     <contour>
-      <point x="127" y="419" type="move" name="_top"/>
+      <point x="152" y="419" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:47:14 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -165,7 +167,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>250</integer>
+          <integer>300</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

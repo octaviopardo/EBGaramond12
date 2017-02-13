@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F05" format="1">
-  <advance width="502"/>
+  <advance width="452"/>
   <unicode hex="1F05"/>
   <note>
-	uni1F05
+    uni1F05
   </note>
   <outline>
     <component base="alpha"/>
-    <component base="uni1FDE" xOffset="81"/>
+    <component base="uni1FDE" xOffset="91"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 12:28:02 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -939,7 +941,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>502</integer>
+          <integer>452</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve" format="1">
-  <advance width="258"/>
+  <advance width="300"/>
   <unicode hex="02D8"/>
   <note>
-	breve
+    breve
   </note>
   <outline>
-    <component base="uni0306"/>
+    <component base="uni0306" xOffset="150"/>
     <contour>
-      <point x="129" y="440" type="move" name="_top"/>
+      <point x="150" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-16 12:30:54 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -250,7 +252,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>258</integer>
+          <integer>300</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

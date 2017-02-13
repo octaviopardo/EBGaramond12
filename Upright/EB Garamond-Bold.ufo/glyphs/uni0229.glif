@@ -3,16 +3,18 @@
   <advance width="423"/>
   <unicode hex="0229"/>
   <note>
-	uni0229
+    uni0229
   </note>
   <outline>
     <component base="e"/>
-    <component base="cedilla" xOffset="-25"/>
+    <component base="cedilla" xOffset="55"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:47:44 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

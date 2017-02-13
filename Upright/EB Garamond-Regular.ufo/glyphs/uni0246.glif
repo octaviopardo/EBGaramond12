@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0246" format="1">
-  <advance width="565"/>
+  <advance width="535"/>
   <unicode hex="0246"/>
   <note>
-	uni0246
+    uni0246
   </note>
   <outline>
     <contour>
@@ -28,12 +28,14 @@
       <point x="49" y="-92"/>
       <point x="60" y="-92" type="curve" smooth="yes"/>
     </contour>
-    <component base="E" xOffset="12"/>
+    <component base="E"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 13:31:23 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1285,7 +1287,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>565</integer>
+          <integer>535</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

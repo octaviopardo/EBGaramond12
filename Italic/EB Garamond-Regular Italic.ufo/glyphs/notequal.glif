@@ -6,36 +6,32 @@
     notequal
   </note>
   <outline>
+    <contour>
+      <point x="155" y="-20"/>
+      <point x="169" y="-19"/>
+      <point x="177" y="-5" type="curve" smooth="yes"/>
+      <point x="450" y="485" type="line"/>
+      <point x="454" y="491"/>
+      <point x="450" y="502"/>
+      <point x="443" y="502" type="curve" smooth="yes"/>
+      <point x="426" y="502"/>
+      <point x="411" y="500"/>
+      <point x="402" y="485" type="curve" smooth="yes"/>
+      <point x="129" y="-5" type="line"/>
+      <point x="125" y="-11"/>
+      <point x="132" y="-20"/>
+      <point x="139" y="-20" type="curve" smooth="yes"/>
+    </contour>
     <component base="equal"/>
-    <component base="uni2215" xOffset="122" yOffset="-48"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-28 18:25:25 +0000</string>
+      <string>2017-01-19 18:52:36 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>equal</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>uni2215</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

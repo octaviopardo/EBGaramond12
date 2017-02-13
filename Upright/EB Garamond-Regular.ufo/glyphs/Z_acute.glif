@@ -3,16 +3,18 @@
   <advance width="603"/>
   <unicode hex="0179"/>
   <note>
-	Zacute
+    Zacute
   </note>
   <outline>
     <component base="Z"/>
-    <component base="acutecomb.cap" xOffset="270"/>
+    <component base="acutecomb.cap" xOffset="360"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 13:11:52 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

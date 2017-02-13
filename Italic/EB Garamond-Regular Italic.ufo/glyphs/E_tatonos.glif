@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etatonos" format="1">
-  <advance width="812"/>
+  <advance width="782"/>
   <unicode hex="0389"/>
   <note>
     Etatonos
   </note>
   <outline>
-    <component base="Eta" xOffset="51"/>
-    <component base="tonos" xOffset="30"/>
+    <component base="Eta" xOffset="31"/>
+    <component base="tonos" xOffset="-100"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 16:57:45 +0000</string>
+      <string>2017-01-16 18:00:31 +0000</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>Eta</string>
       <key>public.markColor</key>

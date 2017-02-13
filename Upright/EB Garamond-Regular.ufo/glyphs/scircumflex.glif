@@ -3,16 +3,18 @@
   <advance width="323"/>
   <unicode hex="015D"/>
   <note>
-	scircumflex
+    scircumflex
   </note>
   <outline>
     <component base="s"/>
-    <component base="circumflex" xOffset="38"/>
+    <component base="circumflex" xOffset="26"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 16:31:56 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

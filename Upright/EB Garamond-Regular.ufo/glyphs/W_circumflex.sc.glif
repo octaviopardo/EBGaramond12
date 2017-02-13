@@ -2,16 +2,18 @@
 <glyph name="Wcircumflex.sc" format="1">
   <advance width="790"/>
   <note>
-	Wcircumflex.sc
+    Wcircumflex.sc
   </note>
   <outline>
     <component base="W.sc"/>
-    <component base="circumflex" xOffset="284" yOffset="63"/>
+    <component base="circumflex" xOffset="272" yOffset="63"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:48:16 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

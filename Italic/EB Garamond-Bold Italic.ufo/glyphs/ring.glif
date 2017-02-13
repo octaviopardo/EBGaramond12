@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ring" format="1">
-  <advance width="400"/>
+  <advance width="245"/>
   <unicode hex="02DA"/>
   <note>
     ring
   </note>
   <outline>
-    <component base="uni030A" xOffset="200"/>
+    <component base="uni030A" xOffset="123"/>
     <contour>
-      <point x="266" y="440" type="move" name="_top"/>
+      <point x="189" y="440" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-07 11:15:53 +0000</string>
+      <string>2017-01-09 10:16:23 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

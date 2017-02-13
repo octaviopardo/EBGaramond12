@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Amacron" format="1">
-  <advance width="726"/>
+  <advance width="658"/>
   <unicode hex="0100"/>
   <note>
     Amacron
   </note>
   <outline>
     <component base="A"/>
-    <component base="uni0304.cap" xOffset="520"/>
+    <component base="uni0304.cap" xOffset="452"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-05 15:37:03 +0000</string>
+      <string>2017-01-08 12:29:29 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -932,7 +932,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>726</integer>
+          <integer>658</integer>
         </dict>
       </dict>
       <key>public.markColor</key>

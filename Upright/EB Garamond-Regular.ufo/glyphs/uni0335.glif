@@ -3,30 +3,32 @@
   <advance width="0"/>
   <unicode hex="0335"/>
   <note>
-	uni0335
+    uni0335
   </note>
   <outline>
     <contour>
-      <point x="319" y="356" type="line" smooth="yes"/>
-      <point x="336" y="356"/>
-      <point x="350" y="368"/>
-      <point x="350" y="388" type="curve" smooth="yes"/>
-      <point x="350" y="394"/>
-      <point x="343" y="400"/>
-      <point x="337" y="400" type="curve" smooth="yes"/>
-      <point x="74" y="400" type="line" smooth="yes"/>
-      <point x="58" y="400"/>
-      <point x="50" y="377"/>
-      <point x="50" y="368" type="curve" smooth="yes"/>
-      <point x="50" y="362"/>
-      <point x="57" y="356"/>
-      <point x="64" y="356" type="curve" smooth="yes"/>
+      <point x="119" y="356" type="line" smooth="yes"/>
+      <point x="136" y="356"/>
+      <point x="150" y="368"/>
+      <point x="150" y="388" type="curve" smooth="yes"/>
+      <point x="150" y="394"/>
+      <point x="143" y="400"/>
+      <point x="137" y="400" type="curve" smooth="yes"/>
+      <point x="-126" y="400" type="line" smooth="yes"/>
+      <point x="-142" y="400"/>
+      <point x="-150" y="377"/>
+      <point x="-150" y="368" type="curve" smooth="yes"/>
+      <point x="-150" y="362"/>
+      <point x="-143" y="356"/>
+      <point x="-136" y="356" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016-12-27 11:32:38 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

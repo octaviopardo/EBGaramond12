@@ -3,17 +3,19 @@
   <advance width="399"/>
   <unicode hex="1EAB"/>
   <note>
-	uni1EAB
+    uni1EAB
   </note>
   <outline>
     <component base="a"/>
-    <component base="uni0302.stack" xOffset="74"/>
-    <component base="tildecomb.stack" xOffset="52" yOffset="149"/>
+    <component base="uni0302.stack" xOffset="193"/>
+    <component base="tildecomb.stack" xOffset="207" yOffset="146"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-08 17:51:05 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
@@ -1187,6 +1189,17 @@
       </dict>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>tildecomb.stack</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E7B" format="1">
-  <advance width="501"/>
+  <advance width="509"/>
   <unicode hex="1E7B"/>
   <note>
     uni1E7B
   </note>
   <outline>
     <component base="u"/>
-    <component base="macron" xOffset="111" yOffset="-50"/>
-    <component base="dieresis" xOffset="155" yOffset="92"/>
+    <component base="macron" xOffset="146" yOffset="119"/>
+    <component base="dieresis" xOffset="107"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-09 17:52:52 +0000</string>
+      <string>2017-01-08 17:46:14 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -27,14 +27,6 @@
           <integer>1</integer>
           <key>name</key>
           <string>macron</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>dieresis</string>
         </dict>
       </array>
     </dict>

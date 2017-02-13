@@ -1,46 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2176" format="1">
-  <advance width="959"/>
+  <advance width="997"/>
   <unicode hex="2176"/>
   <note>
     uni2176
   </note>
   <outline>
     <component base="v"/>
-    <component base="i" xOffset="394"/>
-    <component base="i" xOffset="649"/>
+    <component base="i" xOffset="409"/>
+    <component base="i" xOffset="703"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-11-09 15:35:59 +0000</string>
+      <string>2017-01-08 17:55:24 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>v</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>i</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>i</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>i</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -2,16 +2,18 @@
 <glyph name="Ugrave.sc" format="1">
   <advance width="600"/>
   <note>
-	Ugrave.sc
+    Ugrave.sc
   </note>
   <outline>
     <component base="U.sc"/>
-    <component base="gravecomb.sc" xOffset="178" yOffset="63"/>
+    <component base="gravecomb.sc" xOffset="306" yOffset="63"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:48:05 +0000</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>

@@ -3,16 +3,18 @@
   <advance width="795"/>
   <unicode hex="0143"/>
   <note>
-	Nacute
+    Nacute
   </note>
   <outline>
     <component base="N"/>
-    <component base="acutecomb.cap" xOffset="373"/>
+    <component base="acutecomb.cap" xOffset="473"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-05 13:11:51 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

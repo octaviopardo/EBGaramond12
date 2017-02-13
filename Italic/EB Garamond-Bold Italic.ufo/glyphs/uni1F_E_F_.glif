@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FEF" format="1">
-  <advance width="248"/>
+  <advance width="245"/>
   <unicode hex="1FEF"/>
   <note>
     uni1FEF
   </note>
   <outline>
-    <component base="tonos" xOffset="341" xScale="-1"/>
+    <component base="tonos" xOffset="462" xScale="-1"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-07 11:03:15 +0000</string>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>tonos</string>
-        </dict>
-      </array>
+      <string>2017-01-08 12:08:30 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

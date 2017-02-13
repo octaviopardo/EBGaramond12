@@ -2,7 +2,7 @@
 <glyph name="I.sc" format="1">
   <advance width="320"/>
   <note>
-	I.sc
+    I.sc
   </note>
   <outline>
     <contour>
@@ -58,13 +58,15 @@
       <point x="42" y="-1" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="156" y="503" type="move" name="top"/>
+      <point x="165" y="503" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-09 09:46:05 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>h.sc</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

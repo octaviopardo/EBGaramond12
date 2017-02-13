@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="percent" format="1">
-  <advance width="629"/>
+  <advance width="644"/>
   <unicode hex="0025"/>
   <note>
     percent
   </note>
   <outline>
-    <component base="zero.ordn" xOffset="2" yOffset="5"/>
-    <component base="fraction" xOffset="301"/>
-    <component base="zero.ordn" xOffset="262" yOffset="-279"/>
+    <component base="zero.ordn"/>
+    <component base="fraction" xOffset="304"/>
+    <component base="zero.ordn" xOffset="276" yOffset="-280"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016-12-02 11:08:09 +0000</string>
+      <string>2017-01-19 18:56:59 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>zero.ordn</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -607,7 +607,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>629</integer>
+          <integer>644</integer>
         </dict>
       </dict>
       <key>public.markColor</key>
