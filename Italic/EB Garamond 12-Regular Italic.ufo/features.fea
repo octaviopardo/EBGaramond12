@@ -43,18 +43,6 @@ feature hlig;
 feature ss01;
 } aalt;
 
-feature ccmp {
-# automatic
-lookup ccmp_Other_1 {
-	lookupflag 0;
-	sub u1F1EC u1F1E7 by u1F1EC_u1F1E7;
-	sub u1F1EB u1F1F7 by u1F1EB_u1F1F7;
-	sub u1F1EA u1F1F8 by u1F1EA_u1F1F8;
-	sub u1F1E8 u1F1F3 by u1F1E8_u1F1F3;
-	sub u1F1F3 u1F1F4 by u1F1F3_u1F1F4;
-} ccmp_Other_1;
-} ccmp;
-
 feature locl {
 # automatic
 script latn;
@@ -1058,8 +1046,11 @@ sub longs.short longs.short by longs_longs.short;
 } hlig;
 
 feature liga {
-# automatic
+sub f f i by uniFB03;
+sub f f l by uniFB04;
 sub f f by f_f;
+sub f i by uniFB01;
+sub f l by uniFB02;
 } liga;
 
 feature swsh {
@@ -1168,8 +1159,6 @@ sub f f h by f_f_h;
 sub f f j by f_f_j;
 sub f f k by f_f_k;
 sub f f t by f_f_t;
-sub f f i by uniFB03;
-sub f f l by uniFB04;
 sub longs longs b by longs_longs_b;
 sub longs longs h by longs_longs_h;
 sub longs longs i by longs_longs_i;
@@ -1210,8 +1199,6 @@ sub t t by t_t;
 sub u s by u_s;
 sub f.short f.short by f_f.short;
 sub longs.short longs.short by longs_longs.short;
-sub f i by uniFB01;
-sub f l by uniFB02;
 sub s t by uniFB06;
 } dlig;
 

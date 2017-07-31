@@ -67,18 +67,6 @@ feature hlig;
 feature ss01;
 } aalt;
 
-feature ccmp {
-# automatic
-lookup ccmp_Other_1 {
-	lookupflag 0;
-	sub u1F1EC u1F1E7 by u1F1EC_u1F1E7;
-	sub u1F1EB u1F1F7 by u1F1EB_u1F1F7;
-	sub u1F1EA u1F1F8 by u1F1EA_u1F1F8;
-	sub u1F1E8 u1F1F3 by u1F1E8_u1F1F3;
-	sub u1F1F3 u1F1F4 by u1F1F3_u1F1F4;
-} ccmp_Other_1;
-} ccmp;
-
 feature subs {
 # automatic
 sub A by A.subs;
@@ -1226,10 +1214,11 @@ sub longs.short longs.short by longs_longs.short;
 } hlig;
 
 feature liga {
-# automatic
 sub f f l by f_f_l;
 sub f f i by f_f_i;
 sub f f by f_f;
+sub f l by f_l;
+sub f i by f_i;
 } liga;
 
 feature swsh {
@@ -1346,10 +1335,8 @@ sub c k by c_k;
 sub c t by c_t;
 sub f b by f_b;
 sub f h by f_h;
-sub f i by f_i;
 sub f j by f_j;
 sub f k by f_k;
-sub f l by f_l;
 sub f t by f_t;
 sub q uniA76B by q_uniA76B;
 sub s t by s_t;

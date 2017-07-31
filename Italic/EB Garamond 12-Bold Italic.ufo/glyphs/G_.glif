@@ -96,13 +96,16 @@
     <contour>
       <point x="307" y="-30" type="move" name="bottom.cap"/>
     </contour>
+    <contour>
+      <point x="522" y="675" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-02-27 17:39:43 +0000</string>
+      <string>2017-07-31 10:26:58 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>O</string>
       <key>public.markColor</key>
