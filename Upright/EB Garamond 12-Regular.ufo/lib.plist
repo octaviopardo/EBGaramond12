@@ -2,53 +2,156 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>GSDimensionPlugin.Dimensions</key>
-	<dict>
-		<key>302C0E6E-3BE5-40A4-BBF3-9D04710768E5</key>
-		<dict>
-			<key>HH</key>
-			<string>57</string>
-			<key>HV</key>
-			<string>170</string>
-			<key>OH</key>
-			<string>50</string>
-			<key>OV</key>
-			<integer>182</integer>
-			<key>nV</key>
-			<integer>145</integer>
-			<key>nd</key>
-			<integer>55</integer>
-			<key>oH</key>
-			<integer>55</integer>
-			<key>oV</key>
-			<integer>155</integer>
-			<key>tH</key>
-			<string>62</string>
-		</dict>
-		<key>6A799165-79FF-436E-B0AA-FCC1B492554D</key>
-		<dict>
-			<key>HH</key>
-			<integer>38</integer>
-			<key>HV</key>
-			<integer>80</integer>
-			<key>OH</key>
-			<integer>40</integer>
-			<key>OV</key>
-			<integer>100</integer>
-			<key>nV</key>
-			<integer>70</integer>
-			<key>nd</key>
-			<integer>30</integer>
-			<key>oH</key>
-			<integer>30</integer>
-			<key>oV</key>
-			<integer>82</integer>
-			<key>tH</key>
-			<string>48</string>
-		</dict>
-	</dict>
 	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
 	<false/>
+	<key>com.schriftgestaltung.font.license</key>
+	<string><![CDATA[Copyright 2010-2013, Georg A. Duffner (<http://www.georgduffner.at/ebgaramond|g.duffner@gmail.com>),
+2013 Siva Kalyan
+
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or sinftituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.]]></string>
+	<key>com.schriftgestaltung.font.licenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>com.schriftgestaltung.font.userData</key>
+	<dict>
+		<key>GSDimensionPlugin.Dimensions</key>
+		<dict>
+			<key>302C0E6E-3BE5-40A4-BBF3-9D04710768E5</key>
+			<dict>
+				<key>HH</key>
+				<string>57</string>
+				<key>HV</key>
+				<string>170</string>
+				<key>OH</key>
+				<string>50</string>
+				<key>OV</key>
+				<integer>182</integer>
+				<key>nV</key>
+				<integer>145</integer>
+				<key>nd</key>
+				<integer>55</integer>
+				<key>oH</key>
+				<integer>55</integer>
+				<key>oV</key>
+				<integer>155</integer>
+				<key>tH</key>
+				<string>62</string>
+			</dict>
+			<key>6A799165-79FF-436E-B0AA-FCC1B492554D</key>
+			<dict>
+				<key>HH</key>
+				<integer>38</integer>
+				<key>HV</key>
+				<integer>80</integer>
+				<key>OH</key>
+				<integer>40</integer>
+				<key>OV</key>
+				<integer>100</integer>
+				<key>nV</key>
+				<integer>70</integer>
+				<key>nd</key>
+				<integer>30</integer>
+				<key>oH</key>
+				<integer>30</integer>
+				<key>oV</key>
+				<integer>82</integer>
+				<key>tH</key>
+				<string>48</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>com.schriftgestaltung.font.vendorID</key>
+	<string>PfEd</string>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>6A799165-79FF-436E-B0AA-FCC1B492554D</string>
 	<key>com.schriftgestaltung.glyphOrder</key>
@@ -172,6 +275,7 @@
 		<string>Uring</string>
 		<string>Utilde</string>
 		<string>V</string>
+		<string>uni0194</string>
 		<string>W</string>
 		<string>Wacute</string>
 		<string>Wcircumflex</string>
@@ -205,7 +309,6 @@
 		<string>uni0190</string>
 		<string>uni0191</string>
 		<string>uni0193</string>
-		<string>uni0194</string>
 		<string>uni0196</string>
 		<string>uni0197</string>
 		<string>uni0198</string>
@@ -497,33 +600,6 @@
 		<string>Z.pc</string>
 		<string>L.script</string>
 		<string>Q.short</string>
-		<string>A.sinf</string>
-		<string>B.sinf</string>
-		<string>C.sinf</string>
-		<string>D.sinf</string>
-		<string>E.sinf</string>
-		<string>Egrave.sinf</string>
-		<string>F.sinf</string>
-		<string>G.sinf</string>
-		<string>H.sinf</string>
-		<string>I.sinf</string>
-		<string>J.sinf</string>
-		<string>K.sinf</string>
-		<string>L.sinf</string>
-		<string>M.sinf</string>
-		<string>N.sinf</string>
-		<string>O.sinf</string>
-		<string>P.sinf</string>
-		<string>Q.sinf</string>
-		<string>R.sinf</string>
-		<string>S.sinf</string>
-		<string>T.sinf</string>
-		<string>U.sinf</string>
-		<string>V.sinf</string>
-		<string>W.sinf</string>
-		<string>X.sinf</string>
-		<string>Y.sinf</string>
-		<string>Z.sinf</string>
 		<string>a</string>
 		<string>aacute</string>
 		<string>abreve</string>
@@ -1112,33 +1188,6 @@
 		<string>uni1E9B.short</string>
 		<string>uni1E9D.short</string>
 		<string>longs.short</string>
-		<string>a.sinf</string>
-		<string>b.sinf</string>
-		<string>c.sinf</string>
-		<string>d.sinf</string>
-		<string>e.sinf</string>
-		<string>egrave.sinf</string>
-		<string>f.sinf</string>
-		<string>g.sinf</string>
-		<string>h.sinf</string>
-		<string>i.sinf</string>
-		<string>j.sinf</string>
-		<string>k.sinf</string>
-		<string>l.sinf</string>
-		<string>m.sinf</string>
-		<string>n.sinf</string>
-		<string>o.sinf</string>
-		<string>p.sinf</string>
-		<string>q.sinf</string>
-		<string>r.sinf</string>
-		<string>s.sinf</string>
-		<string>t.sinf</string>
-		<string>u.sinf</string>
-		<string>v.sinf</string>
-		<string>w.sinf</string>
-		<string>x.sinf</string>
-		<string>y.sinf</string>
-		<string>z.sinf</string>
 		<string>t.f_</string>
 		<string>e.xtex1</string>
 		<string>e.xtex2</string>
@@ -1481,6 +1530,60 @@
 		<string>uniA7FD</string>
 		<string>uniA7FE</string>
 		<string>uniA7FF</string>
+		<string>A.sinf</string>
+		<string>B.sinf</string>
+		<string>C.sinf</string>
+		<string>D.sinf</string>
+		<string>E.sinf</string>
+		<string>Egrave.sinf</string>
+		<string>F.sinf</string>
+		<string>G.sinf</string>
+		<string>H.sinf</string>
+		<string>I.sinf</string>
+		<string>J.sinf</string>
+		<string>K.sinf</string>
+		<string>L.sinf</string>
+		<string>M.sinf</string>
+		<string>N.sinf</string>
+		<string>O.sinf</string>
+		<string>P.sinf</string>
+		<string>Q.sinf</string>
+		<string>R.sinf</string>
+		<string>S.sinf</string>
+		<string>T.sinf</string>
+		<string>U.sinf</string>
+		<string>V.sinf</string>
+		<string>W.sinf</string>
+		<string>X.sinf</string>
+		<string>Y.sinf</string>
+		<string>Z.sinf</string>
+		<string>a.sinf</string>
+		<string>b.sinf</string>
+		<string>c.sinf</string>
+		<string>d.sinf</string>
+		<string>e.sinf</string>
+		<string>egrave.sinf</string>
+		<string>f.sinf</string>
+		<string>g.sinf</string>
+		<string>h.sinf</string>
+		<string>i.sinf</string>
+		<string>j.sinf</string>
+		<string>k.sinf</string>
+		<string>l.sinf</string>
+		<string>m.sinf</string>
+		<string>n.sinf</string>
+		<string>o.sinf</string>
+		<string>p.sinf</string>
+		<string>q.sinf</string>
+		<string>r.sinf</string>
+		<string>s.sinf</string>
+		<string>t.sinf</string>
+		<string>u.sinf</string>
+		<string>v.sinf</string>
+		<string>w.sinf</string>
+		<string>x.sinf</string>
+		<string>y.sinf</string>
+		<string>z.sinf</string>
 		<string>A.subs</string>
 		<string>B.subs</string>
 		<string>C.subs</string>
@@ -1604,6 +1707,7 @@
 		<string>uni0418</string>
 		<string>uni0419</string>
 		<string>uni040D</string>
+		<string>Iishorttail-cy</string>
 		<string>uni041A</string>
 		<string>uni040C</string>
 		<string>uni041B</string>
@@ -1645,23 +1749,38 @@
 		<string>uni0474</string>
 		<string>uni0476</string>
 		<string>Ghestroke-cy</string>
+		<string>Ghemiddlehook-cy</string>
 		<string>Zhedescender-cy</string>
 		<string>Zedescender-cy</string>
 		<string>Kadescender-cy</string>
 		<string>Kaverticalstroke-cy</string>
+		<string>Kastroke-cy</string>
 		<string>Kabashkir-cy</string>
 		<string>Endescender-cy</string>
 		<string>Enghe-cy</string>
+		<string>Pemiddlehook-cy</string>
+		<string>Pedescender-cy</string>
+		<string>Haabkhasian-cy</string>
 		<string>Esdescender-cy</string>
+		<string>Tedescender-cy</string>
 		<string>uni04AE</string>
 		<string>uni04B0</string>
 		<string>Hadescender-cy</string>
+		<string>Tetse-cy</string>
 		<string>Chedescender-cy</string>
 		<string>Cheverticalstroke-cy</string>
 		<string>Shha-cy</string>
+		<string>Shhadescender-cy</string>
+		<string>Cheabkhasian-cy</string>
+		<string>Chedescenderabkhasian-cy</string>
 		<string>uni04C0</string>
 		<string>uni04C1</string>
+		<string>Kahook-cy</string>
+		<string>Eltail-cy</string>
+		<string>Enhook-cy</string>
+		<string>Entail-cy</string>
 		<string>Chekhakassian-cy</string>
+		<string>Emtail-cy</string>
 		<string>uni04D0</string>
 		<string>uni04D2</string>
 		<string>uni04D4</string>
@@ -1683,12 +1802,20 @@
 		<string>uni04F4</string>
 		<string>Gedescender-cy</string>
 		<string>uni04F8</string>
+		<string>Gestrokehook-cy</string>
+		<string>Hahook-cy</string>
+		<string>Hastroke-cy</string>
 		<string>uni0510</string>
+		<string>Elhook-cy</string>
 		<string>uni051A</string>
 		<string>uni051C</string>
+		<string>Semisoftsign-cy</string>
+		<string>Ertick-cy</string>
 		<string>uni0414.alt</string>
 		<string>uni041B.alt</string>
 		<string>uni0409.alt</string>
+		<string>EnLeftHook-cy</string>
+		<string>Eldescender-cy</string>
 		<string>uni0430</string>
 		<string>uni0431</string>
 		<string>uni0432</string>
@@ -1704,6 +1831,7 @@
 		<string>uni0438</string>
 		<string>uni0439</string>
 		<string>uni045D</string>
+		<string>iishorttail-cy</string>
 		<string>uni043A</string>
 		<string>uni045C</string>
 		<string>uni043B</string>
@@ -1744,22 +1872,38 @@
 		<string>uni0475</string>
 		<string>uni0477</string>
 		<string>ghestroke-cy</string>
+		<string>ghemiddlehook-cy</string>
 		<string>zhedescender-cy</string>
 		<string>zedescender-cy</string>
 		<string>kadescender-cy</string>
 		<string>kaverticalstroke-cy</string>
+		<string>kastroke-cy</string>
 		<string>kabashkir-cy</string>
 		<string>endescender-cy</string>
 		<string>enghe-cy</string>
+		<string>pemiddlehook-cy</string>
+		<string>pedescender-cy</string>
+		<string>haabkhasian-cy</string>
 		<string>esdescender-cy</string>
+		<string>tedescender-cy</string>
 		<string>uni04AF</string>
 		<string>uni04B1</string>
 		<string>hadescender-cy</string>
+		<string>tetse-cy</string>
 		<string>chedescender-cy</string>
 		<string>cheverticalstroke-cy</string>
 		<string>shha-cy</string>
+		<string>shhadescender-cy</string>
+		<string>cheabkhasian-cy</string>
+		<string>chedescenderabkhasian-cy</string>
+		<string>palochka-cy</string>
 		<string>uni04C2</string>
+		<string>kahook-cy</string>
+		<string>eltail-cy</string>
+		<string>enhook-cy</string>
+		<string>entail-cy</string>
 		<string>chekhakassian-cy</string>
+		<string>emtail-cy</string>
 		<string>uni04D1</string>
 		<string>uni04D3</string>
 		<string>uni04D5</string>
@@ -1781,13 +1925,21 @@
 		<string>uni04F5</string>
 		<string>gedescender-cy</string>
 		<string>uni04F9</string>
+		<string>gestrokehook-cy</string>
+		<string>hahook-cy</string>
+		<string>hastroke-cy</string>
 		<string>uni0511</string>
+		<string>elhook-cy</string>
 		<string>uni051B</string>
 		<string>uni051D</string>
+		<string>semisoftsign-cy</string>
+		<string>ertick-cy</string>
 		<string>uni0431.SRB</string>
 		<string>uni0434.alt</string>
 		<string>uni043B.alt</string>
 		<string>uni0459.alt</string>
+		<string>enlefthook-cy</string>
+		<string>eldescender-cy</string>
 		<string>Alpha</string>
 		<string>Beta</string>
 		<string>Gamma</string>
@@ -2302,26 +2454,16 @@
 		<string>seven.ordn</string>
 		<string>eight.ordn</string>
 		<string>nine.ordn</string>
-		<string>zero.sinf</string>
-		<string>one.sinf</string>
-		<string>two.sinf</string>
-		<string>three.sinf</string>
-		<string>four.sinf</string>
-		<string>five.sinf</string>
-		<string>six.sinf</string>
-		<string>seven.sinf</string>
-		<string>eight.sinf</string>
-		<string>nine.sinf</string>
-		<string>zero.tf</string>
-		<string>one.tf</string>
-		<string>two.tf</string>
-		<string>three.tf</string>
-		<string>four.tf</string>
-		<string>five.tf</string>
-		<string>six.tf</string>
-		<string>seven.tf</string>
-		<string>eight.tf</string>
-		<string>nine.tf</string>
+		<string>zero.osf</string>
+		<string>one.osf</string>
+		<string>two.osf</string>
+		<string>three.osf</string>
+		<string>four.osf</string>
+		<string>five.osf</string>
+		<string>six.osf</string>
+		<string>seven.osf</string>
+		<string>eight.osf</string>
+		<string>nine.osf</string>
 		<string>zero.tosf</string>
 		<string>one.tosf</string>
 		<string>two.tosf</string>
@@ -2336,6 +2478,16 @@
 		<string>zero.subs</string>
 		<string>one.subs</string>
 		<string>two.subs</string>
+		<string>zeroinferior</string>
+		<string>oneinferior</string>
+		<string>twoinferior</string>
+		<string>threeinferior</string>
+		<string>fourinferior</string>
+		<string>fiveinferior</string>
+		<string>sixinferior</string>
+		<string>seveninferior</string>
+		<string>eightinferior</string>
+		<string>nineinferior</string>
 		<string>three.subs</string>
 		<string>four.subs</string>
 		<string>five.subs</string>
@@ -2363,16 +2515,16 @@
 		<string>seven.numr</string>
 		<string>eight.numr</string>
 		<string>nine.numr</string>
-		<string>zero.sups</string>
-		<string>one.sups</string>
-		<string>two.sups</string>
-		<string>three.sups</string>
-		<string>four.sups</string>
-		<string>five.sups</string>
-		<string>six.sups</string>
-		<string>seven.sups</string>
-		<string>eight.sups</string>
-		<string>nine.sups</string>
+		<string>zerosuperior</string>
+		<string>onesuperior</string>
+		<string>twosuperior</string>
+		<string>threesuperior</string>
+		<string>foursuperior</string>
+		<string>fivesuperior</string>
+		<string>sixsuperior</string>
+		<string>sevensuperior</string>
+		<string>eightsuperior</string>
+		<string>ninesuperior</string>
 		<string>fraction</string>
 		<string>onehalf</string>
 		<string>onethird</string>
@@ -2478,20 +2630,6 @@
 		<string>semicolon.ordn</string>
 		<string>slash.ordn</string>
 		<string>underscore.ordn</string>
-		<string>asterisk.sinf</string>
-		<string>backslash.sinf</string>
-		<string>colon.sinf</string>
-		<string>comma.sinf</string>
-		<string>uni2016.sinf</string>
-		<string>exclam.sinf</string>
-		<string>numbersign.sinf</string>
-		<string>period.sinf</string>
-		<string>question.sinf</string>
-		<string>quotedbl.sinf</string>
-		<string>quotesingle.sinf</string>
-		<string>semicolon.sinf</string>
-		<string>slash.sinf</string>
-		<string>underscore.sinf</string>
 		<string>uni208D</string>
 		<string>uni208E</string>
 		<string>angleleft</string>
@@ -2520,12 +2658,6 @@
 		<string>bracketright.ordn</string>
 		<string>parenleft.ordn</string>
 		<string>parenright.ordn</string>
-		<string>braceleft.sinf</string>
-		<string>braceright.sinf</string>
-		<string>bracketleft.sinf</string>
-		<string>bracketright.sinf</string>
-		<string>parenleft.sinf</string>
-		<string>parenright.sinf</string>
 		<string>emdash</string>
 		<string>endash</string>
 		<string>figuredash</string>
@@ -2543,7 +2675,6 @@
 		<string>uni2010.cap</string>
 		<string>uni2011.cap</string>
 		<string>hyphen.ordn</string>
-		<string>hyphen.sinf</string>
 		<string>guillemotleft</string>
 		<string>guillemotright</string>
 		<string>guilsinglleft</string>
@@ -2590,6 +2721,27 @@
 		<string>slash.sc</string>
 		<string>uni00AD.sc</string>
 		<string>underscore.sc</string>
+		<string>asterisk.sinf</string>
+		<string>backslash.sinf</string>
+		<string>braceleft.sinf</string>
+		<string>braceright.sinf</string>
+		<string>bracketleft.sinf</string>
+		<string>bracketright.sinf</string>
+		<string>colon.sinf</string>
+		<string>comma.sinf</string>
+		<string>uni2016.sinf</string>
+		<string>exclam.sinf</string>
+		<string>hyphen.sinf</string>
+		<string>numbersign.sinf</string>
+		<string>parenleft.sinf</string>
+		<string>parenright.sinf</string>
+		<string>period.sinf</string>
+		<string>question.sinf</string>
+		<string>quotedbl.sinf</string>
+		<string>quotesingle.sinf</string>
+		<string>semicolon.sinf</string>
+		<string>slash.sinf</string>
+		<string>underscore.sinf</string>
 		<string>asterisk.subs</string>
 		<string>backslash.subs</string>
 		<string>braceleft.subs</string>
@@ -2670,6 +2822,7 @@
 		<string>dong</string>
 		<string>florin</string>
 		<string>franc</string>
+		<string>hryvnia</string>
 		<string>kip</string>
 		<string>lira</string>
 		<string>liraTurkish</string>
@@ -2679,6 +2832,8 @@
 		<string>peso</string>
 		<string>ruble</string>
 		<string>sterling</string>
+		<string>tenge</string>
+		<string>tugrik</string>
 		<string>uni20A5</string>
 		<string>uni20A8</string>
 		<string>uni20B2</string>
@@ -2686,7 +2841,6 @@
 		<string>won</string>
 		<string>yen</string>
 		<string>dollar.ordn</string>
-		<string>dollar.sinf</string>
 		<string>euro.tf</string>
 		<string>dotmath</string>
 		<string>gradient</string>
@@ -2750,12 +2904,6 @@
 		<string>less.ordn</string>
 		<string>asciitilde.ordn</string>
 		<string>percent.ordn</string>
-		<string>plus.sinf</string>
-		<string>equal.sinf</string>
-		<string>greater.sinf</string>
-		<string>less.sinf</string>
-		<string>asciitilde.sinf</string>
-		<string>percent.sinf</string>
 		<string>arrowup</string>
 		<string>uni2197</string>
 		<string>arrowright</string>
@@ -2880,15 +3028,6 @@
 		<string>dagger.ordn</string>
 		<string>daggerdbl.ordn</string>
 		<string>asciicircum.ordn</string>
-		<string>at.sinf</string>
-		<string>ampersand.sinf</string>
-		<string>paragraph.sinf</string>
-		<string>section.sinf</string>
-		<string>bar.sinf</string>
-		<string>brokenbar.sinf</string>
-		<string>dagger.sinf</string>
-		<string>daggerdbl.sinf</string>
-		<string>asciicircum.sinf</string>
 		<string>uni02C4</string>
 		<string>uni02DE</string>
 		<string>uni02F7</string>
@@ -2917,6 +3056,22 @@
 		<string>percent.sc</string>
 		<string>sterling.sc</string>
 		<string>yen.sc</string>
+		<string>at.sinf</string>
+		<string>ampersand.sinf</string>
+		<string>paragraph.sinf</string>
+		<string>section.sinf</string>
+		<string>bar.sinf</string>
+		<string>brokenbar.sinf</string>
+		<string>dagger.sinf</string>
+		<string>daggerdbl.sinf</string>
+		<string>asciicircum.sinf</string>
+		<string>dollar.sinf</string>
+		<string>plus.sinf</string>
+		<string>equal.sinf</string>
+		<string>greater.sinf</string>
+		<string>less.sinf</string>
+		<string>asciitilde.sinf</string>
+		<string>percent.sinf</string>
 		<string>at.subs</string>
 		<string>ampersand.subs</string>
 		<string>paragraph.subs</string>
@@ -3133,7 +3288,6 @@
 		<string>ring</string>
 		<string>tilde</string>
 		<string>grave.ordn</string>
-		<string>grave.sinf</string>
 		<string>uni0308.sc</string>
 		<string>uni0307.sc</string>
 		<string>gravecomb.sc</string>
@@ -3157,6 +3311,7 @@
 		<string>dieresis.sc</string>
 		<string>grave.sc</string>
 		<string>macron.sc</string>
+		<string>grave.sinf</string>
 		<string>grave.subs</string>
 		<string>grave.sups</string>
 		<string>uni0342</string>
@@ -3217,6 +3372,8 @@
 		<string>u1F1FD</string>
 		<string>u1F1FE</string>
 		<string>u1F1FF</string>
+		<string>verticalbar-cy</string>
+		<string>verticalbar-cy.case</string>
 		<string>uniE001</string>
 		<string>uniE002</string>
 		<string>uniE8BF</string>

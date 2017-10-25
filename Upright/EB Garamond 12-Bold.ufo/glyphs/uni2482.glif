@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2482" format="1">
-  <advance width="1327"/>
+  <advance width="1331"/>
   <unicode hex="2482"/>
   <note>
     uni2482
@@ -8,15 +8,15 @@
   <outline>
     <component base="parenleft"/>
     <component base="parenright" xOffset="1029"/>
-    <component base="one" xOffset="315"/>
-    <component base="five" xOffset="654"/>
+    <component base="one.osf" xOffset="315"/>
+    <component base="five.osf" xOffset="654"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-01-08 17:54:31 +0000</string>
+      <string>2017-10-25 16:33:34 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>parenleft</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -47,7 +47,7 @@
           <key>index</key>
           <integer>2</integer>
           <key>name</key>
-          <string>one</string>
+          <string>one.osf</string>
         </dict>
         <dict>
           <key>alignment</key>
@@ -55,7 +55,7 @@
           <key>index</key>
           <integer>3</integer>
           <key>name</key>
-          <string>five</string>
+          <string>five.osf</string>
         </dict>
       </array>
     </dict>

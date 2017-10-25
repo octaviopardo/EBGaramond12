@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chedescenderabkhasian-cy" format="1">
+  <advance width="445"/>
+  <unicode hex="04BF"/>
+  <outline>
+    <contour>
+      <point x="181" y="-141" type="line"/>
+      <point x="231" y="15" type="line"/>
+      <point x="191" y="15" type="line"/>
+      <point x="141" y="-141" type="line"/>
+    </contour>
+    <component base="cheabkhasian-cy"/>
+    <component base="dieresis" xOffset="148"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-10-09 16:19:18 +0000</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
