@@ -7,13 +7,19 @@
   </note>
   <outline>
     <component base="circumflex" xOffset="-124" yOffset="18"/>
+    <contour>
+      <point x="218" y="605" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="162" y="635" type="move" name="topstack"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-01-08 17:46:14 +0000</string>
+      <string>2017-10-26 16:45:37 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

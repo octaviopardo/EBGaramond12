@@ -37,6 +37,12 @@
       <point x="22" y="696" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="299" y="823" type="move" name="top.cap"/>
+    </contour>
+    <contour>
+      <point x="182" y="812" type="move" name="topstack.cap"/>
+    </contour>
+    <contour>
       <point x="146" y="675" type="move" name="_top.cap"/>
     </contour>
   </outline>
@@ -45,7 +51,7 @@
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-01-08 10:39:41 +0000</string>
+      <string>2017-10-26 16:49:29 +0000</string>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
