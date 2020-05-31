@@ -1226,6 +1226,9 @@ sub longs s by longs_s;
 sub longs longs by longs_longs;
 sub longs.long longs.long by longs_longs.long;
 sub longs.short longs.short by longs_longs.short;
+# not automatic
+sub c t by c_t;
+sub s t by s_t;
 
 } hlig;
 
@@ -1235,6 +1238,7 @@ sub f f i by f_f_i;
 sub f f by f_f;
 sub f l by f_l;
 sub f i by f_i;
+
 } liga;
 
 feature swsh {
@@ -1350,14 +1354,12 @@ sub Q y by Q_y;
 sub T h by T_h;
 sub c h by c_h;
 sub c k by c_k;
-sub c t by c_t;
 sub f b by f_b;
 sub f h by f_h;
 sub f j by f_j;
 sub f k by f_k;
 sub f t by f_t;
 sub q uniA76B by q_uniA76B;
-sub s t by s_t;
 sub t t by t_t;
 sub f.long f.long by f_f.long;
 sub f.short f.short by f_f.short;
