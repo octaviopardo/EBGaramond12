@@ -22,14 +22,12 @@ done
 
 echo "Fixing VF Meta"
 gftools fix-vf-meta $vfs;
+
 for vf in $vfs
 do
-	mv "$vf.fix" $vf;
-	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
-	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/vf/$rtrip.ttx;
-	rm $vf;
-	ttx $new_file
-	rm $new_file
+	gftools gen-stat $vf --src stat.yaml --inplace;
 done
 
+python postprocessing.py
+mv ../fonts/vf/EBGaramond-Italic-VF.ttf.fix ../fonts/vf/EBGaramond-Italic-VF.ttf
+mv ../fonts/vf/EBGaramond-Roman-VF.ttf.fix ../fonts/vf/EBGaramond-Roman-VF.ttf
