@@ -21,22 +21,17 @@ jobs:
       continue-on-error: true
     - name: Generate proofs
       run: make proof
-    - name: Rearrange
+    - name: Gather
       run: |
           mkdir for-gh-pages
           mv fontbakery-report.html for-gh-pages
-          git fetch --depth=1
           mv proof/* for-gh-pages
-          git checkout -f gh-pages
-          cp -ar for-gh-pages/* .
-          rm -rf for-gh-pages
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        branch: gh-pages
-        file_pattern: fonts *.html
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
       with:
         name: Artifacts
         path: |
-          fonts
+          for-gh-pages
+    - name: Remove temp folder
+      run: |
+          rm -rf for-gh-pages
