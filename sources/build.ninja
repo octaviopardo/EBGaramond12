@@ -1,0 +1,936 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# fix: Run gftools-fix
+rule fix
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# remapLayout: Run gftools-remap-layout to change a font's layout rules
+rule remapLayout
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner gftools-remap-layout -o $out $in $args $stamp
+  description = remapLayout
+
+# rename: Rename a font
+rule rename
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner gftools-rename-font -o $out $args $in $
+      "$name" $stamp
+  description = rename
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# buildOTF: Build a OTF from a source file
+rule buildOTF
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o otf $
+      $fontmake_type $in $args $stamp
+  description = buildOTF
+
+# copy: Copy a file
+rule copy
+  command = /Library/Developer/CommandLineTools/usr/bin/python3 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpcdx8gbib
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpcdx8gbib: $
+    buildVariable EBGaramond.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/EBGaramond-Regular.ufo.json
+build instance_ufos/EBGaramond-Regular.ufo.json: instantiateUfo $
+    EBGaramond.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-Medium.ufo.json
+build instance_ufos/EBGaramond-Medium.ufo.json: instantiateUfo $
+    EBGaramond.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-SemiBold.ufo.json
+build instance_ufos/EBGaramond-SemiBold.ufo.json: instantiateUfo $
+    EBGaramond.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-Bold.ufo.json
+build instance_ufos/EBGaramond-Bold.ufo.json: instantiateUfo EBGaramond.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-ExtraBold.ufo.json
+build instance_ufos/EBGaramond-ExtraBold.ufo.json: instantiateUfo $
+    EBGaramond.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond ExtraBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/webfonts/EBGaramond[wght].woff2
+build ../fonts/webfonts/EBGaramond[wght].woff2: compress $
+    ../fonts/variable/EBGaramond[wght].ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpw4a0c3kw
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpw4a0c3kw: $
+    remapLayout ../fonts/variable/EBGaramond[wght].ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp97ze0c0a
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp97ze0c0a: $
+    buildVariable EBGaramond-Italic.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/EBGaramond-Italic.ufo.json
+build instance_ufos/EBGaramond-Italic.ufo.json: instantiateUfo $
+    EBGaramond-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-MediumItalic.ufo.json
+build instance_ufos/EBGaramond-MediumItalic.ufo.json: instantiateUfo $
+    EBGaramond-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond Medium Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-SemiBoldItalic.ufo.json
+build instance_ufos/EBGaramond-SemiBoldItalic.ufo.json: instantiateUfo $
+    EBGaramond-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond SemiBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-BoldItalic.ufo.json
+build instance_ufos/EBGaramond-BoldItalic.ufo.json: instantiateUfo $
+    EBGaramond-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond Bold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/EBGaramond-ExtraBoldItalic.ufo.json
+build instance_ufos/EBGaramond-ExtraBoldItalic.ufo.json: instantiateUfo $
+    EBGaramond-Italic.glyphs
+  operation = instantiateUfo
+  instance_name = EB Garamond ExtraBold Italic
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/webfonts/EBGaramond-Italic[wght].woff2
+build ../fonts/webfonts/EBGaramond-Italic[wght].woff2: compress $
+    ../fonts/variable/EBGaramond-Italic[wght].ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp20g1_9vo
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp20g1_9vo: $
+    remapLayout ../fonts/variable/EBGaramond-Italic[wght].ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-Regular.woff2
+build ../fonts/webfonts/EBGaramond-Regular.woff2: compress $
+    ../fonts/ttf/EBGaramond-Regular.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpmw9ny5ci
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpmw9ny5ci: $
+    remapLayout ../fonts/ttf/EBGaramond-Regular.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8424qufs
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8424qufs: $
+    remapLayout ../fonts/otf/EBGaramond-Regular.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-Medium.woff2
+build ../fonts/webfonts/EBGaramond-Medium.woff2: compress $
+    ../fonts/ttf/EBGaramond-Medium.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3q9pa8be
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3q9pa8be: $
+    remapLayout ../fonts/ttf/EBGaramond-Medium.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpxyqk7aj5
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpxyqk7aj5: $
+    remapLayout ../fonts/otf/EBGaramond-Medium.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-SemiBold.woff2
+build ../fonts/webfonts/EBGaramond-SemiBold.woff2: compress $
+    ../fonts/ttf/EBGaramond-SemiBold.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfnhrzebk
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfnhrzebk: $
+    remapLayout ../fonts/ttf/EBGaramond-SemiBold.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp5yj2kwic
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp5yj2kwic: $
+    remapLayout ../fonts/otf/EBGaramond-SemiBold.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-Bold.woff2
+build ../fonts/webfonts/EBGaramond-Bold.woff2: compress $
+    ../fonts/ttf/EBGaramond-Bold.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8sut8zod
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8sut8zod: $
+    remapLayout ../fonts/ttf/EBGaramond-Bold.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmplxf7hf6b
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmplxf7hf6b: $
+    remapLayout ../fonts/otf/EBGaramond-Bold.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-ExtraBold.woff2
+build ../fonts/webfonts/EBGaramond-ExtraBold.woff2: compress $
+    ../fonts/ttf/EBGaramond-ExtraBold.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp0fwgiz0m
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp0fwgiz0m: $
+    remapLayout ../fonts/ttf/EBGaramond-ExtraBold.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmps6_utsov
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmps6_utsov: $
+    remapLayout ../fonts/otf/EBGaramond-ExtraBold.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-Italic.woff2
+build ../fonts/webfonts/EBGaramond-Italic.woff2: compress $
+    ../fonts/ttf/EBGaramond-Italic.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpdeswznov
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpdeswznov: $
+    remapLayout ../fonts/ttf/EBGaramond-Italic.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpco62ji3h
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpco62ji3h: $
+    remapLayout ../fonts/otf/EBGaramond-Italic.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-MediumItalic.woff2
+build ../fonts/webfonts/EBGaramond-MediumItalic.woff2: compress $
+    ../fonts/ttf/EBGaramond-MediumItalic.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz4qmz8wo
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz4qmz8wo: $
+    remapLayout ../fonts/ttf/EBGaramond-MediumItalic.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp_an35zmr
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp_an35zmr: $
+    remapLayout ../fonts/otf/EBGaramond-MediumItalic.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-SemiBoldItalic.woff2
+build ../fonts/webfonts/EBGaramond-SemiBoldItalic.woff2: compress $
+    ../fonts/ttf/EBGaramond-SemiBoldItalic.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp19dhyw6i
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp19dhyw6i: $
+    remapLayout ../fonts/ttf/EBGaramond-SemiBoldItalic.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpr37xm8ey
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpr37xm8ey: $
+    remapLayout ../fonts/otf/EBGaramond-SemiBoldItalic.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-BoldItalic.woff2
+build ../fonts/webfonts/EBGaramond-BoldItalic.woff2: compress $
+    ../fonts/ttf/EBGaramond-BoldItalic.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp68edofly
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp68edofly: $
+    remapLayout ../fonts/ttf/EBGaramond-BoldItalic.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8rdz1m_d
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8rdz1m_d: $
+    remapLayout ../fonts/otf/EBGaramond-BoldItalic.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating ../fonts/webfonts/EBGaramond-ExtraBoldItalic.woff2
+build ../fonts/webfonts/EBGaramond-ExtraBoldItalic.woff2: compress $
+    ../fonts/ttf/EBGaramond-ExtraBoldItalic.ttf
+  operation = compress
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpd74ey4r9
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpd74ey4r9: $
+    remapLayout ../fonts/ttf/EBGaramond-ExtraBoldItalic.ttf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp80avtkb9
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp80avtkb9: $
+    remapLayout ../fonts/otf/EBGaramond-ExtraBoldItalic.otf
+  operation = remapLayout
+  args = 'smcp -> ccmp'
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjs_w0wma.buildStatstamp: $
+    buildSTAT-postprocess ../fonts/variable/EBGaramond-Italic[wght].ttf $
+    ../fonts/variable/EBGaramondSC-Italic[wght].ttf $
+    ../fonts/variable/EBGaramondSC[wght].ttf $
+    ../fonts/variable/EBGaramond[wght].ttf | $
+    ../fonts/variable/EBGaramond-Italic[wght].ttf $
+    ../fonts/variable/EBGaramondSC-Italic[wght].ttf $
+    ../fonts/variable/EBGaramondSC[wght].ttf $
+    ../fonts/variable/EBGaramond[wght].ttf
+  stamp =  && touch $
+      /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjs_w0wma.buildStatstamp
+  postprocess = buildStat
+  args = --src /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpdq3dg53s
+# Generating ../fonts/variable/EBGaramond[wght].ttf
+build ../fonts/variable/EBGaramond[wght].ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpcdx8gbib
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2yv5fan0
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2yv5fan0: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpw4a0c3kw
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/variable/EBGaramondSC[wght].ttf
+build ../fonts/variable/EBGaramondSC[wght].ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2yv5fan0
+  operation = fix
+  args = 
+# Generating ../fonts/variable/EBGaramond-Italic[wght].ttf
+build ../fonts/variable/EBGaramond-Italic[wght].ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp97ze0c0a
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpb1cif1s7
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpb1cif1s7: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp20g1_9vo
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/variable/EBGaramondSC-Italic[wght].ttf
+build ../fonts/variable/EBGaramondSC-Italic[wght].ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpb1cif1s7
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1gbp33ad
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1gbp33ad: $
+    buildTTF instance_ufos/EBGaramond-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpf19c1t_8
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpf19c1t_8: $
+    buildOTF instance_ufos/EBGaramond-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpvbilp61l
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpvbilp61l: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1gbp33ad
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-Regular.ttf
+build ../fonts/ttf/EBGaramond-Regular.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpvbilp61l
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpx188qgv1
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpx188qgv1: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpmw9ny5ci
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-Regular.ttf
+build ../fonts/ttf/EBGaramondSC-Regular.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpx188qgv1
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-Regular.otf
+build ../fonts/otf/EBGaramond-Regular.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpf19c1t_8
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpasiyfvl9
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpasiyfvl9: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8424qufs
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-Regular.otf
+build ../fonts/otf/EBGaramondSC-Regular.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpasiyfvl9
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpilcsy00h
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpilcsy00h: $
+    buildTTF instance_ufos/EBGaramond-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpy3jymhhv
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpy3jymhhv: $
+    buildOTF instance_ufos/EBGaramond-Medium.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpdayglpy7
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpdayglpy7: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpilcsy00h
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-Medium.ttf
+build ../fonts/ttf/EBGaramond-Medium.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpdayglpy7
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpvhg1zxv1
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpvhg1zxv1: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3q9pa8be
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-Medium.ttf
+build ../fonts/ttf/EBGaramondSC-Medium.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpvhg1zxv1
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-Medium.otf
+build ../fonts/otf/EBGaramond-Medium.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpy3jymhhv
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3d7fe0ui
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3d7fe0ui: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpxyqk7aj5
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-Medium.otf
+build ../fonts/otf/EBGaramondSC-Medium.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3d7fe0ui
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpk17k275a
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpk17k275a: $
+    buildTTF instance_ufos/EBGaramond-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpxfdu3cr5
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpxfdu3cr5: $
+    buildOTF instance_ufos/EBGaramond-SemiBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpajx60veg
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpajx60veg: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpk17k275a
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-SemiBold.ttf
+build ../fonts/ttf/EBGaramond-SemiBold.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpajx60veg
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2u0s_jbf
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2u0s_jbf: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfnhrzebk
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-SemiBold.ttf
+build ../fonts/ttf/EBGaramondSC-SemiBold.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2u0s_jbf
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-SemiBold.otf
+build ../fonts/otf/EBGaramond-SemiBold.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpxfdu3cr5
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1cbd1e5v
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1cbd1e5v: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp5yj2kwic
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-SemiBold.otf
+build ../fonts/otf/EBGaramondSC-SemiBold.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1cbd1e5v
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1k7se48z
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1k7se48z: $
+    buildTTF instance_ufos/EBGaramond-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfim7_a9g
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfim7_a9g: $
+    buildOTF instance_ufos/EBGaramond-Bold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpoqenneu4
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpoqenneu4: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1k7se48z
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-Bold.ttf
+build ../fonts/ttf/EBGaramond-Bold.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpoqenneu4
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjjqnlt72
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjjqnlt72: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8sut8zod
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-Bold.ttf
+build ../fonts/ttf/EBGaramondSC-Bold.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjjqnlt72
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-Bold.otf
+build ../fonts/otf/EBGaramond-Bold.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfim7_a9g
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz371axti
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz371axti: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmplxf7hf6b
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-Bold.otf
+build ../fonts/otf/EBGaramondSC-Bold.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz371axti
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmps6p7lv31
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmps6p7lv31: $
+    buildTTF instance_ufos/EBGaramond-ExtraBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpu749gfqp
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpu749gfqp: $
+    buildOTF instance_ufos/EBGaramond-ExtraBold.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3rupt3s4
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3rupt3s4: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmps6p7lv31
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-ExtraBold.ttf
+build ../fonts/ttf/EBGaramond-ExtraBold.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp3rupt3s4
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpb0iugwgx
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpb0iugwgx: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp0fwgiz0m
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-ExtraBold.ttf
+build ../fonts/ttf/EBGaramondSC-ExtraBold.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpb0iugwgx
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-ExtraBold.otf
+build ../fonts/otf/EBGaramond-ExtraBold.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpu749gfqp
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpkd6j67ct
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpkd6j67ct: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmps6_utsov
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-ExtraBold.otf
+build ../fonts/otf/EBGaramondSC-ExtraBold.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpkd6j67ct
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpi01lu1vq
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpi01lu1vq: $
+    buildTTF instance_ufos/EBGaramond-Italic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpa0x4qzii
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpa0x4qzii: $
+    buildOTF instance_ufos/EBGaramond-Italic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpmwvgczne
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpmwvgczne: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpi01lu1vq
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-Italic.ttf
+build ../fonts/ttf/EBGaramond-Italic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpmwvgczne
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp20sla5s3
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp20sla5s3: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpdeswznov
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-Italic.ttf
+build ../fonts/ttf/EBGaramondSC-Italic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp20sla5s3
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-Italic.otf
+build ../fonts/otf/EBGaramond-Italic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpa0x4qzii
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2n8kqot0
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2n8kqot0: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpco62ji3h
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-Italic.otf
+build ../fonts/otf/EBGaramondSC-Italic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp2n8kqot0
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp7plx_crj
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp7plx_crj: $
+    buildTTF instance_ufos/EBGaramond-MediumItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpznfz08xf
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpznfz08xf: $
+    buildOTF instance_ufos/EBGaramond-MediumItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfe2yd0s2
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfe2yd0s2: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp7plx_crj
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-MediumItalic.ttf
+build ../fonts/ttf/EBGaramond-MediumItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfe2yd0s2
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpqb5pkjv9
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpqb5pkjv9: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz4qmz8wo
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-MediumItalic.ttf
+build ../fonts/ttf/EBGaramondSC-MediumItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpqb5pkjv9
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-MediumItalic.otf
+build ../fonts/otf/EBGaramond-MediumItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpznfz08xf
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjluf4qs1
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjluf4qs1: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp_an35zmr
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-MediumItalic.otf
+build ../fonts/otf/EBGaramondSC-MediumItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjluf4qs1
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfo3gvbfq
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfo3gvbfq: $
+    buildTTF instance_ufos/EBGaramond-SemiBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8yjz8ft9
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8yjz8ft9: $
+    buildOTF instance_ufos/EBGaramond-SemiBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmptamkky5y
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmptamkky5y: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpfo3gvbfq
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-SemiBoldItalic.ttf
+build ../fonts/ttf/EBGaramond-SemiBoldItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmptamkky5y
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp9wty98ab
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp9wty98ab: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp19dhyw6i
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-SemiBoldItalic.ttf
+build ../fonts/ttf/EBGaramondSC-SemiBoldItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp9wty98ab
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-SemiBoldItalic.otf
+build ../fonts/otf/EBGaramond-SemiBoldItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8yjz8ft9
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp9ft8_z9c
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp9ft8_z9c: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpr37xm8ey
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-SemiBoldItalic.otf
+build ../fonts/otf/EBGaramondSC-SemiBoldItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp9ft8_z9c
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmphqbq0o4c
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmphqbq0o4c: $
+    buildTTF instance_ufos/EBGaramond-BoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp0azpis2q
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp0azpis2q: $
+    buildOTF instance_ufos/EBGaramond-BoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp6wn9pb5d
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp6wn9pb5d: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmphqbq0o4c
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-BoldItalic.ttf
+build ../fonts/ttf/EBGaramond-BoldItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp6wn9pb5d
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpu1xsyp85
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpu1xsyp85: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp68edofly
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-BoldItalic.ttf
+build ../fonts/ttf/EBGaramondSC-BoldItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpu1xsyp85
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-BoldItalic.otf
+build ../fonts/otf/EBGaramond-BoldItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp0azpis2q
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz61_r1wx
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz61_r1wx: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp8rdz1m_d
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-BoldItalic.otf
+build ../fonts/otf/EBGaramondSC-BoldItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpz61_r1wx
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmphcikw38o
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmphcikw38o: $
+    buildTTF instance_ufos/EBGaramond-ExtraBoldItalic.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp4pngdsp2
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp4pngdsp2: $
+    buildOTF instance_ufos/EBGaramond-ExtraBoldItalic.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1_ugo989
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1_ugo989: $
+    autohint /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmphcikw38o
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/EBGaramond-ExtraBoldItalic.ttf
+build ../fonts/ttf/EBGaramond-ExtraBoldItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp1_ugo989
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpyj0k8o2r
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpyj0k8o2r: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpd74ey4r9
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/ttf/EBGaramondSC-ExtraBoldItalic.ttf
+build ../fonts/ttf/EBGaramondSC-ExtraBoldItalic.ttf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpyj0k8o2r
+  operation = fix
+  args = 
+# Generating ../fonts/otf/EBGaramond-ExtraBoldItalic.otf
+build ../fonts/otf/EBGaramond-ExtraBoldItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp4pngdsp2
+  operation = fix
+  args = 
+# Generating /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp5t0y4se_
+build /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp5t0y4se_: rename $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp80avtkb9
+  operation = rename
+  args = --just-family
+  name = EB Garamond SC
+# Generating ../fonts/otf/EBGaramondSC-ExtraBoldItalic.otf
+build ../fonts/otf/EBGaramondSC-ExtraBoldItalic.otf: fix $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmp5t0y4se_
+  operation = fix
+  args = 
+default ../fonts/webfonts/EBGaramond[wght].woff2 $
+    ../fonts/webfonts/EBGaramond-Italic[wght].woff2 $
+    ../fonts/webfonts/EBGaramond-Regular.woff2 $
+    ../fonts/webfonts/EBGaramond-Medium.woff2 $
+    ../fonts/webfonts/EBGaramond-SemiBold.woff2 $
+    ../fonts/webfonts/EBGaramond-Bold.woff2 $
+    ../fonts/webfonts/EBGaramond-ExtraBold.woff2 $
+    ../fonts/webfonts/EBGaramond-Italic.woff2 $
+    ../fonts/webfonts/EBGaramond-MediumItalic.woff2 $
+    ../fonts/webfonts/EBGaramond-SemiBoldItalic.woff2 $
+    ../fonts/webfonts/EBGaramond-BoldItalic.woff2 $
+    ../fonts/webfonts/EBGaramond-ExtraBoldItalic.woff2 $
+    /var/folders/y8/fjqw4rv13wq47jth4mb4jh480000gp/T/tmpjs_w0wma.buildStatstamp $
+    ../fonts/variable/EBGaramondSC[wght].ttf $
+    ../fonts/ttf/EBGaramondSC-Regular.ttf $
+    ../fonts/otf/EBGaramondSC-Regular.otf $
+    ../fonts/ttf/EBGaramondSC-Medium.ttf $
+    ../fonts/otf/EBGaramondSC-Medium.otf $
+    ../fonts/ttf/EBGaramondSC-SemiBold.ttf $
+    ../fonts/otf/EBGaramondSC-SemiBold.otf $
+    ../fonts/ttf/EBGaramondSC-Bold.ttf ../fonts/otf/EBGaramondSC-Bold.otf $
+    ../fonts/ttf/EBGaramondSC-ExtraBold.ttf $
+    ../fonts/otf/EBGaramondSC-ExtraBold.otf $
+    ../fonts/ttf/EBGaramondSC-Italic.ttf $
+    ../fonts/otf/EBGaramondSC-Italic.otf $
+    ../fonts/ttf/EBGaramondSC-MediumItalic.ttf $
+    ../fonts/otf/EBGaramondSC-MediumItalic.otf $
+    ../fonts/ttf/EBGaramondSC-SemiBoldItalic.ttf $
+    ../fonts/otf/EBGaramondSC-SemiBoldItalic.otf $
+    ../fonts/ttf/EBGaramondSC-BoldItalic.ttf $
+    ../fonts/otf/EBGaramondSC-BoldItalic.otf $
+    ../fonts/ttf/EBGaramondSC-ExtraBoldItalic.ttf $
+    ../fonts/otf/EBGaramondSC-ExtraBoldItalic.otf
