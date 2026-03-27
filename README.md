@@ -4,6 +4,17 @@ EB Garamond is intended to be an excellent, classical, Garamond. It is a communi
 
 Why another Garamond? That typeface is a key moment in the history of typography, and European type designers have been reacting to this work ever since. It is probably the most revived typeface in the world and many are excellent. In the world of free/libre culture, however, only a few Garamond-inspired types exist, and none share the scope of this project.
 
+## EB Garamond RCS
+
+This is a fork of EB Garamond 12 by Octavio Pardo, modified by Deborah Khodanovich to include custom citation glyphs for academic use and citation.
+
+## What's Different?
+Added custom citation notation glyphs for the Relational Citation System that treats oral transmission and collaborative knowledge production as legitimate.
+
+More info on the project here: [https://dvorit.ca/relational-citation-system]
+
+Original EB Garamond: [https://github.com/octaviopardo/EBGaramond12]
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
